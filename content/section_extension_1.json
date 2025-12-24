@@ -1,0 +1,149 @@
+{
+  "sections_extension": [
+    {
+      "id": "digitalna-varnost",
+      "type": "safety",
+      "title": "Digitalna varnost in spletne zlorabe",
+      "intro": "Splet je pogosto prva točka groominga, izsiljevanja in sekundarne viktimizacije.",
+      "topics": [
+        {
+          "title": "Izsiljevanje z intimnimi posnetki",
+          "description": "Grožnje z objavo slik ali videov so oblika spolnega nasilja. Krivda nikoli ni na osebi, ki je posnetke delila v zaupanju."
+        },
+        {
+          "title": "Lažni profili",
+          "description": "Storilci pogosto uporabljajo več identitet, čustveno manipulacijo in hitro ustvarjanje intime."
+        },
+        {
+          "title": "Zaščitni koraki",
+          "steps": [
+            "ne deli osebnih podatkov ali dokumentov",
+            "shrani grožnje in sporočila",
+            "ne vstopaj v pogajanja s storilcem",
+            "poišči pomoč pri organizacijah ali policiji"
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "dokazi",
+      "type": "practical",
+      "title": "Dokazi in zapisovanje",
+      "text": [
+        "Čeprav ni vedno mogoče zbrati dokazov, lahko že zapiski pomagajo pri kasnejši obravnavi.",
+        "Dokazi niso pogoj za to, da je izkušnja resnična."
+      ],
+      "examples": [
+        "časovnica dogodkov",
+        "screenshoti sporočil",
+        "zdravniški izvidi",
+        "lastni zapiski o telesnih in psihičnih občutkih"
+      ],
+      "note": "Vse shranjuj na varnem mestu, do katerega storilec nima dostopa."
+    },
+
+    {
+      "id": "spomin-in-cas",
+      "type": "education",
+      "title": "Spomin, fragmentacija in čas",
+      "content": [
+        "Travma lahko povzroči razdrobljen spomin ali zamik v razumevanju dogodka.",
+        "Pri omamljanju ali chemsexu se lahko spomini sestavljajo postopoma, tudi mesece ali leta kasneje.",
+        "To je normalen nevrobiološki odziv, ne znak izmišljanja."
+      ]
+    },
+
+    {
+      "id": "telo",
+      "type": "body-awareness",
+      "title": "Telo si zapomni",
+      "text": [
+        "Mišični spomin, telesne reakcije in panični odzivi so pogosti.",
+        "Telo pogosto zazna nevarnost še preden jo um razume.",
+        "Občutki niso pretiravanje – so signal."
+      ]
+    },
+
+    {
+      "id": "moski-in-tisina",
+      "type": "social",
+      "title": "Moški, sram in tišina",
+      "points": [
+        "Družbeni miti moške silijo v molk.",
+        "Moški so lahko in so žrtve spolnega nasilja.",
+        "Sram ni dokaz šibkosti, temveč posledica nasilja."
+      ]
+    },
+
+    {
+      "id": "lgbtq",
+      "type": "inclusion",
+      "title": "LGBT+ skupnost in dodatna tveganja",
+      "text": [
+        "Diskriminacija povečuje ranljivost za zlorabe.",
+        "Strah pred razkritjem pogosto prepreči iskanje pomoči.",
+        "Varen in neobsojajoč prostor je ključen."
+      ]
+    },
+
+    {
+      "id": "sekundarna-travma",
+      "type": "mental-health",
+      "title": "Sekundarna travmatizacija",
+      "description": "Ko institucije, okolica ali mediji neprimerno reagirajo, se travma poglobi.",
+      "examples": [
+        "neverjetje",
+        "minimiziranje",
+        "zasliševanje brez sočutja",
+        "pritisk na molk"
+      ]
+    },
+
+    {
+      "id": "meje",
+      "type": "skills",
+      "title": "Ponovno učenje meja",
+      "content": [
+        "Po zlorabi so meje pogosto zabrisane.",
+        "Učenje reči NE je proces.",
+        "Meje so pravica, ne privilegij."
+      ]
+    },
+
+    {
+      "id": "okrevanje",
+      "type": "recovery",
+      "title": "Dolga pot okrevanja",
+      "stages": [
+        "vzpostavljanje osnovne varnosti",
+        "razumevanje, kaj se je zgodilo",
+        "predelava travme",
+        "ponovno povezovanje s telesom in drugimi"
+      ],
+      "note": "Nekatere rane se nikoli popolnoma ne zaprejo, a življenje lahko postane znosno in smiselno."
+    },
+
+    {
+      "id": "skupnost",
+      "type": "community",
+      "title": "Zakaj skupnost šteje",
+      "text": [
+        "Izolacija je zaveznik nasilja.",
+        "Skupnost zmanjšuje moč storilcev.",
+        "Solidarnost pomeni verjeti, tudi ko je resnica neprijetna."
+      ]
+    },
+
+    {
+      "id": "zakljucek",
+      "type": "closing",
+      "title": "Če si preživel – si dovolj",
+      "final_message": [
+        "Ni se ti treba popolnoma pobrati.",
+        "Ni se ti treba dokazovati.",
+        "Dovolj je, da ostaneš živ."
+      ]
+    }
+  ]
+}

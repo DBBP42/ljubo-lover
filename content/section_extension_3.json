@@ -1,0 +1,144 @@
+{
+  "sections_extension_children_protection_2": [
+    {
+      "id": "zakaj-otroci-molcijo",
+      "type": "education",
+      "title": "Zakaj otroci pogosto ne povedo",
+      "points": [
+        "storilec je pogosto znana in avtoritetna oseba",
+        "strah pred kaznijo ali neverjetjem",
+        "občutek krivde ali sramu",
+        "grožnje ali manipulacija",
+        "otrok ne razume, da gre za zlorabo"
+      ],
+      "note": "Molčanje ni soglasje. Molčanje je pogosto strategija preživetja."
+    },
+
+    {
+      "id": "institucionalna-zloraba",
+      "type": "systemic-issues",
+      "title": "Ko institucije odpovejo",
+      "text": [
+        "Zlorabe se pogosto nadaljujejo, ker institucije zaščitijo sebe namesto otrok.",
+        "Premestitve storilcev, utišanje prijaviteljev in relativizacija so znani vzorci.",
+        "Otrok nima moči proti sistemu."
+      ],
+      "warning": "Institucionalno zanikanje povzroča sekundarno in terciarno travmo."
+    },
+
+    {
+      "id": "kaj-pomeni-verjeti-otroku",
+      "type": "ethics",
+      "title": "Kaj pomeni verjeti otroku",
+      "definition": [
+        "verjeti ne pomeni avtomatske obsodbe brez postopkov",
+        "verjeti pomeni dati prednost otrokovi varnosti",
+        "verjeti pomeni, da dvom ne pride pred zaščito"
+      ],
+      "common_mistakes": [
+        "zasliševanje",
+        "iskanje protislovij",
+        "pritiskanje na podrobnosti",
+        "primerjanje z drugimi primeri"
+      ]
+    },
+
+    {
+      "id": "preventiva",
+      "type": "prevention",
+      "title": "Kaj dejansko preprečuje zlorabe",
+      "measures": [
+        "jasna pravila o mejah in dotiku",
+        "več odraslih v bližini otrok (ne izolacija)",
+        "izobraževanje otrok o telesni avtonomiji",
+        "mehanizmi prijave brez strahu",
+        "odgovornost in nadzor odraslih"
+      ],
+      "important": "Zlorabe se ne preprečuje z učenjem otrok, naj se branijo, temveč z omejevanjem moči storilcev."
+    },
+
+    {
+      "id": "kaj-ne-reci-otroku",
+      "type": "guidelines",
+      "title": "Kaj otroku nikoli ne reči",
+      "items": [
+        "Zakaj nisi prej povedal/a?",
+        "Ali si prepričan/a?",
+        "Morda si narobe razumel/a.",
+        "To bo uničilo družino.",
+        "Ne moremo tega povedati naprej."
+      ],
+      "reason": "Takšni stavki povečajo sram in zaprejo vrata pomoči."
+    },
+
+    {
+      "id": "kaj-lahko-reces",
+      "type": "guidelines",
+      "title": "Kaj je varno in podporno reči",
+      "items": [
+        "Verjamem ti.",
+        "Ni tvoja krivda.",
+        "Hvala, ker si povedal/a.",
+        "Skupaj bomo poskrbeli, da boš varen/varna.",
+        "Nisi sam/a."
+      ]
+    },
+
+    {
+      "id": "odrasli-ki-so-bili-zlorabljeni",
+      "type": "long-term-impact",
+      "title": "Ko zloraba pride na dan šele v odraslosti",
+      "text": [
+        "Mnogi preživeli spregovorijo šele po desetletjih.",
+        "To ne pomeni, da so lagali ali pretiravali.",
+        "Spomin in razumevanje se lahko aktivirata šele, ko je oseba dovolj varna."
+      ],
+      "note": "Pozna razkritja so pogosta in legitimna."
+    },
+
+    {
+      "id": "travma-in-identiteta",
+      "type": "mental-health",
+      "title": "Travma ne določa identitete",
+      "points": [
+        "zloraba ne pomeni, da je z osebo nekaj narobe",
+        "travmatični odzivi so normalni odzivi na nenormalne dogodke",
+        "človek ni njegova travma"
+      ]
+    },
+
+    {
+      "id": "pravica-do-podpore",
+      "type": "rights",
+      "title": "Pravica do podpore",
+      "text": [
+        "Vsak otrok ima pravico do varnosti.",
+        "Vsak preživeli ima pravico do pomoči – ne glede na čas, spol ali okoliščine.",
+        "Pomoč ni privilegij, ampak pravica."
+      ]
+    },
+
+    {
+      "id": "druzbeni-poziv",
+      "type": "call-to-action",
+      "title": "Družbeni poziv",
+      "call": [
+        "Prekinimo tišino.",
+        "Zaščitimo otroke, ne ugleda.",
+        "Postavimo meje moči.",
+        "Poslušajmo, tudi ko je neprijetno."
+      ]
+    },
+
+    {
+      "id": "koncna-misel",
+      "type": "closing",
+      "title": "Najpomembnejša resnica",
+      "final_message": [
+        "Otrok nikoli ne uniči družine s tem, da pove resnico.",
+        "Zlorabo uniči storilec – in tišina okoli njega.",
+        "Resnica je prvi korak k zaščiti."
+      ]
+    }
+  ]
+}

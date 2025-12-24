@@ -1,0 +1,153 @@
+{
+  "sections_extension_mental_health": [
+    {
+      "id": "stockholmski-sindrom",
+      "type": "education",
+      "title": "Stockholmski sindrom – kaj v resnici je (in česa ni)",
+      "definition": "Stockholmski sindrom je psihološki obrambni mehanizem, pri katerem žrtev razvije čustveno navezanost ali lojalnost do storilca kot način preživetja.",
+      "important_clarification": [
+        "ni motnja osebnosti",
+        "ni zavestna odločitev",
+        "ni znak šibkosti ali pokvarjenosti",
+        "ni ljubezen v pravem pomenu besede"
+      ],
+      "why_it_happens": [
+        "odvisnost žrtve od storilca",
+        "nepredvidljivo nasilje, prepleteno z redkimi trenutki 'prijaznosti'",
+        "popolno neravnovesje moči",
+        "dolgotrajna izpostavljenost strahu"
+      ],
+      "note": "Ta odziv pomaga preživeti situacijo, ne pa jo opravičevati."
+    },
+
+    {
+      "id": "pogosta-napaka",
+      "type": "myth-busting",
+      "title": "Pogosta napaka pri razumevanju",
+      "text": [
+        "Ko žrtev brani storilca ali se k njemu vrača, to ni dokaz, da zlorabe ni bilo.",
+        "Gre za vezanost, ki nastane zaradi travme, ne zaradi privolitve."
+      ]
+    },
+
+    {
+      "id": "ptsm",
+      "type": "mental-health",
+      "title": "Posttravmatska stresna motnja (PTSM)",
+      "description": "PTSM je pogosta posledica spolnih in dolgotrajnih zlorab.",
+      "symptoms": [
+        "vsiljivi spomini ali flashbacki",
+        "nočne more",
+        "hipervigilanca (stalna pripravljenost na nevarnost)",
+        "izogibanje ljudem, krajem ali temam",
+        "močni telesni odzivi brez jasnega razloga"
+      ],
+      "note": "PTSM ni znak šibkosti, temveč znak, da je živčni sistem predolgo deloval v nevarnosti."
+    },
+
+    {
+      "id": "kompleksna-ptsm",
+      "type": "mental-health",
+      "title": "Kompleksna PTSM (C-PTSM)",
+      "description": "Nastane pri dolgotrajnih ali ponavljajočih se zlorabah, pogosto v otroštvu.",
+      "additional_effects": [
+        "globok sram",
+        "težave z identiteto",
+        "občutek kronične praznine",
+        "težave v odnosih",
+        "občutek, da si 'pokvarjen/a'"
+      ],
+      "important": "C-PTSM je posledica okolja, ne osebnostne napake."
+    },
+
+    {
+      "id": "disociacija",
+      "type": "mental-health",
+      "title": "Disociacija (odklop)",
+      "definition": "Disociacija je stanje, ko se um in/ali telo delno ali popolnoma odklopita od trenutka.",
+      "forms": [
+        "občutek nerealnosti",
+        "odtujenost od telesa",
+        "luknje v spominu",
+        "avtomatsko delovanje brez čustev"
+      ],
+      "why_it_exists": "To je zaščitni mehanizem, ki zmanjša bolečino, kadar pobeg ni mogoč."
+    },
+
+    {
+      "id": "sram-in-krivda",
+      "type": "mental-health",
+      "title": "Sram in lažna krivda",
+      "text": [
+        "Žrtve pogosto prevzamejo krivdo, ker jim je tako lažje ohraniti občutek nadzora.",
+        "Sram ni dokaz krivde, ampak posledica zlorabe."
+      ],
+      "key_truth": "Odgovornost je vedno na storilcu."
+    },
+
+    {
+      "id": "vezanost-na-storilca",
+      "type": "psychology",
+      "title": "Travmatična vez (trauma bond)",
+      "description": "Močna čustvena navezanost, ki nastane zaradi cikla nasilja in občasne 'nagrade'.",
+      "effects": [
+        "težave pri odhodu",
+        "opravičevanje nasilja",
+        "močan strah pred zapustitvijo",
+        "občutek, da brez storilca ne preživiš"
+      ],
+      "note": "Travmatična vez ni ljubezen, temveč posledica nadzora."
+    },
+
+    {
+      "id": "anksioznost-in-depresija",
+      "type": "mental-health",
+      "title": "Anksioznost in depresija",
+      "description": "Pogosti spremljevalci dolgotrajnih zlorab.",
+      "symptoms": [
+        "stalna napetost",
+        "utrujenost",
+        "občutek brezupa",
+        "izguba smisla",
+        "težave s koncentracijo"
+      ],
+      "note": "Ti simptomi so razumljiv odziv na dolgotrajno nevarnost."
+    },
+
+    {
+      "id": "zakaj-diagnoze-niso-identiteta",
+      "type": "ethics",
+      "title": "Zakaj diagnoza ne določa človeka",
+      "text": [
+        "Diagnoze opisujejo posledice, ne osebe.",
+        "So orodje za pomoč, ne etiketa.",
+        "Človek ni njegova diagnoza."
+      ]
+    },
+
+    {
+      "id": "okrevanje-in-cas",
+      "type": "recovery",
+      "title": "Okrevanje je proces, ne dogodek",
+      "points": [
+        "ni linearno",
+        "vključuje regresije",
+        "lahko traja leta",
+        "ne pomeni pozabe"
+      ],
+      "final_note": "Cilj okrevanja ni izbris spomina, temveč ponovno občutenje varnosti."
+    },
+
+    {
+      "id": "sporocilo-zrtvam",
+      "type": "support",
+      "title": "Če se v tem prepoznaš",
+      "messages": [
+        "Nisi nor/a.",
+        "Tvoj odziv je bil način preživetja.",
+        "To, kar se ti dogaja, ima razlago.",
+        "Pomoč ima smisel – tudi pozno."
+      ]
+    }
+  ]
+}

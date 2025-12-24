@@ -1,0 +1,129 @@
+{
+  "sections_extension_children_protection": [
+    {
+      "id": "prekinimo-zlorabe-otrok",
+      "type": "core-statement",
+      "title": "Prekinimo zlorabe otrok",
+      "text": [
+        "Zloraba otrok je vedno odgovornost storilca in sistemov, ki ne zaščitijo.",
+        "Otrok nikoli ni kriv, sokriv ali odgovoren za zlorabo.",
+        "Molčanje, zanikanje in relativizacija so del problema."
+      ],
+      "principles": [
+        "ničelna toleranca",
+        "zaščita otrok pred ugledom institucij",
+        "verjeti otrokom",
+        "varnost pred dvomi"
+      ]
+    },
+
+    {
+      "id": "miti-in-resnica",
+      "type": "education",
+      "title": "Miti in resnica o zlorabi otrok",
+      "items": [
+        {
+          "myth": "Zlorabljeni otroci najpogosteje sami postanejo zlorabljalci.",
+          "truth": "Večina zlorabljenih otrok nikoli ne zlorablja drugih. To je znanstveno potrjeno."
+        },
+        {
+          "myth": "Če se otrok ne upira, pomeni, da se strinja.",
+          "truth": "Otroci se pogosto odzovejo z zamrznitvijo ali prilagoditvijo. To je obrambni mehanizem."
+        },
+        {
+          "myth": "Storilci so neznanci.",
+          "truth": "V večini primerov je storilec oseba, ki jo otrok pozna in ji zaupa."
+        }
+      ]
+    },
+
+    {
+      "id": "zakaj-mit-skodi",
+      "type": "analysis",
+      "title": "Zakaj je mit o »verigi zlorab« nevaren",
+      "points": [
+        "stigmatizira preživele otroke",
+        "ustvarja strah pred iskanjem pomoči",
+        "preusmerja odgovornost s storilcev",
+        "opravčuje sistemsko neukrepanje"
+      ],
+      "note": "Travma ne ustvarja nasilja. Nezdravljena travma brez zaščite lahko poveča tveganja – to pa je odgovornost odraslih in sistemov."
+    },
+
+    {
+      "id": "kdo-postane-storilec",
+      "type": "clarification",
+      "title": "Kaj dejansko povečuje tveganje za zlorabljanje",
+      "factors": [
+        "odsotnost nadzora in odgovornosti",
+        "normalizacija nasilja v okolju",
+        "dostop do otrok brez zaščitnih mehanizmov",
+        "aktivno prikrivanje ali zanikanje",
+        "pomanjkanje zgodnje intervencije"
+      ],
+      "important": "Zloraba sama po sebi NE povzroča, da nekdo postane storilec."
+    },
+
+    {
+      "id": "znaki-zlorabe-pri-otrocih",
+      "type": "education",
+      "title": "Možni znaki zlorabe pri otrocih",
+      "note": "Noben znak sam po sebi ni dokaz, kombinacije pa so alarm.",
+      "signals": [
+        "nenadne spremembe vedenja",
+        "regresija (npr. močenje postelje)",
+        "strah pred določenimi osebami ali kraji",
+        "težave s spanjem",
+        "odklop ali otopelost",
+        "neobičajno seksualizirano vedenje za starost"
+      ]
+    },
+
+    {
+      "id": "kaj-narediti-ce-sumimo",
+      "type": "action",
+      "title": "Kaj storiti, če sumimo zlorabo",
+      "steps": [
+        "otroka poslušaj mirno in brez zasliševanja",
+        "verjemi – dvom povečuje škodo",
+        "ne obljubljaj skrivnosti, ki jih ne moreš držati",
+        "poišči strokovno pomoč ali prijavi pristojnim službam",
+        "poskrbi za otrokovo takojšnjo varnost"
+      ]
+    },
+
+    {
+      "id": "odrasli-in-odgovornost",
+      "type": "ethics",
+      "title": "Odgovornost odraslih",
+      "text": [
+        "Otroci ne morejo sami ustaviti zlorabe.",
+        "Odrasli imajo dolžnost zaščite – tudi kadar je neprijetno.",
+        "Neukrepanje je oblika sodelovanja."
+      ]
+    },
+
+    {
+      "id": "preziveli-otroci",
+      "type": "support",
+      "title": "Če si bil/a zlorabljen/a kot otrok",
+      "messages": [
+        "Ni bilo tvoje krivde.",
+        "Tvoje telo in odzivi so te skušali zaščititi.",
+        "Nisi pokvarjen/a, nevaren/a ali manj vreden/a.",
+        "Pomoč je smiselna tudi po mnogih letih."
+      ]
+    },
+
+    {
+      "id": "druzbeni-zakljucek",
+      "type": "closing",
+      "title": "Prekinitev zlorab je družbena naloga",
+      "final_statement": [
+        "Zaščita otrok je pomembnejša od ugleda institucij.",
+        "Resnica je pomembnejša od udobja odraslih.",
+        "Preživetje otrok je pomembnejše od tišine."
+      ]
+    }
+  ]
+}

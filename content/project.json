@@ -1,0 +1,180 @@
+{
+  "project": {
+    "name": "Ljubo-Lover",
+    "type": "static-content",
+    "language": "sl",
+    "tone": "trauma-informed, umirjen, jasen, ne-senzacionalističen",
+    "values": [
+      "spoštovanje dostojanstva",
+      "verjeti preživelim",
+      "ničelna toleranca do nasilja",
+      "podpora LGBT+ in manjšinam",
+      "harm-reduction pristop"
+    ],
+    "content_note": "Vsebina govori o spolnem nasilju in travmah. Bralec lahko preskoči dele ali poišče pomoč."
+  },
+
+  "sections": [
+    {
+      "id": "hero",
+      "type": "intro",
+      "title": "Resnica, varnost in okrevanje",
+      "lead": "Ljubo-Lover je informativen in varen prostor za razumevanje spolnih prestopkov, travm in izkoriščanja.",
+      "text": "Stran obstaja za ozaveščanje, prepoznavanje nevarnih vzorcev ter podporo preživelim. Brez opravičevanja nasilja. Brez krivde na žrtvah.",
+      "tags": [
+        "moški kot žrtve",
+        "travma",
+        "izkoriščanje",
+        "varnost"
+      ]
+    },
+
+    {
+      "id": "poslanstvo",
+      "type": "mission",
+      "title": "Zakaj ta projekt obstaja",
+      "text": [
+        "Spolno nasilje in izkoriščanje pogosto ostajata nevidna, še posebej kadar so žrtve moški ali LGBT+ osebe.",
+        "Projekt želi razbiti mite, zmanjšati stigmo in ponuditi jasne informacije.",
+        "Cilj ni šokirati, temveč opolnomočiti."
+      ]
+    },
+
+    {
+      "id": "prepoznaj-zlorabo",
+      "type": "education",
+      "title": "Kako prepoznati zlorabo",
+      "items": [
+        {
+          "title": "Privolitev",
+          "description": "Privolitev mora biti jasna, zavestna in jo je mogoče kadarkoli umakniti. Tišina ali omamljenost nista privolitev."
+        },
+        {
+          "title": "Manipulacija",
+          "description": "Čustveni pritiski, izsiljevanje, vzbujanje krivde ali grožnje so oblike zlorabe."
+        },
+        {
+          "title": "Nadzor",
+          "description": "Izolacija od prijateljev, nadzor komunikacije ali grožnje z razkritjem so rdeče zastave."
+        },
+        {
+          "title": "Substance",
+          "description": "Uporaba alkohola ali drog za zmanjšanje odpora ali spomina pomeni odvzem privolitve."
+        }
+      ]
+    },
+
+    {
+      "id": "chemsex",
+      "type": "risk-awareness",
+      "title": "Chemsex – tveganja in realnost",
+      "content": {
+        "definition": "Chemsex pomeni spolno aktivnost ob uporabi psihoaktivnih substanc.",
+        "risks": [
+          "izguba spomina ali orientacije",
+          "povečano tveganje za spolno nasilje",
+          "nezmožnost podaje ali umika privolitve",
+          "fizična in psihična odvisnost"
+        ],
+        "note": "Če pride do zlorabe, odgovornost nikoli ni na osebi, ki je bila omamljena."
+      }
+    },
+
+    {
+      "id": "date-rape",
+      "type": "education",
+      "title": "Date-rape in omamljanje",
+      "text": [
+        "Date-rape vključuje uporabo substanc ali manipulacije za spolni napad.",
+        "Žrtve se pogosto soočajo z delnimi ali popolnimi izpadi spomina.",
+        "Kasnejše 'sestavljanje' spominov je pogost in normalen proces."
+      ],
+      "signals": [
+        "nenaden izpad spomina",
+        "občutek, da se je zgodilo nekaj narobe",
+        "telesni znaki brez jasnega spomina"
+      ]
+    },
+
+    {
+      "id": "grooming",
+      "type": "education",
+      "title": "Kaj je grooming",
+      "description": "Grooming je postopno pridobivanje zaupanja z namenom izkoriščanja.",
+      "steps": [
+        "iskanje ranljivosti",
+        "ustvarjanje lažnega občutka varnosti",
+        "normalizacija prestopanja meja",
+        "izsiljevanje ali zloraba"
+      ]
+    },
+
+    {
+      "id": "prostitucija",
+      "type": "context",
+      "title": "Prostitucija in prisila",
+      "text": [
+        "Prostitucija pogosto ni rezultat svobodne izbire, temveč ekonomskega pritiska, dolgov ali groženj.",
+        "Moški in LGBT+ osebe so pogosto prezrti kot žrtve izkoriščanja.",
+        "Dolgotrajne posledice vključujejo travmo, odklop in izgubo zaupanja."
+      ]
+    },
+
+    {
+      "id": "travma",
+      "type": "mental-health",
+      "title": "Travma in njeni učinki",
+      "effects": [
+        "flashbacki",
+        "tesnoba in hipervigilanca",
+        "odklop od telesa",
+        "občutek nemoči"
+      ],
+      "recovery": "Okrevanje ni linearno. Potrebuje čas, varnost in podporo."
+    },
+
+    {
+      "id": "korupcija-in-moc",
+      "type": "systemic-issues",
+      "title": "Ko sistemi odpovejo",
+      "text": [
+        "Včasih institucije ne zaščitijo žrtev ali celo povzročijo dodatno škodo.",
+        "Srečanje z zares zlobno osebo lahko pusti dolgotrajne posledice.",
+        "Okrevanje je mogoče, vendar ni hitro in ni enostavno."
+      ]
+    },
+
+    {
+      "id": "pomos",
+      "type": "support",
+      "title": "Kako poiskati pomoč",
+      "steps": [
+        "če si v nevarnosti, pokliči nujno pomoč",
+        "pogovor z zaupanja vredno osebo",
+        "zdravniški pregled",
+        "psihosocialna podpora",
+        "pravna informacija, ko in če si pripravljen"
+      ],
+      "message": "Tvoja izkušnja je resnična. Tvoja reakcija je normalna. Nisi sam."
+    },
+
+    {
+      "id": "faq",
+      "type": "faq",
+      "items": [
+        {
+          "q": "Kaj če se ne spomnim vsega?",
+          "a": "Izguba spomina je pogosta posledica travme ali omamljanja. To ne zmanjšuje resnosti dogodka."
+        },
+        {
+          "q": "Kaj če mi nihče ne verjame?",
+          "a": "Neverjetje okolice ne spremeni resnice dogodka. Podpora obstaja, tudi če je pot do nje težka."
+        },
+        {
+          "q": "Ali sem kriv?",
+          "a": "Ne. Odgovornost je vedno na storilcu."
+        }
+      ]
+    }
+  ]
+}

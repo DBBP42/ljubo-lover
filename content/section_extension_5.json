@@ -1,0 +1,145 @@
+{
+  "audience_module_justice_system": {
+    "audience": ["sodniki", "policija", "tozilstvo"],
+    "purpose": "Izboljšati razumevanje vedenja žrtev travme in preprečiti napačne presoje verodostojnosti.",
+    "core_principle": "Vedenje žrtve po travmi ne sledi logiki nevarnosti, temveč logiki preživetja."
+  },
+
+  "sections": [
+    {
+      "order": 1,
+      "id": "zakaj-vedenje-ni-linearna-logika",
+      "type": "foundation",
+      "title": "Zakaj vedenje žrtev ni linearno ali 'logično'",
+      "content": [
+        "Travma aktivira amigdalo in zavre racionalno obdelavo (prefrontalni korteks).",
+        "Žrtev deluje v načinu preživetja, ne razmisleka.",
+        "Odločitve so pogosto usmerjene v zmanjšanje trenutne nevarnosti, ne dolgoročne varnosti."
+      ],
+      "legal_relevance": "Nelogičnost vedenja ni indikator neverodostojnosti."
+    },
+
+    {
+      "order": 2,
+      "id": "zamude-prijave",
+      "type": "evidence-assessment",
+      "title": "Zamude pri prijavi",
+      "facts": [
+        "Zamuda je pogosta pri spolnih in otroških zlorabah.",
+        "Razlogi vključujejo strah, sram, odvisnost od storilca, grožnje in disociacijo.",
+        "Pozna prijava ne zmanjšuje verjetnosti, da se je dejanje zgodilo."
+      ],
+      "common_error": "Obravnavanje zamude kot indice neresničnosti."
+    },
+
+    {
+      "order": 3,
+      "id": "nedoslednosti-v-izjavah",
+      "type": "evidence-assessment",
+      "title": "Nedoslednosti v izjavah",
+      "explanation": [
+        "Travma vpliva na kodiranje in priklic spomina.",
+        "Spomini so pogosto fragmentirani in se sestavljajo postopoma.",
+        "Različne izjave lahko pomenijo večjo, ne manjšo verodostojnost."
+      ],
+      "do_not_assume": "Nedoslednost ≠ laž."
+    },
+
+    {
+      "order": 4,
+      "id": "disociacija-in-spomin",
+      "type": "mental-health",
+      "title": "Disociacija in izpadi spomina",
+      "facts": [
+        "Disociacija je dokumentiran nevrobiološki odziv.",
+        "Lahko povzroči časovne luknje ali otopelost.",
+        "Oseba se lahko spominja čustev ali telesnih občutkov brez jasnih slik."
+      ],
+      "legal_relevance": "Manjkajoči detajli niso dokaz izmišljanja."
+    },
+
+    {
+      "order": 5,
+      "id": "vrnitev-k-storilcu",
+      "type": "myth-busting",
+      "title": "Zakaj se žrtev lahko vrača k storilcu",
+      "explanation": [
+        "Travmatična vez in odvisnost (finančna, čustvena, socialna).",
+        "Strah pred eskalacijo nasilja ob odhodu.",
+        "Normalizacija nasilja kot strategija preživetja."
+      ],
+      "critical_note": "Vrnitev k storilcu ni soglasje in ne izniči kaznivosti dejanja."
+    },
+
+    {
+      "order": 6,
+      "id": "custvena-odzivnost",
+      "type": "courtroom-demeanor",
+      "title": "Čustvena odzivnost na zaslišanju",
+      "range": [
+        "čustvena otopelost",
+        "ravnodušnost",
+        "neprimeren humor",
+        "močna čustva",
+        "popolna odsotnost čustev"
+      ],
+      "interpretation": "Odzivi so variabilni in niso zanesljiv pokazatelj resničnosti dogodka."
+    },
+
+    {
+      "order": 7,
+      "id": "otroci-in-pricanje",
+      "type": "child-protection",
+      "title": "Otroci kot priče",
+      "facts": [
+        "Otroci lahko povedo resnico brez kronološke strukture.",
+        "Uporabljajo jezik, ki ni odrasel ali pravno natančen.",
+        "Vodena vprašanja lahko spremenijo ali zameglijo spomin."
+      ],
+      "best_practice": [
+        "odprta vprašanja",
+        "minimalno ponavljanje zaslišanj",
+        "specializirani intervjuji"
+      ]
+    },
+
+    {
+      "order": 8,
+      "id": "sekundarna-viktimizacija",
+      "type": "ethics",
+      "title": "Sekundarna viktimizacija v postopkih",
+      "examples": [
+        "zasliševanje z dvomi",
+        "poniževanje ali minimiziranje",
+        "pritisk na hitro zaprtje primera",
+        "implicitno krivljenje žrtve"
+      ],
+      "impact": "Povečuje travmo in zmanjšuje sodelovanje žrtve v postopku."
+    },
+
+    {
+      "order": 9,
+      "id": "priporocila-za-prakso",
+      "type": "guidelines",
+      "title": "Priporočila za prakso",
+      "recommendations": [
+        "ločevati vedenje žrtve od dokazne vrednosti",
+        "upoštevati strokovna mnenja o travmi",
+        "zagotoviti varno in spoštljivo okolje",
+        "izogibati se moralnim sodbam"
+      ]
+    },
+
+    {
+      "order": 10,
+      "id": "zakljucek",
+      "type": "closing",
+      "title": "Ključno sporočilo pravosodju",
+      "final_statement": [
+        "Travma spreminja vedenje, ne resnice dogodka.",
+        "Pravosodje ima moč, da zaščiti ali ponovno poškoduje.",
+        "Razumevanje travme je del strokovnosti, ne empatije."
+      ]
+    }
+  ]
+}
