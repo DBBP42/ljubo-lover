@@ -1,0 +1,155 @@
+{
+  "page": {
+    "id": "ko-prijava-ne-gre-naprej",
+    "title": "Kaj storiti, ko prijava ne gre naprej",
+    "purpose": "Praktična navodila za žrtve, ko policija ali sodišče ne ukrepata ali zadeva obstane.",
+    "tone": "umirjen, postopen, realističen",
+    "important_note": "Ta vsebina ni pravni nasvet, temveč orientacija. Vsak primer je specifičen."
+  },
+
+  "principles": [
+    "Nisi ti problem, če sistem ne deluje.",
+    "Zastoj postopka ne pomeni, da se zadeva ni zgodila.",
+    "Vztrajnost je pogosto nujna, a mora biti varna."
+  ],
+
+  "steps": [
+    {
+      "order": 1,
+      "level": "lokalna-policija",
+      "title": "1. Lokalna policijska postaja",
+      "what_it_is": "Prva točka za kazensko ovadbo ali zaznamek.",
+      "what_can_go_wrong": [
+        "ovadba ni formalno zabeležena",
+        "primer se obravnava kot prekršek",
+        "ni povratne informacije",
+        "primer je odložen brez obrazložitve"
+      ],
+      "what_to_do": [
+        "zahtevaj številko zadeve ali zapisnik",
+        "vprašaj, ali je bila vložena kazenska ovadba ali le zaznamek",
+        "zahtevaj pisni odgovor"
+      ],
+      "important": "Imaš pravico vedeti, kaj je bilo dejansko vloženo."
+    },
+
+    {
+      "order": 2,
+      "level": "sosednja-policijska-postaja",
+      "title": "2. Prijava na drugi policijski postaji",
+      "when": "Če sumiš pristranskost, konflikt interesov ali ignoriranje.",
+      "how": [
+        "vloži prijavo na drugi policijski postaji",
+        "navedi, da je bila prejšnja prijava brez odziva",
+        "priloži kopije dokumentov"
+      ],
+      "important": "Policija ni vezana izključno na kraj bivanja."
+    },
+
+    {
+      "order": 3,
+      "level": "specializirano-tozilstvo",
+      "title": "3. Specializirano državno tožilstvo",
+      "when": "Pri sumu organiziranih zlorab, sistemskih napak ali hujših kaznivih dejanj.",
+      "what_to_include": [
+        "opis dogodkov",
+        "zakaj sumiš sistemski problem",
+        "dokazila ali zapiske",
+        "opis neuspešnih lokalnih postopkov"
+      ],
+      "note": "Tožilstvo ni dolžno ukrepati, mora pa zadevo evidentirati."
+    },
+
+    {
+      "order": 4,
+      "level": "okrajno-sodisce",
+      "title": "4. Okrajno sodišče",
+      "role": "Prvo sodno varstvo v kazenskih ali civilnih postopkih.",
+      "what_can_happen": [
+        "zavrnitev ovadbe",
+        "ustavitev postopka",
+        "zavrnitev dokazov"
+      ],
+      "what_you_can_do": [
+        "zahteva za obrazloženo odločbo",
+        "pritožba v zakonskem roku"
+      ],
+      "important": "Roki so kratki. Zamuda lahko pomeni izgubo možnosti."
+    },
+
+    {
+      "order": 5,
+      "level": "visje-in-vrhovno-sodisce",
+      "title": "5. Višje in Vrhovno sodišče",
+      "purpose": "Presoja pravilnosti postopka in uporabe prava.",
+      "when": "Če meniš, da je prišlo do bistvenih kršitev postopka.",
+      "note": [
+        "ne presojajo dejstev znova",
+        "presojajo pravna vprašanja"
+      ],
+      "important": "Tu je priporočljiva pravna pomoč."
+    },
+
+    {
+      "order": 6,
+      "level": "ustavno-sodisce",
+      "title": "6. Ustavno sodišče",
+      "purpose": "Varstvo človekovih pravic.",
+      "when": [
+        "ko so izčrpana vsa redna pravna sredstva",
+        "če meniš, da so ti bile kršene temeljne pravice"
+      ],
+      "note": [
+        "ni redno pravno sredstvo",
+        "ne obravnava vsake zadeve"
+      ],
+      "important": "Poudarek je na kršitvah pravic, ne na dejstvih primera."
+    },
+
+    {
+      "order": 7,
+      "level": "evropska-raven",
+      "title": "7. Evropska raven",
+      "institutions": [
+        {
+          "name": "Evropsko sodišče za človekove pravice",
+          "when": "Ko država ni zagotovila učinkovitega varstva.",
+          "requirements": [
+            "izčrpana domača pravna sredstva",
+            "vloga v roku",
+            "jasna kršitev človekovih pravic"
+          ]
+        }
+      ],
+      "important": "Evropski postopki so dolgi, a pomembni za sistemske kršitve."
+    }
+  ],
+
+  "practical_guidelines": {
+    "documentation": [
+      "vodi časovnico dogodkov",
+      "shrani vso korespondenco",
+      "zapiši imena, datume, odzive",
+      "hrani kopije vsega"
+    ],
+    "safety": [
+      "ne ogrožaj sebe zaradi vztrajnosti",
+      "če se pritisk poveča, poišči podporo",
+      "pravica do odstopa je tvoja"
+    ]
+  },
+
+  "important_truths": [
+    "Zavržena prijava ni dokaz, da se zloraba ni zgodila.",
+    "Sistemi lahko odpovejo brez zlonamernosti ali z njo.",
+    "Vztrajanje je legitimno, a ni dolžnost žrtve."
+  ],
+
+  "closing": {
+    "message": [
+      "Če prijava ne gre naprej, to ne izbriše resnice.",
+      "Tvoja vrednost ni odvisna od odločitve institucije.",
+      "Pravica do varnosti in dostojanstva ostaja."
+    ]
+  }
+}

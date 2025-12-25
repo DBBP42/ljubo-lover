@@ -1,0 +1,130 @@
+{
+  "page": {
+    "id": "evropska-pot-ko-drzava-odpove",
+    "title": "Evropska pot – ko država ne zagotovi zaščite",
+    "subtitle": "Kdaj in kako uveljavljati pravice na evropski ravni",
+    "tone": "umirjen, postopen, realističen",
+    "content_note": "Evropski postopki so dolgotrajni. Namen te strani je orientacija, ne obljube."
+  },
+
+  "when_europe_is_relevant": {
+    "definition": "Evropska pot pride v poštev, ko država ne zagotovi učinkovitega varstva človekovih pravic.",
+    "typical_situations": [
+      "ponavljajoče zavrnitve brez obrazložitve",
+      "dolgotrajni postopki brez napredka",
+      "neučinkovite preiskave",
+      "sekundarna viktimizacija s strani institucij",
+      "nezagotovljena zaščita otrok"
+    ],
+    "important": "Evropa ne nadomešča nacionalnih sodišč, temveč presoja odgovornost države."
+  },
+
+  "preconditions": {
+    "title": "Predpogoji za evropsko pot",
+    "requirements": [
+      "izčrpana vsa učinkovita domača pravna sredstva",
+      "jasna navedba kršenih pravic",
+      "vloga vložena v zakonskem roku",
+      "primer je osebno pomemben in resen"
+    ],
+    "note": "Če domača sredstva niso učinkovita ali so zgolj navidezna, se to posebej utemelji."
+  },
+
+  "institution_echr": {
+    "name": "Evropsko sodišče za človekove pravice (ESČP)",
+    "role": "Presoja, ali je država kršila Evropsko konvencijo o človekovih pravicah.",
+    "what_it_looks_at": [
+      "učinkovitost preiskave",
+      "dostop do sodišča",
+      "razumno trajanje postopkov",
+      "zaščita pred nečloveškim ravnanjem",
+      "posebna zaščita otrok"
+    ],
+    "what_it_does_not_do": [
+      "ne vodi nove preiskave",
+      "ne presoja krivde storilca",
+      "ne nadomešča nacionalnega sodišča"
+    ]
+  },
+
+  "rights_commonly_invoked": {
+    "title": "Pogosto uveljavljane pravice",
+    "articles": [
+      {
+        "article": "3. člen EKČP",
+        "right": "Prepoved nečloveškega ali ponižujočega ravnanja",
+        "when": "neučinkovita zaščita pred nasiljem, zlasti pri otrocih"
+      },
+      {
+        "article": "6. člen EKČP",
+        "right": "Pravica do poštenega sojenja",
+        "when": "postopkovne kršitve, nerazumni roki"
+      },
+      {
+        "article": "8. člen EKČP",
+        "right": "Pravica do zasebnega in družinskega življenja",
+        "when": "nezaščita osebne integritete"
+      },
+      {
+        "article": "13. člen EKČP",
+        "right": "Pravica do učinkovitega pravnega sredstva",
+        "when": "domača sredstva niso učinkovita"
+      }
+    ]
+  },
+
+  "children_specific": {
+    "title": "Posebnosti pri primerih otrok",
+    "principles": [
+      "država ima povečano dolžnost zaščite",
+      "neučinkovita preiskava je lahko kršitev sama po sebi",
+      "ponavljajoča zaslišanja lahko pomenijo sekundarno viktimizacijo"
+    ],
+    "important": "Pri otrocih se presoja tudi, ali je država preprečila nadaljnjo škodo."
+  },
+
+  "how_to_prepare_application": {
+    "title": "Kako pripraviti vlogo",
+    "steps": [
+      "zbrati vse domače odločbe (tudi zavrnitve)",
+      "pripraviti jasno časovnico",
+      "opisati, zakaj domača sredstva niso bila učinkovita",
+      "navesti kršene pravice",
+      "opisati posledice (psihične, socialne)"
+    ],
+    "note": "Jasnost in jedrnatost sta pomembnejši od obsega."
+  },
+
+  "time_and_expectations": {
+    "title": "Čas in realna pričakovanja",
+    "facts": [
+      "postopki trajajo več let",
+      "sodišče obravnava le del vlog",
+      "pozitiven izid pomeni ugotovitev kršitve države"
+    ],
+    "important": "Evropska pot je pogosto zadnja stopnja – in priznanje sistemske napake."
+  },
+
+  "safety_and_wellbeing": {
+    "title": "Varnost in dobrobit med postopkom",
+    "guidelines": [
+      "postopek prilagodi svojemu zdravju",
+      "ni treba vztrajati za vsako ceno",
+      "pravica do odstopa ostaja"
+    ]
+  },
+
+  "key_truths": [
+    "Evropska pot ni dokaz neuspeha, ampak izčrpanja domačih možnosti.",
+    "Država je odgovorna, če ne zaščiti.",
+    "Resnica primera ne izgine brez sodne potrditve."
+  ],
+
+  "closing": {
+    "final_message": [
+      "Če država odpove, obstaja še evropska raven.",
+      "Če ne zmoreš naprej, je to legitimno.",
+      "Tvoje dostojanstvo ni odvisno od razsodbe."
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "page": {
+    "id": "lgbt-plus-podpora-in-travma",
+    "title": "To velja tudi zate",
+    "subtitle": "Za LGBT+ ljudi, ki so doživeli zlorabo, travmo ali nerazumevanje",
+    "tone": "topel, sprejemajoč, nežen, spoštljiv",
+    "core_message": "Tvoja identiteta ni razlog za zlorabo. Tvoja izkušnja je enako resnična."
+  },
+
+  "opening": {
+    "message": [
+      "Če si LGBT+, to ne spremeni ničesar glede tvojih pravic.",
+      "Zloraba je zloraba – ne glede na spol, identiteto ali usmerjenost.",
+      "Nisi nič drugačen/na v smislu vrednosti.",
+      "In hkrati: ja, kot posameznik si poseben/na. 🌈"
+    ]
+  },
+
+  "key_truths": [
+    "To, kar velja za druge žrtve, velja tudi zate.",
+    "Uporaba substanc, chemsex ali iskanje bližine ne pomeni soglasja.",
+    "Omamljenost ni privolitev – nikoli.",
+    "Izguba spomina je pogosta pri travmi in ne pomeni, da lažeš."
+  ],
+
+  "about_identity": {
+    "title": "O tvoji identiteti",
+    "truths": [
+      "Tvoja spolna usmerjenost ali spolna identiteta ni problem.",
+      "Zloraba ni posledica tega, kdo si.",
+      "Nisi si sam/a kriv/a, ker si zaupal/a.",
+      "Nisi dolžan/na biti 'močnejši/a' ali 'bolj previden/na' kot drugi."
+    ]
+  },
+
+  "why_lgbt_people_are_more_exposed": {
+    "title": "Zakaj so LGBT+ ljudje pogosto bolj izpostavljeni",
+    "points": [
+      "manj varnih prostorov",
+      "iskanje sprejetosti in bližine",
+      "strah pred razkritjem",
+      "diskriminacija in izolacija",
+      "normalizacija tveganj v določenih okoljih"
+    ],
+    "note": "Večja izpostavljenost ni osebna napaka, ampak družbeni problem."
+  },
+
+  "about_shame_and_silence": {
+    "title": "Če čutiš sram ali molk",
+    "message": [
+      "Sram pogosto prihaja od zunaj – ne od tebe.",
+      "Molčanje je včasih način preživetja.",
+      "Ni ti treba razlagati svoje identitete, da bi ti kdo verjel."
+    ]
+  },
+
+  "when_system_fails_lgbt": {
+    "title": "Če te sistem ne razume ali ne vidi",
+    "truths": [
+      "Tvoje izkušnje so lahko napačno razumljene.",
+      "Diskriminacija lahko vpliva na obravnavo.",
+      "To ne pomeni, da se motiš ti."
+    ],
+    "message": "Če institucije ne znajo ravnati s tabo spoštljivo, je to njihova omejitev."
+  },
+
+  "what_you_are_allowed_to_do": {
+    "title": "Dovoljenja, ki jih imaš",
+    "permissions": [
+      "Dovoljeno ti je biti utrujen/a.",
+      "Dovoljeno ti je reči NE.",
+      "Dovoljeno ti je poiskati pomoč v LGBT+ varnem prostoru.",
+      "Dovoljeno ti je živeti po svoje."
+    ]
+  },
+
+  "community_message": {
+    "title": "Od nas zate",
+    "message": [
+      "Radi te imamo – ne kljub temu, kdo si, ampak tudi zaradi tega.",
+      "Tvoja drugačnost ni napaka.",
+      "Tvoja ranljivost ni slabost.",
+      "Tvoje preživetje šteje."
+    ]
+  },
+
+  "closing": {
+    "final_message": [
+      "Nisi sam/a.",
+      "Nisi čuden/na.",
+      "Nisi manj vreden/na.",
+      "To, kar se ti je zgodilo, je pomembno.",
+      "In ja – res te mamo. 💜"
+    ]
+  },
+ }

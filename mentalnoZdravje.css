@@ -1,0 +1,472 @@
+/* Mentalno Zdravje Pages Styles */
+
+.page {
+  background: linear-gradient(135deg, #e0f7fa 0%, #e8f5e9 100%);
+  min-height: 100vh;
+  color: #2c3e50;
+}
+
+.hero {
+  background: linear-gradient(135deg, #00695c 0%, #2e7d32 100%);
+  color: white;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero .eyebrow {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero .hero-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.hero .intro-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #00695c;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #b2dfdb;
+  padding-bottom: 1rem;
+}
+
+.definition-box {
+  background: #e0f2f1;
+  border-left: 5px solid #009688;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.definition-box p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #004d40;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.list-item {
+  background: #f1f8e9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #c5e1a5;
+  transition: transform 0.2s ease;
+}
+
+.list-item:hover {
+  transform: translateY(-3px);
+}
+
+.list-item p {
+  margin: 0;
+  font-weight: 600;
+  color: #33691e;
+  font-size: 1.1rem;
+}
+
+.important-note {
+  background: linear-gradient(135deg, #ff7043 0%, #f4511e 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(244, 81, 30, 0.2);
+}
+
+.important-note p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.info-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.info-item {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.info-item h3 {
+  color: #00695c;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.info-item p {
+  color: #546e7a;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.symptom-box {
+  background: #fafafa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #eeeeee;
+}
+
+.symptom-box h3 {
+  color: #455a64;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #cfd8dc;
+  padding-bottom: 0.5rem;
+}
+
+.symptom-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.symptom-list li {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid #009688;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  color: #37474f;
+}
+
+.recovery-steps {
+  counter-reset: recovery-step;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.recovery-step {
+  background: white;
+  padding: 1.5rem 1.5rem 1.5rem 4rem;
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.recovery-step::before {
+  counter-increment: recovery-step;
+  content: counter(recovery-step);
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #00695c;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.recovery-step p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #37474f;
+  font-weight: 500;
+}
+
+.closing-message {
+  text-align: center;
+  background: linear-gradient(135deg, #00695c 0%, #2e7d32 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+}
+
+.closing-message p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.btn-nav {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #00695c;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 105, 92, 0.3);
+}
+
+.btn-nav:hover {
+  background: #004d40;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 105, 92, 0.4);
+}
+
+.btn-nav.secondary {
+  background: white;
+  color: #00695c;
+  border: 2px solid #00695c;
+}
+
+.btn-nav.secondary:hover {
+  background: #e0f2f1;
+}
+
+/* CTA Block Styles - Compact Version (Copied from previous task) */
+.cta-block {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cta-block h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.cta-block > p {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.cta-level {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.cta-level h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.cta-level h4::before {
+  content: "💜";
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.cta-actions {
+  display: grid;
+  gap: 1rem;
+}
+
+.cta-action {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.cta-action:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-action strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.cta-action p {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.cta-action ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.cta-action li {
+  margin-bottom: 0.25rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.cta-action li strong {
+  color: #00695c;
+}
+
+.emergency {
+  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  color: white;
+  border: 2px solid #ff4757;
+}
+
+.emergency h4 {
+  color: white;
+}
+
+.emergency h4::before {
+  content: "🚨";
+}
+
+.emergency .cta-action {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.emergency .cta-action strong {
+  color: white;
+}
+
+.emergency .cta-action p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.emergency .cta-action li {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.emergency .cta-action li strong {
+  color: #ffd93d;
+}
+
+.emergency-important {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.emergency-important p {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cta-closing {
+  text-align: center;
+  background: linear-gradient(135deg, #00695c 0%, #2e7d32 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.cta-closing p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cta-closing p:last-child {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .section {
+    padding: 2rem 1rem;
+  }
+  
+  .section-card {
+    padding: 2rem;
+  }
+  
+  .list-grid, .symptom-list {
+    grid-template-columns: 1fr;
+  }
+}

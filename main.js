@@ -1,4 +1,47 @@
+/**
+ * Internationalization (i18n) Logic
+ */
+const i18n = {
+  currentLang: 'sl',
+  translations: {},
+
+  async init() {
+    await this.loadTranslations(this.currentLang);
+    this.applyTranslations();
+  },
+
+  async loadTranslations(lang) {
+    try {
+      const response = await fetch(`./translations/${lang}.json`);
+      this.translations = await response.json();
+    } catch (error) {
+      console.error('Error loading translations:', error);
+    }
+  },
+
+  applyTranslations() {
+    const elements = document.querySelectorAll('[data-i18n]');
+    elements.forEach(el => {
+      const key = el.getAttribute('data-i18n');
+      const translation = this.getNestedTranslation(key);
+      if (translation) {
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+          el.placeholder = translation;
+        } else {
+          el.textContent = translation;
+        }
+      }
+    });
+  },
+
+  getNestedTranslation(key) {
+    return key.split('.').reduce((obj, i) => (obj ? obj[i] : null), this.translations);
+  }
+};
+
 document.addEventListener('DOMContentLoaded', () => {
+  i18n.init();
+  
   const header = document.querySelector('.topbar');
   const primaryNav = document.querySelector('.primary-nav');
   
@@ -45,8 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Intersection Observer for reveal animations
   const revealOptions = {
-    threshold: 0.15,
-    rootMargin: '0px 0px -50px 0px'
+    threshold: 0.1,
+    rootMargin: '0px 0px -20px 0px'
   };
 
   const revealObserver = new IntersectionObserver((entries) => {
@@ -63,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   revealElements.forEach((el, index) => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(30px)';
-    el.style.transition = `all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) ${index * 0.05}s`;
+    el.style.transition = `all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) ${index * 0.05}s`;
     revealObserver.observe(el);
   });
 

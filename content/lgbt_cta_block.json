@@ -1,0 +1,92 @@
+{
+  "cta_block_lgbt": {
+    "title": "Nisi sam/a. In ni ti treba vsega nositi sam/a.",
+    "subtitle": "Izberi korak, ki je zate v tem trenutku najbolj varen.",
+
+    "cta_levels": {
+      "soft_cta": {
+        "label": "Mehki koraki (brez obveznosti)",
+        "actions": [
+          {
+            "text": "Preberi kratko podporno stran",
+            "description": "Ko nimaš energije za razlage – samo opora.",
+            "link": "/podpora/kratko-sporocilo"
+          },
+          {
+            "text": "Shrani to stran",
+            "description": "Da se lahko vrneš, ko boš pripravljen/a.",
+            "action": "bookmark"
+          },
+          {
+            "text": "Deli z varno osebo",
+            "description": "Ni ti treba razlagati – lahko samo pošlješ povezavo."
+          }
+        ]
+      },
+
+      "medium_cta": {
+        "label": "Koraki s podporo",
+        "actions": [
+          {
+            "text": "Pogovor z nekom, ki razume LGBT+ kontekst",
+            "description": "Anonimno ali osebno, brez sodbe.",
+            "links": [
+              {
+                "name": "Legebitra",
+                "note": "LGBT+ svetovanje in podpora (Slovenija)"
+              },
+              {
+                "name": "Društvo Parada ponosa",
+                "note": "Podporne točke in skupnosti"
+              }
+            ]
+          },
+          {
+            "text": "Psihosocialna pomoč",
+            "description": "Strokovna podpora, ki upošteva travmo in identiteto.",
+            "note": "Imaš pravico do spoštljive obravnave."
+          }
+        ]
+      },
+
+      "strong_cta": {
+        "label": "Če želiš ukrepati",
+        "actions": [
+          {
+            "text": "Razumi svoje pravne možnosti",
+            "description": "Kaj storiti, ko prijava ne gre naprej.",
+            "link": "/pravice/ko-prijava-obstane"
+          },
+          {
+            "text": "Preberi razlago za institucije",
+            "description": "Zakaj chemsex, travma ali odvisnosti ne izničijo zlorabe.",
+            "link": "/pravosodje/razlaga"
+          }
+        ]
+      },
+
+      "emergency_cta": {
+        "label": "Če si v nevarnosti ali krizi",
+        "actions": [
+          {
+            "text": "Klic v sili",
+            "number": "112",
+            "description": "Če si v neposredni nevarnosti."
+          },
+          {
+            "text": "Krizna linija",
+            "description": "Če imaš misli o samopoškodovanju ali samomoru.",
+            "note": "Pomoč je na voljo – tudi anonimno."
+          }
+        ],
+        "important": "Iskanje pomoči ni šibkost. Je skrb zase."
+      }
+    },
+
+    "closing_message": [
+      "Ni ti treba narediti vsega danes.",
+      "Dovolj je en varen korak.",
+      "Radi te imamo – res. 💜🌈"
+    ]
+  }
+}

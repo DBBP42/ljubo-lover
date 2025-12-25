@@ -1,0 +1,379 @@
+/* LGBT Bi Osebe In Travma Page Styles */
+
+.page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero .eyebrow {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero .core-message {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-left: 4px solid #ff6b9d;
+}
+
+.hero .core-message p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.chip {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content-list {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.content-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  border-left: 4px solid #667eea;
+}
+
+.content-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #555;
+}
+
+.experiences-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.experience-item {
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #856404;
+}
+
+.experience-item p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.truths-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.truth-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.3);
+}
+
+.truth-card p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.closing-message {
+  text-align: center;
+  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+.closing-message p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* CTA Block Styles - Compact Version */
+.cta-block {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.cta-block h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.cta-block > p {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.cta-level {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.cta-level h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.cta-level h4::before {
+  content: "💜";
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.cta-actions {
+  display: grid;
+  gap: 1rem;
+}
+
+.cta-action {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.cta-action:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-action strong {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.cta-action p {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.cta-action ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.cta-action li {
+  margin-bottom: 0.25rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.cta-action li strong {
+  color: #667eea;
+}
+
+.emergency {
+  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  color: white;
+  border: 2px solid #ff4757;
+}
+
+.emergency h4 {
+  color: white;
+}
+
+.emergency h4::before {
+  content: "🚨";
+}
+
+.emergency .cta-action {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.emergency .cta-action strong {
+  color: white;
+}
+
+.emergency .cta-action p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.emergency .cta-action li {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.emergency .cta-action li strong {
+  color: #ffd93d;
+}
+
+.emergency-important {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.emergency-important p {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cta-closing {
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.cta-closing p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cta-closing p:last-child {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-card {
+    padding: 2rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-card {
+    padding: 2rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .truths-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chips {
+    justify-content: center;
+  }
+
+  .cta-block {
+    padding: 2rem;
+  }
+
+  .cta-level {
+    padding: 1.5rem;
+  }
+}

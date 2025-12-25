@@ -1,0 +1,68 @@
+{
+  "page": {
+    "id": "chemsex-hitro-sporocilo-za-zrtve",
+    "title": "Če se ti je to zgodilo",
+    "subtitle": "Kratek opomnik, ko je pretežko brati razlage",
+    "tone": "zelo nežen, neposreden, podporen"
+  },
+
+  "core_truths": [
+    "Uporaba substanc ne pomeni, da si se strinjal/a.",
+    "Omamljenost ni privolitev.",
+    "Izguba spomina je pogosta in ne pomeni, da lažeš.",
+    "Tvoje telo je reagiralo, kot je znalo, da preživi."
+  ],
+
+  "if_you_blame_yourself": {
+    "message": [
+      "To, da si iskal/a olajšanje, ne pomeni, da si iskal/a zlorabo.",
+      "Storilec je odgovoren za prestop meja.",
+      "Ti nisi dolžan/na biti popoln/a, da si vreden/na zaščite."
+    ]
+  },
+
+  "about_discussions_with_others": {
+    "message": [
+      "Nikomur ni treba vedeti vseh podrobnosti.",
+      "Lahko rečeš: »Bil/a sem nezmožen/na privolitve.«",
+      "Ni ti treba razlagati svojega življenjskega sloga."
+    ]
+  },
+
+  "if_system_does_not_believe_you": {
+    "message": [
+      "Sistem se lahko moti.",
+      "To ne spremeni tega, kar se je zgodilo.",
+      "Tvoja resnica ne izgine brez potrditve."
+    ]
+  },
+
+  "what_matters_now": {
+    "focus": [
+      "tvoja varnost",
+      "tvoje zdravje",
+      "ena varna oseba",
+      "en majhen korak"
+    ]
+  },
+
+  "permission_statements": [
+    "Imaš pravico se ustaviti.",
+    "Imaš pravico nadaljevati.",
+    "Imaš pravico spremeniti pot.",
+    "Imaš pravico skrbeti zase."
+  ],
+
+  "emergency_note": {
+    "message": "Če imaš misli o samopoškodovanju ali samomoru, poišči takojšnjo pomoč (112 ali lokalna krizna linija).",
+    "reason": "Tvoje življenje je pomembno."
+  },
+
+  "closing": {
+    "final_message": [
+      "Nisi nor/a.",
+      "Nisi pokvarjen/a.",
+      "Nisi sam/a."
+    ]
+  }
+}

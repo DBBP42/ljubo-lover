@@ -1,0 +1,115 @@
+{
+  "lgbt_micro_pages": [
+    {
+      "id": "geji-in-travma",
+      "title": "Za geje",
+      "subtitle": "Ko bližina, zaupanje in telo niso bili spoštovani",
+      "tone": "topel, neposreden, potrjujoč",
+      "core_message": "Biti gej ni razlog za zlorabo. In ni razlog, da bi te jemali manj resno.",
+
+      "content": [
+        "Veliko gejev se uči bližine v okoljih, kjer ni vedno varno.",
+        "Iskanje sprejetosti ali telesnega stika ne pomeni iskanja zlorabe.",
+        "Chemsex, seks ali tveganja niso dokaz soglasja."
+      ],
+
+      "common_experiences": [
+        "pritisk, da moraš biti vedno za",
+        "normalizacija prestopanja meja",
+        "diskreditacija z besedami: 'saj si hotel'"
+      ],
+
+      "truths": [
+        "Tvoje meje štejejo.",
+        "Tvoja ranljivost ni šibkost.",
+        "Zloraba nad moškim je resnična."
+      ],
+
+      "closing": "Tvoja vrednost ni pogojena z močjo ali seksualnostjo. Vreden si spoštovanja."
+    },
+
+    {
+      "id": "bi-osebe-in-travma",
+      "title": "Za biseksualne osebe",
+      "subtitle": "Ko te ne vidijo – ali ti ne verjamejo",
+      "tone": "potrjujoč, razbremenjujoč",
+      "core_message": "Tvoja identiteta ni zmeda. In ni razlog, da bi bila tvoja izkušnja manj resnična.",
+
+      "content": [
+        "Bi osebe so pogosto nevidne – tudi kot žrtve.",
+        "Zloraba se pogosto relativizira ali pripiše 'neodločnosti'.",
+        "To ni res in ni pošteno."
+      ],
+
+      "common_experiences": [
+        "ne jemljejo te resno",
+        "postavljajo pod vprašaj tvojo identiteto",
+        "zlorabo razložijo kot 'eksperiment'"
+      ],
+
+      "truths": [
+        "Zloraba ni del raziskovanja.",
+        "Tvoja identiteta ni vzrok nasilja.",
+        "Ni ti treba izbirati strani, da bi bil/a vreden/na zaščite."
+      ],
+
+      "closing": "To, kdo te privlači, ne zmanjšuje tvoje pravice do varnosti."
+    },
+
+    {
+      "id": "trans-osebe-in-travma",
+      "title": "Za trans osebe",
+      "subtitle": "Ko telo, identiteta in varnost niso spoštovani",
+      "tone": "zelo zaščiten, spoštljiv",
+      "core_message": "Tvoja identiteta ni problem. Problem je nasilje.",
+
+      "content": [
+        "Trans osebe so pogosto izpostavljene dodatni ranljivosti.",
+        "Nasilje se lahko prepleta z nadzorom nad telesom ali identiteto.",
+        "Diskreditacija pogosto poteka skozi napačno poimenovanje ali dvom."
+      ],
+
+      "common_experiences": [
+        "neupoštevanje identitete",
+        "minimiziranje nasilja",
+        "vprašanja, ki niso relevantna za zlorabo"
+      ],
+
+      "truths": [
+        "Tvoje telo je tvoje.",
+        "Tvoja identiteta ni predmet presoje.",
+        "Zloraba nad tabo je enako resna."
+      ],
+
+      "closing": "Ni ti treba biti močnejši/a od drugih, da bi bil/a vreden/na varnosti."
+    },
+
+    {
+      "id": "nebinarni-in-kvir",
+      "title": "Za nebinarne in kvir osebe",
+      "subtitle": "Ko svet ne zna zate – a to ne pomeni, da si ti napaka",
+      "tone": "nežen, sprejemajoč",
+      "core_message": "Tvoja drugačnost ni razlog za nespoštovanje.",
+
+      "content": [
+        "Nebinarne osebe so pogosto nevidne v sistemih.",
+        "Meje se pogosto ne spoštuje, ker te ne razumejo.",
+        "To ni tvoje breme."
+      ],
+
+      "common_experiences": [
+        "neupoštevanje zaimkov",
+        "zmeda namesto spoštovanja",
+        "zloraba pod pretvezo 'nevednosti'"
+      ],
+
+      "truths": [
+        "Nevednost ni opravičilo za nasilje.",
+        "Tvoje meje so jasne tudi, če jih drugi ne razumejo.",
+        "Ni ti treba poenostaviti sebe za druge."
+      ],
+
+      "closing": "Tak/a kot si, si dovolj. In vreden/na varnosti."
+    }
+  ]
+}

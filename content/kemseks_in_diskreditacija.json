@@ -1,0 +1,120 @@
+{
+  "page": {
+    "id": "chemsex-in-diskreditacija-zrtev",
+    "title": "Chemsex, travma in diskreditiranje žrtev",
+    "subtitle": "Kako se uporaba substanc zlorablja za razvrednotenje resnice",
+    "tone": "strokoven, miren, zaščiten",
+    "core_message": "Uporaba substanc ne izniči zlorabe – pogosto je njen neposreden rezultat."
+  },
+
+  "section_1": {
+    "id": "kaj-je-chemsex",
+    "title": "Kaj je chemsex (brez mitov)",
+    "definition": "Chemsex pomeni spolno aktivnost ob uporabi psihoaktivnih substanc, pogosto z namenom zmanjšanja strahu, sramu ali čustvene bolečine.",
+    "important_clarification": [
+      "chemsex sam po sebi ni kaznivo dejanje",
+      "ni dokaz privolitve",
+      "ni dokaz moralne pomanjkljivosti"
+    ],
+    "note": "V kontekstu travme je chemsex pogosto oblika samoregulacije."
+  },
+
+  "section_2": {
+    "id": "zakaj-travmatizirani-segajo-po-chemsexu",
+    "title": "Zakaj travmatizirani ljudje posegajo po chemsexu",
+    "mechanisms": [
+      "zmanjšanje tesnobe in strahu pred bližino",
+      "odklop telesnega spomina",
+      "lažji dostop do občutka povezanosti",
+      "začasna regulacija notranjega kaosa"
+    ],
+    "key_truth": "Motiv ni užitek, temveč preživetje."
+  },
+
+  "section_3": {
+    "id": "privolitev-in-omamljanje",
+    "title": "Privolitev, omamljenost in zloraba",
+    "facts": [
+      "omamljenost zmanjšuje ali izniči sposobnost privolitve",
+      "meje so lahko izrečene, a ne upoštevane",
+      "izgube spomina so pogoste"
+    ],
+    "important": "Brez zavestne, informirane privolitve ni soglasja."
+  },
+
+  "section_4": {
+    "id": "tipicna-diskreditacija",
+    "title": "Tipični načini diskreditiranja žrtev chemsexa",
+    "tactics": [
+      {
+        "name": "Moralna diskreditacija",
+        "example": "Sam si izbral droge, zato si odgovoren za vse, kar se je zgodilo."
+      },
+      {
+        "name": "Zamenjava vzroka in posledice",
+        "example": "Ker uporabljaš substance, si nezanesljiv – namesto vprašanja, zakaj jih uporabljaš."
+      },
+      {
+        "name": "Zanikanje privolitve",
+        "example": "Če si sodeloval, potem ni šlo za zlorabo."
+      },
+      {
+        "name": "Diskreditacija spomina",
+        "example": "Ker se ne spomniš vsega, se ni zgodilo."
+      }
+    ],
+    "truth": "To so logične zmote, ne strokovni argumenti."
+  },
+
+  "section_5": {
+    "id": "zakaj-je-to-napacno",
+    "title": "Zakaj je takšna diskreditacija napačna",
+    "points": [
+      "travma in substance neposredno vplivajo na spomin",
+      "odvisnost zmanjšuje, ne povečuje moč",
+      "storilci pogosto izkoriščajo omamljenost"
+    ],
+    "important": "Odgovornost je vedno na osebi, ki prestopi meje."
+  },
+
+  "section_6": {
+    "id": "pravni-vidik",
+    "title": "Pravni vidik (načelno)",
+    "principles": [
+      "omamljenost ne pomeni privolitve",
+      "ranljivost povečuje dolžnost zaščite",
+      "izkoriščanje stanja je obremenilna okoliščina"
+    ],
+    "note": "Pravo obravnava dejanja storilca, ne življenjski slog žrtve."
+  },
+
+  "section_7": {
+    "id": "kaj-to-pomeni-za-zrtve",
+    "title": "Kaj to pomeni zate, če si žrtev",
+    "truths": [
+      "uporaba substanc ne izniči tvojih meja",
+      "izguba spomina ne izniči zlorabe",
+      "tvoje telo je reagiralo, kot je znalo"
+    ],
+    "important": "Ni ti treba biti trezen, da si vreden zaščite."
+  },
+
+  "section_8": {
+    "id": "kako-se-zascititi",
+    "title": "Kako se zaščititi pred nadaljnjo diskreditacijo",
+    "steps": [
+      "ločuj med vedenjem in dogodkom",
+      "osredotoči se na ravnanje storilca",
+      "uporabljaj izraz 'nezmožnost privolitve'",
+      "poišči podporo, ki razume travmo in chemsex"
+    ]
+  },
+
+  "closing": {
+    "final_message": [
+      "Chemsex ne izbriše resnice.",
+      "Odvisnost ni dovoljenje za zlorabo.",
+      "Tvoje preživetje ni dokaz proti tebi."
+    ]
+  }
+}

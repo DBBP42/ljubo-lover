@@ -1,0 +1,172 @@
+{
+  "page": {
+    "id": "postopek-ko-prijava-obstane-po-vrsti",
+    "title": "Ko prijava ne gre naprej – postopek po vrsti",
+    "scope": "Slovenija + evropska raven",
+    "audience": "žrtve, preživeli, podporniki",
+    "tone": "postopen, realen, zaščiten"
+  },
+
+  "sequence": [
+    {
+      "step": 1,
+      "level": "lokalna-policijska-postaja",
+      "title": "1. Lokalna policijska postaja",
+      "goal": "Uradno evidentiranje kaznivega dejanja.",
+      "what_should_happen": [
+        "sprejem kazenske ovadbe",
+        "sestava zapisnika",
+        "dodelitev številke zadeve"
+      ],
+      "common_problems": [
+        "zadeva se vodi le kot zaznamek",
+        "policija odsvetuje prijavo",
+        "ni pisnega potrdila"
+      ],
+      "what_you_do": [
+        "izrecno poveš, da želiš vložiti kazensko ovadbo",
+        "zahtevaš kopijo zapisnika",
+        "vprašaš, katero kaznivo dejanje se obravnava"
+      ],
+      "if_it_stops_here": "To je pogosto. To še NI konec poti."
+    },
+
+    {
+      "step": 2,
+      "level": "druga-policijska-postaja",
+      "title": "2. Prijava na drugi policijski postaji",
+      "goal": "Preveriti nepristranskost in zagotoviti obravnavo.",
+      "when": [
+        "če sumiš konflikt interesov",
+        "če je bila prijava ignorirana",
+        "če ni odziva več mesecev"
+      ],
+      "how": [
+        "prijava na drugi policijski postaji",
+        "navedeš, da prejšnja prijava ni bila obravnavana",
+        "priložiš obstoječo dokumentacijo"
+      ],
+      "important": "Druga postaja ni 'pritožba', ampak nova uradna pot."
+    },
+
+    {
+      "step": 3,
+      "level": "drzavno-tozilstvo",
+      "title": "3. Državno ali specializirano tožilstvo",
+      "goal": "Nadzor nad policijskim postopkom.",
+      "what_to_send": [
+        "opis dogodkov",
+        "časovnica",
+        "opis neuspešnih prijav",
+        "zahteva za obravnavo"
+      ],
+      "what_can_happen": [
+        "zahteva tožilstva policiji",
+        "zavrnitev pregona",
+        "odložitev zadeve"
+      ],
+      "important": "Tudi zavrnitev mora biti obrazložena."
+    },
+
+    {
+      "step": 4,
+      "level": "okrajno-sodisce",
+      "title": "4. Okrajno sodišče",
+      "goal": "Sodno varstvo.",
+      "paths": [
+        "kazenski postopek",
+        "subsidiarna tožba",
+        "civilna tožba"
+      ],
+      "common_blocks": [
+        "zavrnitev dokazov",
+        "ustavitev postopka",
+        "dolgotrajnost"
+      ],
+      "what_you_can_do": [
+        "zahtevaš pisno odločbo",
+        "vložiš pritožbo v roku"
+      ],
+      "note": "Roki so ključni. Zamuda zapira vrata."
+    },
+
+    {
+      "step": 5,
+      "level": "visje-sodisce",
+      "title": "5. Višje sodišče",
+      "goal": "Preverjanje pravilnosti postopka.",
+      "what_it_reviews": [
+        "kršitve postopka",
+        "napačna uporaba prava"
+      ],
+      "what_it_does_not": [
+        "ponovno ugotavljanje dejstev",
+        "ponovno zaslišanje žrtve"
+      ],
+      "important": "Poudarek je na napakah sistema, ne na tvojem vedenju."
+    },
+
+    {
+      "step": 6,
+      "level": "vrhovno-sodisce",
+      "title": "6. Vrhovno sodišče",
+      "goal": "Enotna uporaba prava.",
+      "when": [
+        "pri pomembnih pravnih vprašanjih",
+        "pri sistemskih kršitvah"
+      ],
+      "reality_check": [
+        "zelo selektivno",
+        "ni zagotovljeno, da zadevo sprejme"
+      ]
+    },
+
+    {
+      "step": 7,
+      "level": "ustavno-sodisce",
+      "title": "7. Ustavno sodišče",
+      "goal": "Varstvo človekovih pravic.",
+      "requirements": [
+        "izčrpana vsa redna pravna sredstva",
+        "kršitev ustavnih pravic"
+      ],
+      "focus": [
+        "pravica do enake obravnave",
+        "pravica do sodnega varstva",
+        "pravica do osebnega dostojanstva"
+      ],
+      "important": "Ne presoja dejstev, presoja kršitve pravic."
+    },
+
+    {
+      "step": 8,
+      "level": "evropsko-sodisce",
+      "title": "8. Evropsko sodišče za človekove pravice",
+      "goal": "Nadzor nad državo.",
+      "when": [
+        "ko domača pravna sredstva niso učinkovita",
+        "ko država sistemsko odpove"
+      ],
+      "requirements": [
+        "izčrpanost domačih poti",
+        "vloga v roku",
+        "jasna kršitev človekovih pravic"
+      ],
+      "reality": "Dolgotrajno, a ključno za sistemske primere."
+    }
+  ],
+
+  "critical_reminders": [
+    "Zastoj postopka ni dokaz, da se zloraba ni zgodila.",
+    "Sistem ima omejitve, ne resnica.",
+    "Vztrajanje je pravica, ne dolžnost."
+  ],
+
+  "closing": {
+    "final_message": [
+      "Če pot obstane, obstajajo še naslednji koraki.",
+      "Če se ustaviš, to ni poraz.",
+      "Tvoja izkušnja ostaja resnična – ne glede na izid."
+    ]
+  }
+}

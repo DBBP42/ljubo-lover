@@ -1,0 +1,119 @@
+{
+  "page": {
+    "id": "ko-sistem-dodatno-travmatizira",
+    "title": "Ko te sistem dodatno travmatizira",
+    "subtitle": "Kaj storiti, ko postopki, institucije ali uradne osebe povzročijo novo škodo",
+    "tone": "zaščiten, prizemljen, realističen",
+    "content_note": "Če je branje pretežko, je dovolj, da prebereš povzetke ali se ustaviš."
+  },
+
+  "what_is_secondary_trauma": {
+    "definition": "Sekundarna (ali ponovna) travmatizacija nastane, ko žrtev zaradi ravnanja institucij doživi novo psihično škodo.",
+    "examples": [
+      "neverjetje ali minimiziranje",
+      "zasliševanje brez sočutja",
+      "poniževanje ali namigovanje na krivdo",
+      "dolgotrajni molk brez odgovora",
+      "formalna obravnava brez razlage"
+    ],
+    "important_truth": "To ni tvoja preobčutljivost. Gre za realen in priznan pojav."
+  },
+
+  "how_it_feels": {
+    "signals": [
+      "poslabšanje simptomov (tesnoba, flashbacki)",
+      "odpor do nadaljevanja postopkov",
+      "občutek nemoči ali besa",
+      "fizična izčrpanost",
+      "misel: 'Naredil/a sem napako, da sem sploh prijavil/a'"
+    ],
+    "note": "Ti odzivi so normalni pri nenormalnem ravnanju sistema."
+  },
+
+  "what_you_can_do_now": {
+    "priority": "Najprej zaščiti sebe, ne postopka.",
+    "steps": [
+      {
+        "order": 1,
+        "action": "Ustavi se",
+        "description": "Imaš pravico vzeti premor. Postopki lahko počakajo, tvoje zdravje ne."
+      },
+      {
+        "order": 2,
+        "action": "Zmanjšaj izpostavljenost",
+        "description": "Ni ti treba odgovarjati na vsak klic ali e-pošto takoj."
+      },
+      {
+        "order": 3,
+        "action": "Poišči varno osebo",
+        "description": "Nekdo, ki posluša brez sodbe (prijatelj, svetovalec, nevladna organizacija)."
+      },
+      {
+        "order": 4,
+        "action": "Zabeleži, ne analiziraj",
+        "description": "Kratek zapis: kaj se je zgodilo, kdaj, kako si se počutil/a. Brez razlag."
+      }
+    ]
+  },
+
+  "your_rights": {
+    "list": [
+      "pravica do spoštljive obravnave",
+      "pravica do pojasnil",
+      "pravica do premora",
+      "pravica do spremstva ali podpore",
+      "pravica, da od postopka odstopiš"
+    ],
+    "important": "Nobena pravica ni pogojena s tem, da si 'dober primer'."
+  },
+
+  "when_to_pause_or_stop": {
+    "signs": [
+      "poslabšanje duševnega zdravja",
+      "samopoškodovalne misli",
+      "nezmožnost vsakdanjega delovanja",
+      "občutek, da postopek postaja nevaren"
+    ],
+    "message": "Odločitev za prekinitev postopka ni poraz, ampak samozaščita."
+  },
+
+  "how_to_continue_safely": {
+    "options": [
+      {
+        "option": "Nadaljevanje z omejitvami",
+        "description": "Komunikacija samo pisno, z vmesnimi odmori."
+      },
+      {
+        "option": "Zastopanje",
+        "description": "Pooblaščenec, odvetnik ali organizacija komunicira namesto tebe."
+      },
+      {
+        "option": "Sprememba poti",
+        "description": "Namesto kazenske poti izbereš civilno, ustavno ali evropsko."
+      }
+    ]
+  },
+
+  "what_not_to_do": {
+    "avoid": [
+      "siljenje sebe čez meje",
+      "dokazovanje lastne vrednosti sistemu",
+      "primerjanje s 'hujšimi primeri'",
+      "samokritiko zaradi utrujenosti"
+    ]
+  },
+
+  "key_truths": [
+    "Sistem ni merilo resnice.",
+    "Institucionalna napaka ni tvoj neuspeh.",
+    "Tvoje zdravje je pomembnejše od izida postopka."
+  ],
+
+  "closing": {
+    "final_message": [
+      "Če te sistem poškoduje, imaš pravico stopiti korak nazaj.",
+      "Tvoja izkušnja ostaja resnična, tudi brez sodne potrditve.",
+      "Preživetje je legitimna zmaga."
+    ]
+  }
+}

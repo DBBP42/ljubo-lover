@@ -1,0 +1,165 @@
+{
+  "page": {
+    "id": "travma-odvisnosti-in-diskreditacija",
+    "title": "Travma, odvisnosti in diskreditiranje žrtev",
+    "subtitle": "Zakaj se pojavijo odvisnosti, kako ljudje preživijo – in kako se to zlorablja proti njim",
+    "tone": "strokoven, zaščiten, jasen",
+    "core_message": "Posledice travme se pogosto napačno uporabljajo kot dokaz proti žrtvam."
+  },
+
+  "section_1": {
+    "id": "travma-kot-vzrok",
+    "title": "Travma kot izhodišče",
+    "content": [
+      "Travma trajno spremeni delovanje živčnega sistema.",
+      "Telo ostane v stanju nevarnosti tudi po koncu zlorabe.",
+      "Cilj ni ugodje, temveč regulacija bolečine, strahu ali otopelosti."
+    ],
+    "important": "Travma ni psihična šibkost, temveč poškodba."
+  },
+
+  "section_2": {
+    "id": "zakaj-odvisnosti",
+    "title": "Zakaj se po travmi pogosto pojavijo odvisnosti",
+    "explanation": [
+      "Odvisnosti so pogosto poskus samoregulacije.",
+      "Substance ali vedenja začasno zmanjšajo simptome travme.",
+      "Gre za poskus preživetja, ne za moralno pomanjkljivost."
+    ],
+    "common_triggers": [
+      "flashbacki",
+      "nespečnost",
+      "notranji nemir",
+      "sram",
+      "disociacija"
+    ]
+  },
+
+  "section_3": {
+    "id": "vrste-odvisnosti",
+    "title": "Pogoste oblike odvisnosti pri travmatiziranih",
+    "types": [
+      {
+        "type": "alkohol in droge",
+        "function": "zmanjšanje tesnobe, izklop spominov"
+      },
+      {
+        "type": "kemseks",
+        "function": "zmanjšanje čustvene bolečine, občutek nadzora ali bližine"
+      },
+      {
+        "type": "delo ali pretirana aktivnost",
+        "function": "beg pred notranjim doživljanjem"
+      },
+      {
+        "type": "hrana ali stradanje",
+        "function": "občutek kontrole nad telesom"
+      },
+      {
+        "type": "samopoškodovanje",
+        "function": "preusmeritev psihične bolečine v telesno"
+      }
+    ],
+    "note": "Funkcija vedenja je pomembnejša od njegove oblike."
+  },
+
+  "section_4": {
+    "id": "mehanizmi-shajanja",
+    "title": "Mehanizmi shajanja (coping mechanisms)",
+    "definition": "Mehanizmi shajanja so strategije, s katerimi človek obvladuje neznosne notranje občutke.",
+    "categories": {
+      "adaptivni": [
+        "iskanje podpore",
+        "terapija",
+        "pisanje",
+        "telesna regulacija"
+      ],
+      "prezivitveni": [
+        "odvisnosti",
+        "disociacija",
+        "čustvena otopelost",
+        "izogibanje"
+      ]
+    },
+    "important": "Preživitveni mehanizmi niso napačni – postanejo problem, ko so edini."
+  },
+
+  "section_5": {
+    "id": "kako-sistem-interpretira-napacno",
+    "title": "Kako se posledice travme napačno interpretirajo",
+    "examples": [
+      "odvisnost = neverodostojnost",
+      "čustvena nestabilnost = laž",
+      "nezanesljivo vedenje = manipulacija",
+      "jeza = agresivnost"
+    ],
+    "truth": "Gre za simptome, ne za dokaz proti resnici dogodka."
+  },
+
+  "section_6": {
+    "id": "diskreditacija-zrtev",
+    "title": "Tipični poskusi diskreditiranja žrtev",
+    "tactics": [
+      {
+        "name": "Patologizacija",
+        "description": "Označevanje žrtve kot psihično motene namesto obravnave zlorabe."
+      },
+      {
+        "name": "Moraliziranje",
+        "description": "Uporaba odvisnosti ali vedenj za prelaganje krivde."
+      },
+      {
+        "name": "Zamenjava vzroka in posledice",
+        "description": "Posledice travme se predstavijo kot vzrok težav."
+      },
+      {
+        "name": "Diskreditacija značaja",
+        "description": "Napad na osebnost namesto obravnave dejanj storilca."
+      }
+    ],
+    "important": "To so znane strategije v postopkih in javnem diskurzu."
+  },
+
+  "section_7": {
+    "id": "posebej-nevarno-v-postopkih",
+    "title": "Zakaj je to posebej nevarno v pravnih postopkih",
+    "points": [
+      "preusmerjanje fokusa s storilca na žrtev",
+      "zmanjševanje dokazne vrednosti izpovedi",
+      "sekundarna viktimizacija",
+      "opustitev pregona"
+    ],
+    "message": "Razumevanje travme je ključno za pravičnost."
+  },
+
+  "section_8": {
+    "id": "resnice-za-zrtve",
+    "title": "Resnice, ki jih moraš vedeti",
+    "truths": [
+      "Tvoje strategije so bile poskus preživetja.",
+      "Odvisnost ne izniči resnice.",
+      "Tvoje telo je delalo, kar je znalo.",
+      "Okrevanje je možno tudi ob sočasni odvisnosti."
+    ]
+  },
+
+  "section_9": {
+    "id": "pot-naprej",
+    "title": "Pot naprej",
+    "steps": [
+      "najprej varnost in stabilizacija",
+      "razumevanje funkcije vedenj",
+      "postopno učenje drugih načinov regulacije",
+      "sočutje do sebe"
+    ],
+    "note": "Zdravljenje travme in odvisnosti mora potekati skupaj."
+  },
+
+  "closing": {
+    "final_message": [
+      "Odvisnost ni dokaz proti tebi.",
+      "Diskreditacija je sistemska napaka, ne tvoja.",
+      "Preživetje ni sramota."
+    ]
+  }
+}

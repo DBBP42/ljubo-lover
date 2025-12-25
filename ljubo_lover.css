@@ -1,0 +1,175 @@
+@import url('main.css');
+
+/* Page specific styles for ljubo_lover.html */
+
+.definition-box {
+  background: var(--card);
+  border: 1px solid var(--stroke);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.definition-box p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.risk-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.risk-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.risk-list li::before {
+  content: "⚠️";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.signal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.signal-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.signal-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.step-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step-counter;
+}
+
+.step-list li {
+  padding: 0.75rem 0;
+  position: relative;
+  padding-left: 2rem;
+  counter-increment: step-counter;
+}
+
+.step-list li::before {
+  content: counter(step-counter) ".";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.effect-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.effect-list li {
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.effect-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
+
+.note-box {
+  background: rgba(74, 222, 128, 0.1);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.note-box p {
+  margin: 0;
+  color: var(--accent-2);
+  font-weight: 500;
+}
+
+.recovery-box {
+  background: rgba(255, 107, 43, 0.1);
+  border: 1px solid rgba(255, 107, 43, 0.3);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.recovery-box p {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.message-box {
+  background: var(--card);
+  border: 1px solid var(--stroke-bright);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.message-box p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faq-item {
+  background: var(--card);
+  border: 1px solid var(--stroke);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.faq-item h3 {
+  margin: 0 0 0.75rem 0;
+  color: var(--accent);
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.text-content {
+  margin: 1rem 0;
+}
+
+.text-content p {
+  margin: 0 0 1rem 0;
+  line-height: 1.6;
+}
+
+.text-content p:last-child {
+  margin-bottom: 0;
+}

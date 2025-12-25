@@ -1,0 +1,130 @@
+{
+  "page": {
+    "id": "ko-gre-za-otroka",
+    "title": "Ko gre za otroka – posebna zaščita in postopki",
+    "subtitle": "Kaj storiti, ko je žrtev otrok ali ko odrasla oseba razkriva zlorabo iz otroštva",
+    "tone": "zelo zaščiten, jasen, umirjen",
+    "core_message": "Otrok ni odgovoren za postopek. Odrasli in sistemi so."
+  },
+
+  "fundamental_principles": [
+    "Otrok nikoli ni dolžan dokazovati zlorabe.",
+    "Otrok ni odgovoren za zaščito odraslih ali družine.",
+    "Vsak korak mora biti v otrokovo korist, ne v korist sistema."
+  ],
+
+  "if_child_is_currently_minor": {
+    "section_title": "Če je otrok še mladoleten",
+    "priorities": [
+      "takojšnja varnost otroka",
+      "prekinitev stika s storilcem, če je to mogoče",
+      "minimalna izpostavljenost postopkom"
+    ],
+    "what_to_do_first": [
+      "zagotoviti, da je otrok fizično varen",
+      "obvestiti pristojne službe (policija, CSD)",
+      "ne zasliševati otroka doma"
+    ],
+    "important_warning": "Večkratno pripovedovanje lahko otroka dodatno travmatizira."
+  },
+
+  "how_children_express_abuse": {
+    "section_title": "Kako otroci kažejo ali povedo o zlorabi",
+    "points": [
+      "posredno, skozi vedenje",
+      "nepovezano, brez časovnega reda",
+      "s telesnimi simptomi",
+      "z risbami ali igro",
+      "z nenadnimi spremembami vedenja"
+    ],
+    "note": "Otroci redko povedo 'linearno zgodbo'. To ne pomeni, da ne govorijo resnice."
+  },
+
+  "what_adults_must_not_do": {
+    "section_title": "Česa odrasli ne smejo početi",
+    "list": [
+      "zasliševati otroka",
+      "iskati protislovja",
+      "pritiskati na podrobnosti",
+      "izražati dvom ali šok",
+      "obljubljati skrivnost"
+    ],
+    "reason": "Takšno ravnanje lahko zapre otroka vase in oteži nadaljnjo zaščito."
+  },
+
+  "safe_responses_to_child": {
+    "section_title": "Kaj je varno in podporno reči otroku",
+    "examples": [
+      "Verjamem ti.",
+      "Ni tvoja krivda.",
+      "Hvala, ker si povedal/a.",
+      "Poskrbeli bomo, da boš varen/varna.",
+      "Ni ti treba povedati več zdaj."
+    ]
+  },
+
+  "role_of_institutions": {
+    "section_title": "Vloga institucij pri otrocih",
+    "police": [
+      "zbiranje osnovnih informacij",
+      "napotitev na specializiran razgovor"
+    ],
+    "courts": [
+      "zaščita otroka pred neposrednim stikom s storilcem",
+      "omejevanje ponovnih zaslišanj"
+    ],
+    "important": "Institucije se morajo prilagoditi otroku – ne obratno."
+  },
+
+  "if_abuse_is_reported_late": {
+    "section_title": "Če je zloraba razkrita šele v odraslosti",
+    "truths": [
+      "pozno razkritje je zelo pogosto",
+      "spomin se lahko aktivira šele ob varnosti",
+      "zamuda ne zmanjšuje resnosti zlorabe"
+    ],
+    "important": "Otrok ni imel moči, da bi prej ukrepal – odgovornost je na odraslih."
+  },
+
+  "system_can_harm_children": {
+    "section_title": "Ko sistem otroku povzroči dodatno škodo",
+    "examples": [
+      "neprimerni razgovori",
+      "neusklajene institucije",
+      "pritisk na družino",
+      "dolgotrajni postopki"
+    ],
+    "message": "Če postopek škodi otroku, ima zaščita prednost pred nadaljevanjem."
+  },
+
+  "when_to_pause_for_child": {
+    "section_title": "Kdaj je prav, da se postopek ustavi ali prilagodi",
+    "signs": [
+      "poslabšanje otrokovega stanja",
+      "regresija ali samopoškodovanje",
+      "močan strah pred institucijami",
+      "ponovni izbruhi travme"
+    ],
+    "message": "Zaščita otroka je pomembnejša od hitrosti postopka."
+  },
+
+  "long_term_support": {
+    "section_title": "Dolgoročna podpora otroku",
+    "needs": [
+      "stabilno in varno okolje",
+      "psihološka pomoč",
+      "jasna sporočila, da ni kriv",
+      "čas – brez pritiskov"
+    ],
+    "note": "Okrevanje otrok ne poteka po urniku odraslih."
+  },
+
+  "final_message": {
+    "title": "Najpomembnejše sporočilo",
+    "statements": [
+      "Otrok ni dolžan nositi bremena resnice sam.",
+      "Odrasli so odgovorni za zaščito.",
+      "Če sistem odpove, to ni otrokova krivda."
+    ]
+  }
+}

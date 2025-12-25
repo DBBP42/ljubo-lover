@@ -1,0 +1,118 @@
+{
+  "page": {
+    "id": "ali-nadaljevati-ali-ustaviti",
+    "title": "Ali nadaljevati postopek ali se ustaviti?",
+    "subtitle": "Odločitvena checklista, ko si izčrpan/a ali ko sistem ne deluje",
+    "tone": "zelo zaščiten, prizemljen, neobsojajoč",
+    "core_message": "Vztrajanje ni dolžnost. Ustavitev ni poraz."
+  },
+
+  "how_to_use": {
+    "instructions": [
+      "Preberi vprašanja po vrsti.",
+      "Odgovarjaj iskreno, ne 'kako bi moral/a'.",
+      "Ni napačnih odgovorov."
+    ]
+  },
+
+  "checklist_sections": [
+    {
+      "section": "Tvoje trenutno stanje",
+      "questions": [
+        "Ali se je moje duševno stanje zaradi postopkov poslabšalo?",
+        "Ali imam po stikih z institucijami flashbacke ali panične odzive?",
+        "Ali imam občutek, da izgubljam nadzor nad vsakdanjim življenjem?"
+      ],
+      "interpretation": "Če je več odgovorov DA, je tvoja varnost prioriteta."
+    },
+
+    {
+      "section": "Učinkovitost postopka",
+      "questions": [
+        "Ali dobivam pisne, obrazložene odgovore?",
+        "Ali se postopek dejansko premika?",
+        "Ali razumem, kaj je naslednji korak?"
+      ],
+      "interpretation": "Če ni jasnega napredka, imaš pravico spremeniti strategijo."
+    },
+
+    {
+      "section": "Sekundarna viktimizacija",
+      "questions": [
+        "Ali me obravnavajo s spoštovanjem?",
+        "Ali čutim, da moram dokazovati svojo vrednost?",
+        "Ali so mi bili postavljeni namigi o krivdi?"
+      ],
+      "interpretation": "Ponavljajoča se škodljiva obravnava je legitimen razlog za prekinitev."
+    },
+
+    {
+      "section": "Podpora",
+      "questions": [
+        "Ali imam vsaj eno varno osebo?",
+        "Ali imam strokovno podporo?",
+        "Ali bi zmogel/a to sam/a?"
+      ],
+      "interpretation": "Brez podpore postopki pogosto povzročijo dodatno škodo."
+    }
+  ],
+
+  "decision_paths": [
+    {
+      "path": "nadaljuj",
+      "when": [
+        "postopek se premika",
+        "počutiš se dovolj stabilno",
+        "imaš podporo"
+      ],
+      "how": [
+        "omejevanje komunikacije",
+        "pisna oblika",
+        "jasni roki",
+        "zastopanje"
+      ],
+      "note": "Nadaljevanje naj bo prilagojeno tebi, ne sistemu."
+    },
+    {
+      "path": "spremeni-pot",
+      "when": [
+        "lokalni postopki ne delujejo",
+        "želiš manj neposredne izpostavljenosti"
+      ],
+      "options": [
+        "druga institucija",
+        "ustavna pot",
+        "evropska pot",
+        "civilni postopek"
+      ]
+    },
+    {
+      "path": "ustavi-se",
+      "when": [
+        "postopek resno ogroža zdravje",
+        "nimaš podpore",
+        "ne vidiš več smisla"
+      ],
+      "truth": "Ustavitev ne izniči resnice dogodka."
+    }
+  ],
+
+  "important_reminders": [
+    "Sistem ni merilo tvoje resnice.",
+    "Tvoje zdravje ima prednost.",
+    "Odločitev lahko kasneje spremeniš."
+  ],
+
+  "emergency_note": {
+    "message": "Če se pojavijo samopoškodovalne ali samomorilne misli, poišči takojšnjo pomoč (112 ali lokalno krizno linijo).",
+    "reason": "Varnost je vedno prva."
+  },
+
+  "closing": {
+    "final_message": [
+      "Ni ti treba biti junak.",
+      "Dovolj je, da poskrbiš zase.",
+      "Tvoja izkušnja je resnična – ne glede na odločitev."
+    ]
+  }
+}

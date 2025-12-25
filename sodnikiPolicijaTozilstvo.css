@@ -1,0 +1,424 @@
+/* Sodniki Policija Tozilstvo Page Styles */
+
+.page {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #2c3e50;
+}
+
+.hero .eyebrow {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  color: #2c3e50;
+}
+
+.hero .hero-subtitle {
+  font-size: 1.3rem;
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.core-message {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.core-message p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.purpose-statement {
+  background: #ecf0f1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-left: 4px solid #3498db;
+}
+
+.purpose-statement h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.purpose-statement p {
+  color: #34495e;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.chip {
+  background: rgba(52, 152, 219, 0.1);
+  color: #2980b9;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid rgba(52, 152, 219, 0.3);
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 1rem;
+}
+
+.content-grid {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content-item {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  border-left: 4px solid #3498db;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.content-item p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #34495e;
+}
+
+.facts-list, .explanation-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.fact-item, .explanation-item {
+  background: #ecf0f1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 3px solid #7f8c8d;
+}
+
+.fact-item p, .explanation-item p {
+  margin: 0;
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.legal-note {
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.legal-note p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.error-warning {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.error-warning p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.myth-buster {
+  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.myth-buster p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.critical-note {
+  background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.critical-note p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.range-list {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.range-list h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.range-list ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.range-list li {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.interpretation {
+  background: #ecf0f1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.interpretation p {
+  margin: 0;
+  color: #34495e;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.best-practices {
+  background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.best-practices h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.best-practices ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.best-practices li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.examples-list {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.examples-list h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.examples-list ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.examples-list li {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  color: #34495e;
+}
+
+.impact {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.impact p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.recommendation-item {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.3);
+}
+
+.recommendation-item p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.closing-statements {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.statement-item {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.3);
+}
+
+.statement-item p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-card {
+    padding: 2rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-card {
+    padding: 2rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .recommendations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .range-list ul, .best-practices ul, .examples-list ul {
+    grid-template-columns: 1fr;
+  }
+
+  .chips {
+    justify-content: center;
+  }
+}

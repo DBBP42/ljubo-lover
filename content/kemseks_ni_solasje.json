@@ -1,0 +1,118 @@
+{
+  "page": {
+    "id": "chemsex-ni-soglasje-razlaga-za-pravosodje",
+    "title": "Chemsex ni soglasje",
+    "subtitle": "Razumevanje travme, omamljenosti in privolitve v kazenskih postopkih",
+    "audience": ["sodniki", "policija", "tozilstvo", "izvedenci"],
+    "tone": "strokoven, nevtralen, pravno uporaben",
+    "core_principle": "Uporaba substanc ne pomeni avtomatične privolitve in ne zmanjšuje odgovornosti storilca."
+  },
+
+  "section_1": {
+    "id": "osnovno-pravno-izhodišče",
+    "title": "Osnovno pravno izhodišče",
+    "principles": [
+      "Privolitev mora biti zavestna, svobodna in informirana.",
+      "Omamljenost lahko bistveno zmanjša ali izniči sposobnost privolitve.",
+      "Izkoriščanje ranljivega stanja je obremenilna okoliščina."
+    ],
+    "important": "Življenjski slog žrtve ni predmet presoje kaznivega dejanja."
+  },
+
+  "section_2": {
+    "id": "ucinki-substanc",
+    "title": "Učinki substanc na presojo in spomin",
+    "facts": [
+      "Substance vplivajo na presojo tveganja in zaznavanje meja.",
+      "Pogoste so fragmentacije spomina in časovne luknje.",
+      "Čustveni in telesni spomin lahko obstajata brez jasnih vizualnih spominov."
+    ],
+    "legal_relevance": "Nepopoln spomin ni indikator neverodostojnosti."
+  },
+
+  "section_3": {
+    "id": "pogoste-napacne-predpostavke",
+    "title": "Pogoste napačne predpostavke v postopkih",
+    "errors": [
+      {
+        "assumption": "Če je bila uporaba substanc prostovoljna, je bila prostovoljna tudi spolna aktivnost.",
+        "correction": "Privolitev v uporabo substance ni privolitev v spolno dejanje."
+      },
+      {
+        "assumption": "Sodelovanje pomeni soglasje.",
+        "correction": "Pasivnost ali prilagoditev sta lahko odziva na strah ali disociacijo."
+      },
+      {
+        "assumption": "Vrnitev k storilcu izniči kaznivost.",
+        "correction": "Travmatična vez in odvisnost ne pomenita soglasja."
+      }
+    ]
+  },
+
+  "section_4": {
+    "id": "travma-in-chemsex",
+    "title": "Povezava med travmo in chemsexom",
+    "explanation": [
+      "Pri travmatiziranih osebah je chemsex pogosto strategija samoregulacije.",
+      "Motiv ni užitek, temveč zmanjšanje tesnobe ali odklop telesnega spomina.",
+      "To povečuje ranljivost za izkoriščanje."
+    ],
+    "important": "Ranljivost povečuje dolžnost zaščite, ne dvoma."
+  },
+
+  "section_5": {
+    "id": "diskreditacija-v-postopkih",
+    "title": "Diskreditacija žrtev v postopkih",
+    "patterns": [
+      "moraliziranje uporabe substanc",
+      "preusmerjanje fokusa s storilca na žrtev",
+      "enačenje odvisnosti z neverodostojnostjo",
+      "zamenjava vzroka in posledice"
+    ],
+    "impact": "Tak pristop vodi v sekundarno viktimizacijo in napačne presoje."
+  },
+
+  "section_6": {
+    "id": "ocenjevanje-izpovedi",
+    "title": "Ocenjevanje izpovedi v primerih chemsexa",
+    "guidelines": [
+      "ločevati vprašanje privolitve od vprašanja uporabe substanc",
+      "upoštevati travmatične odzive (disociacija, fragmentacija)",
+      "ne uporabljati moralnih sodb"
+    ],
+    "do_not_use": [
+      "čustvena odzivnost kot merilo resnice",
+      "doslednost spomina kot edino merilo"
+    ]
+  },
+
+  "section_7": {
+    "id": "posebnosti-pri-otrocih",
+    "title": "Posebnosti pri mladoletnih",
+    "principles": [
+      "otroci in mladostniki ne morejo dati veljavne privolitve v omamljenem stanju",
+      "grooming pogosto vključuje substance",
+      "država ima povečano dolžnost zaščite"
+    ],
+    "important": "Vsako izkoriščanje omamljenosti pri mladoletnih je posebej obremenilno."
+  },
+
+  "section_8": {
+    "id": "priporocila-za-prakso",
+    "title": "Priporočila za prakso",
+    "recommendations": [
+      "osredotočenost na ravnanje storilca",
+      "uporaba strokovnih mnenj o travmi",
+      "omejevanje sekundarne viktimizacije",
+      "jasna ločitev med posledicami in vzroki"
+    ]
+  },
+
+  "closing": {
+    "final_message": [
+      "Chemsex ni soglasje.",
+      "Omamljenost ne zmanjšuje kaznivosti.",
+      "Razumevanje travme je del pravne strokovnosti."
+    ]
+  }
+}

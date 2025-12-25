@@ -11,65 +11,69 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <span class="brand-dot"></span>
-      Ljubo-Lover<span class="brand-fade">.com</span>
+    <div class="topbar-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-dot"></span>
+        Ljubo-Lover<span class="brand-fade">.com</span>
+      </a>
+      <nav class="secondary-nav" aria-label="sekundarna navigacija">
+        <a href="#hero" data-i18n="nav.home">Domov</a>
+        <a href="#poslanstvo" data-i18n="nav.about">O nas</a>
+        <a href="#pomos" data-i18n="nav.contact">Kontakt</a>
+      </nav>
     </div>
-    <nav class="secondary-nav" aria-label="Sekundarna navigacija">
-      <a href="index.html">Domov</a>
-      <a href="#">O nas</a>
-      <a href="#">Kontakt</a>
-    </nav>
   </header>
 
   <nav class="primary-nav" aria-label="primarna navigacija">
     <div class="nav-inner">
-      <a href="#poslanstvo">Poslanstvo</a>
-      <a href="#prepoznaj">Prepoznaj zlorabo</a>
-      <a href="#prostitucija">Prostitucija</a>
-      <a href="#travma">Travma</a>
-      <a href="#pomos">Pomoč</a>
+      <a href="#poslanstvo" data-i18n="nav.mission">Poslanstvo</a>
+      <a href="#prepoznaj" data-i18n="nav.recognize">Prepoznaj zlorabo</a>
+      <a href="#chemsex" data-i18n="nav.chemsex">Chemsex</a>
+      <a href="#children" data-i18n="nav.children">Zaščita otrok</a>
+      <a href="#justice" data-i18n="nav.justice">Pravosodje</a>
+      <a href="#travma" data-i18n="nav.trauma">Travma</a>
+      <a href="#pomos" data-i18n="nav.help">Pomoč</a>
     </div>
   </nav>
 
   <main class="page">
     <section class="hero section" id="hero">
       <div class="hero-card">
-        <div class="eyebrow">Ozaveščanje in varnost</div>
-        <h1>Ljubo-Lover.com združuje resnice o spolnih prestopkih, prostituciji in travmah, ki jih ne smemo ignorirati.</h1>
-        <p>Delimo informacije, ki pomagajo prepoznati nevarne vzorce, razumeti posledice zlorab ter najti poti do varnosti in okrevanja. S spoštovanjem do vseh, brez senzacionalizma.</p>
+        <div class="eyebrow" data-i18n="hero.eyebrow">Ozaveščanje in varnost</div>
+        <h1 data-i18n="hero.title">Ljubo-Lover.com združuje resnice o spolnih prestopkih, prostituciji in travmah, ki jih ne smemo ignorirati.</h1>
+        <p data-i18n="hero.description">Delimo informacije, ki pomagajo prepoznati nevarne vzorce, razumeti posledice zlorab ter najti poti do varnosti in okrevanja. S spoštovanjem do vseh, brez senzacionalizma.</p>
         <div class="cta-row">
-          <a class="btn primary" href="#prepoznaj">Kako prepoznati zlorabo</a>
-          <a class="btn ghost" href="#pomos">Najdi pomoč</a>
+          <a class="btn primary" href="#prepoznaj" data-i18n="hero.cta_recognize">Kako prepoznati zlorabo</a>
+          <a class="btn ghost" href="#pomos" data-i18n="hero.cta_help">Najdi pomoč</a>
         </div>
         <div class="chips">
-          <span class="chip">Spoštovanje meja</span>
-          <span class="chip">Moški kot žrtve</span>
-          <span class="chip">Izstop iz prostitucije</span>
-          <span class="chip">Trauma-informed pristop</span>
+          <span class="chip" data-i18n="hero.chip_boundaries">Spoštovanje meja</span>
+          <span class="chip" data-i18n="hero.chip_men">Moški kot žrtve</span>
+          <span class="chip" data-i18n="hero.chip_exit">Izstop iz prostitucije</span>
+          <span class="chip" data-i18n="hero.chip_trauma">Trauma-informed pristop</span>
         </div>
       </div>
       <div class="section-card">
         <div class="hero-panel" aria-label="Hitri poudarki">
           <div class="panel-tile">
-            <strong>🛡️ Spolni prestopki</strong>
-            <p>Prisila, manipulacija, izsiljevanje, izraba ranljivosti. Ni “siva cona”, če privolitev ni jasna.</p>
+            <strong data-i18n="highlights.offenses_title">🛡️ Spolni prestopki</strong>
+            <p data-i18n="highlights.offenses_text">Prisila, manipulacija, izsiljevanje, izraba ranljivosti. Ni “siva cona”, če privolitev ni jasna.</p>
           </div>
           <div class="panel-tile">
-            <strong>🤝Prostitucija</strong>
-            <p>Kadar ni svobodna izbira, gre pogosto za nasilje, ekonomsko stisko ali trgovino z ljudmi.</p>
+            <strong data-i18n="highlights.prostitution_title">🤝Prostitucija</strong>
+            <p data-i18n="highlights.prostitution_text">Kadar ni svobodna izbira, gre pogosto za nasilje, ekonomsko stisko ali trgovino z ljudmi.</p>
           </div>
           <div class="panel-tile">
-            <strong>🧠 Travma</strong>
-            <p>Šok, sram, odklop, telesne in psihične posledice. Okrevanje zahteva čas in podporo.</p>
+            <strong data-i18n="highlights.trauma_title">🧠 Travma</strong>
+            <p data-i18n="highlights.trauma_text">Šok, sram, odklop, telesne in psihične posledice. Okrevanje zahteva čas in podporo.</p>
           </div>
           <div class="panel-tile">
-            <strong>✊ Solidarnost</strong>
-            <p>Verjamemo preživelim. Brez viktimizacije in brez opravičevanja storilcev.</p>
+            <strong data-i18n="highlights.solidarity_title">✊ Solidarnost</strong>
+            <p data-i18n="highlights.solidarity_text">Verjamemo preživelim. Brez viktimizacije in brez opravičevanja storilcev.</p>
           </div>
         </div>
       </div>
@@ -77,89 +81,114 @@
 
     <section class="section" id="poslanstvo">
       <div class="section-card">
-        <div class="eyebrow">Poslanstvo</div>
-        <h2>Jasno govoriti o tem, kar boli – in pokazati, da pomoč obstaja.</h2>
-        <p>Ljubo-Lover.com ni prostor za opravičevanje nasilja. Je prostor za jasne informacije, sočutje in praktične korake, kako zaščititi sebe ali nekoga, ki ga imate radi. Cilj je ozaveščati o škodi, ki jo povzročajo spolni prestopki in nevarnosti prostitucije, ter zmanjševati stigmo okrog preživelih, tudi moških.</p>
+        <div class="eyebrow" data-i18n="mission.eyebrow">Poslanstvo</div>
+        <h2 data-i18n="mission.title">Jasno govoriti o tem, kar boli – in pokazati, da pomoč obstaja.</h2>
+        <p data-i18n="mission.text">Ljubo-Lover.com ni prostor za opravičevanje nasilja. Je prostor za jasne informacije, sočutje in praktične korake, kako zaščititi sebe ali nekoga, ki ga imate radi. Cilj je ozaveščati o škodi, ki jo povzročajo spolni prestopki in nevarnosti prostitucije, ter zmanjševati stigmo okrog preživelih, tudi moških.</p>
         <div class="chips">
-          <span class="chip">Spoštovanje dostojanstva</span>
-          <span class="chip">Brez mitov, brez krivde</span>
-          <span class="chip">Varnost na prvem mestu</span>
+          <span class="chip" data-i18n="mission.chip_dignity">Spoštovanje dostojanstva</span>
+          <span class="chip" data-i18n="mission.chip_no_myths">Brez mitov, brez krivde</span>
+          <span class="chip" data-i18n="mission.chip_safety">Varnost na prvem mestu</span>
         </div>
       </div>
     </section>
 
     <section class="section" id="prepoznaj">
       <div class="section-card">
-        <div class="eyebrow">Prepoznaj zlorabo</div>
-        <h2>Vzorce je treba videti zgodaj – ti signali pomenijo alarm.</h2>
+        <div class="eyebrow" data-i18n="recognize.eyebrow">Prepoznaj zlorabo</div>
+        <h2 data-i18n="recognize.title">Vzorce je treba videti zgodaj – ti signali pomenijo alarm.</h2>
         <div class="grid">
           <article class="card">
-            <small>Manipulacija in pritisk</small>
-            <h3>Privolitev ni pogajanje</h3>
-            <p>“Dolguješ mi”, “če me res imaš rad”, ignoriranje besede NE ali tihega zavračanja. Privolitev mora biti jasna, navdušena in stalna.</p>
+            <small data-i18n="recognize.eyebrow">Manipulacija in pritisk</small>
+            <h3 data-i18n="recognize.consent_title">Privolitev ni pogajanje</h3>
+            <p data-i18n="recognize.consent_text">“Dolguješ mi”, “če me res imaš rad”, ignoriranje besede NE ali tihega zavračanja. Privolitev mora biti jasna, navdušena in stalna.</p>
           </article>
           <article class="card">
-            <small>Meje in nadzor</small>
-            <h3>Izolacija je rdeča zastava</h3>
-            <p>Prepoved druženja, branje sporočil, sledenje, grožnje z razkritjem intimnih podatkov ali slik (revenge porn).</p>
+            <small data-i18n="recognize.eyebrow">Meje in nadzor</small>
+            <h3 data-i18n="recognize.isolation_title">Izolacija je rdeča zastava</h3>
+            <p data-i18n="recognize.isolation_text">Prepoved druženja, branje sporočil, sledenje, grožnje z razkritjem intimnih podatkov ali slik (revenge porn).</p>
           </article>
           <article class="card">
-            <small>Finančna ali materialna prisila</small>
-            <h3>“Usluga” za preživetje</h3>
-            <p>Nudene “usluge” v zameno za osnovne potrebe, delo ali status. Močna povezava s prostitucijo iz stiske.</p>
+            <small data-i18n="recognize.eyebrow">Finančna ali materialna prisila</small>
+            <h3 data-i18n="recognize.financial_title">“Usluga” za preživetje</h3>
+            <p data-i18n="recognize.financial_text">Nudene “usluge” v zameno za osnovne potrebe, delo ali status. Močna povezava s prostitucijo iz stiske.</p>
           </article>
           <article class="card">
-            <small>Spletne pasti</small>
-            <h3>Lov na ranljivost</h3>
-            <p>Lažni profili, groomanje, zahteve po slikah, poskusi izsiljevanja z zaupanimi posnetki.</p>
+            <small data-i18n="recognize.eyebrow">Spletne pasti</small>
+            <h3 data-i18n="recognize.online_title">Lov na ranljivost</h3>
+            <p data-i18n="recognize.online_text">Lažni profili, groomanje, zahteve po slikah, poskusi izsiljevanja z zaupanimi posnetki.</p>
           </article>
           <article class="card">
-            <small>Fizična sila ali opojne substance</small>
-            <h3>Brez zavedanja ni privolitve</h3>
-            <p>Uporaba alkohola ali drog za zmanjšanje odpora, pritisk na “skupno pijančevanje”, nejasni spomini.</p>
+            <small data-i18n="recognize.eyebrow">Fizična sila ali opojne substance</small>
+            <h3 data-i18n="recognize.substances_title">Brez zavedanja ni privolitve</h3>
+            <p data-i18n="recognize.substances_text">Uporaba alkohola ali drog za zmanjšanje odpora, pritisk na “skupno pijančevanje”, nejasni spomini.</p>
           </article>
           <article class="card">
-            <small>Gaslighting</small>
-            <h3>“Si si izmislil?”</h3>
-            <p>Poniževanje dojemanja realnosti, prelaganje krivde, razveljavljanje občutkov, čeprav je meja jasna.</p>
+            <small data-i18n="recognize.eyebrow">Gaslighting</small>
+            <h3 data-i18n="recognize.gaslighting_title">“Si si izmislil?”</h3>
+            <p data-i18n="recognize.gaslighting_text">Poniževanje dojemanja realnosti, prelaganje krivde, razveljavljanje občutkov, čeprav je meja jasna.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="prostitucija">
+    <section class="section" id="chemsex">
       <div class="section-card">
-        <div class="eyebrow">Prostitucija in moški</div>
+        <div class="eyebrow" data-i18n="chemsex.eyebrow">Chemsex in tveganja</div>
+        <h2 data-i18n="chemsex.title">Chemsex – tveganja in realnost</h2>
+        <p data-i18n="chemsex.definition">Chemsex pomeni spolno aktivnost ob uporabi psihoaktivnih substanc.</p>
+        <div class="grid">
+          <article class="card">
+            <p data-i18n="chemsex.risk_memory">izguba spomina ali orientacije</p>
+          </article>
+          <article class="card">
+            <p data-i18n="chemsex.risk_violence">povečano tveganje za spolno nasilje</p>
+          </article>
+          <article class="card">
+            <p data-i18n="chemsex.risk_consent">nezmožnost podaje ali umika privolitve</p>
+          </article>
+          <article class="card">
+            <p data-i18n="chemsex.risk_addiction">fizična in psihična odvisnost</p>
+          </article>
+        </div>
+        <div class="pill" data-i18n="chemsex.note">Če pride do zlorabe, odgovornost nikoli ni na osebi, ki je bila omamljena.</div>
+        <div class="cta-row cta-row-top-margin">
+          <a href="kemseksInDiskreditacijaZrtev.html" class="btn ghost" data-i18n="chemsex_diskreditacija.cta_diskreditacija">Preberi o diskreditaciji žrtev</a>
+          <a href="kemseksNiSoglasje.html" class="btn ghost" data-i18n="kemseks_ni_soglasje.cta_legal">Chemsex ni soglasje (za pravosodje)</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="children">
+      <div class="section-card">
+        <div class="eyebrow" data-i18n="children.eyebrow">Zaščita otrok</div>
+        <h2 data-i18n="children.title">Prekinimo zlorabe otrok</h2>
+        <p data-i18n="children.text">Zloraba otrok je vedno odgovornost storilca in sistemov, ki ne zaščitijo. Otrok nikoli ni kriv, sokriv ali odgovoren za zlorabo.</p>
+        <div class="cta-row cta-row-spacing">
+          <a href="koGreZaOtroka.html" class="btn ghost" data-i18n="children.cta_more">Več o zaščiti otrok</a>
+        </div>
         <div class="split">
           <div>
-            <h2>Izzivi prostitucije: pogosto ni “proste izbire”.</h2>
-            <p>Prostitucija lahko vključuje prisilo, dolgove, zasvojenost ali migracijsko ranljivost. Pogosto jo spremljajo trgovina z ljudmi, nasilje in močno psihološko breme. Moški se redkeje prepoznajo kot žrtve, zato ostajajo brez podpore.</p>
-            <ul>
-              <li>Ekonomija stiske: delo za osnovno preživetje ali dolgove.</li>
-              <li>Čustvena odrevenelost: “izklop” občutkov, da se preživi dan.</li>
-              <li>Fizična nevarnost: napadi, spolno prenosljive bolezni, pomanjkanje varnosti.</li>
-              <li>Sram in tišina: moški so pogosto stigmatizirani, da “morajo biti vedno za”, zato ne poiščejo pomoči.</li>
-            </ul>
-            <div class="pill">Resnica: moški lahko postanejo žrtve izkoriščanja in trgovine z ljudmi.</div>
+            <h3 data-i18n="children.myth_title">Miti in resnica</h3>
+            <div class="card">
+              <strong data-i18n="children.myth_1_q">Zlorabljeni otroci najpogosteje sami postanejo zlorabljalci.</strong>
+              <p data-i18n="children.myth_1_a">Večina zlorabljenih otrok nikoli ne zlorablja drugih. To je znanstveno potrjeno.</p>
+            </div>
+            <div class="card">
+              <strong data-i18n="children.myth_2_q">Če se otrok ne upira, pomeni, da se strinja.</strong>
+              <p data-i18n="children.myth_2_a">Otroci se pogosto odzovejo z zamrznitvijo ali prilagoditvijo. To je obrambni mehanizem.</p>
+            </div>
           </div>
-          <div class="section-card section-card--muted">
-            <div class="eyebrow eyebrow--accent">Kaj potrebujejo moški v stiski?</div>
+          <div>
+            <h3 data-i18n="children.action_title">Kaj storiti, če sumimo zlorabo</h3>
             <div class="timeline">
               <div class="step">
-                <strong>1. Varen prostor</strong>
-                <p>Možnost govoriti brez posmeha ali stereotipov o “moškosti”.</p>
+                <p data-i18n="children.action_step_1">otroka poslušaj mirno in brez zasliševanja</p>
               </div>
               <div class="step">
-                <strong>2. Medicinska in pravna pomoč</strong>
-                <p>Dostop do pregledov, profilakse, pravnega svetovanja glede prisile ali dolgov.</p>
+                <p data-i18n="children.action_step_2">verjemi – dvom povečuje škodo</p>
               </div>
               <div class="step">
-                <strong>3. Izstopni načrt</strong>
-                <p>Pomoč pri iskanju stanovanja, zaposlitve, psihološke podpore in varnega omrežja.</p>
-              </div>
-              <div class="step">
-                <strong>4. Sprejetje travme</strong>
-                <p>Učenje, da izkušnja ne določa vrednosti človeka, in da krivda ni na žrtvi.</p>
+                <p data-i18n="children.action_step_3">poišči strokovno pomoč ali prijavi pristojnim službam</p>
               </div>
             </div>
           </div>
@@ -167,65 +196,107 @@
       </div>
     </section>
 
-    <section class="section" id="travma">
+    <section class="section" id="justice">
       <div class="section-card">
-        <div class="eyebrow">Travma in okrevanje</div>
-        <h2>Travma ni “preobčutljivost”. Je resnična telesna in psihična reakcija na nasilje.</h2>
+        <div class="eyebrow" data-i18n="justice.eyebrow">Pravosodje</div>
+        <h2 data-i18n="justice.title">Ko sistemi odpovejo</h2>
+        <p data-i18n="justice.text">Včasih institucije ne zaščitijo žrtev ali celo povzročijo dodatno škodo. Razumevanje travme je del strokovnosti, ne empatije.</p>
+        <div class="cta-row cta-row-spacing">
+          <a href="koSistemZataji.html" class="btn ghost" data-i18n="justice.cta_system">Ko sistem zataji</a>
+          <a href="koPrijavaNeGreNaprej.html" class="btn ghost" data-i18n="justice.cta_report">Ko prijava ne gre naprej</a>
+          <a href="evropskaPot.html" class="btn ghost" data-i18n="justice.cta_europe">Evropska pot</a>
+          <a href="kemseksNiSoglasje.html" class="btn ghost" data-i18n="kemseks_ni_soglasje.hero_title">Chemsex ni soglasje</a>
+        </div>
         <div class="grid">
           <article class="card">
-            <h3>Telo in um</h3>
-            <p>Flashbacki, nespečnost, tesnoba, izogibanje bližini, bolečine v telesu. Vse to so pogoste reakcije na travmo.</p>
+            <h3 data-i18n="justice.behavior_title">Vedenje žrtve ni linearno</h3>
+            <p data-i18n="justice.behavior_text">Travma aktivira amigdalo in zavre racionalno obdelavo. Odločitve so usmerjene v preživetje, ne v logiko.</p>
           </article>
           <article class="card">
-            <h3>Sram in krivda</h3>
-            <p>Storilci pogosto preložijo krivdo na žrtev. Resnica: odgovornost je vedno na storilcu, ne na preživelem.</p>
-          </article>
-          <article class="card">
-            <h3>Odklop (dissociation)</h3>
-            <p>Občutek, da nisi v svojem telesu ali trenutku. Obrambni mehanizem, ki lahko vztraja tudi po dogodku.</p>
-          </article>
-          <article class="card">
-            <h3>Okrevanje</h3>
-            <p>Varnost, stabilnost, terapija, podpora skupnosti. Tempo je individualen; hitrost ni merilo uspeha.</p>
+            <h3 data-i18n="justice.delay_title">Zamude pri prijavi</h3>
+            <p data-i18n="justice.delay_text">Strah, sram in disociacija so pogosti razlogi za pozno prijavo, ki ne zmanjšuje resničnosti dogodka.</p>
           </article>
         </div>
-        <div class="cta-row">
-          <span class="pill">Prvi korak je verjeti sebi in poiskati varno osebo, ki ji zaupate.</span>
+      </div>
+    </section>
+
+    <section class="section" id="prostitucija">
+      <div class="section-card">
+        <div class="eyebrow" data-i18n="prostitution.eyebrow">Prostitucija in moški</div>
+        <div class="split">
+          <div>
+            <h2 data-i18n="prostitution.title">Moški v prostituciji: pogosto spregledana realnost.</h2>
+            <p data-i18n="prostitution.text">Prostitucija ni vedno vprašanje izbire. Za mnoge moške je to posledica ekonomske stiske, odvisnosti, manipulacije ali trgovine z ljudmi. Družbena stigma pogosto preprečuje, da bi moški poiskali pomoč.</p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <h3 data-i18n="prostitution.stigma_title">Stigma in sram</h3>
+              <p data-i18n="prostitution.stigma_text">Moški se soočajo z dvojnim sramom: zaradi vključenosti v prostitucijo in zaradi stereotipov o moški moči.</p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="prostitution.trauma_title">Prikrita travma</h3>
+              <p data-i18n="prostitution.trauma_text">Mnogi moški v prostituciji so bili v otroštvu žrtve spolnih zlorab, kar povečuje njihovo ranljivost.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="travma">
+      <div class="section-card">
+        <div class="eyebrow" data-i18n="trauma.eyebrow">Razumevanje travme</div>
+        <h2 data-i18n="trauma.title">Travma ni le spomin, je telesni odziv</h2>
+        <div class="cta-row cta-row-spacing">
+          <a href="koSistemTravmatizira.html" class="btn ghost" data-i18n="trauma.cta_secondary">Sekundarna travmatizacija</a>
+          <a href="seUstavitiAliNadaljevati.html" class="btn ghost" data-i18n="trauma.cta_decision">Se ustaviti ali nadaljevati?</a>
+          <a href="travmeOdvisnostiDiskreditacije.html" class="btn ghost" data-i18n="trauma.cta_addiction">Travma in odvisnosti</a>
+          <a href="lgbtPodpora.html" class="btn ghost" data-i18n="lgbt_podpora.cta_index">Podpora za LGBT+</a>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3 data-i18n="trauma.ptsd_title">PTSD in C-PTSD</h3>
+            <p data-i18n="trauma.ptsd_text">Posttravmatska stresna motnja se lahko pojavi takoj ali z zamikom. Kompleksni PTSD pa je posledica dolgotrajne izpostavljenosti zlorabam.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="trauma.dissociation_title">Disociacija</h3>
+            <p data-i18n="trauma.dissociation_text">Občutek odklopa od telesa ali realnosti med dogodkom je naraven obrambni mehanizem možganov, ko je grožnja prevelika.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="trauma.victimization_title">Sekundarna viktimizacija</h3>
+            <p data-i18n="trauma.victimization_text">Kadar okolica ali institucije krivijo žrtev, se travma poglobi. Verjeti žrtvi je prvi korak k ozdravitvi.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="trauma.safe_space_title">Varen prostor</h3>
+            <p data-i18n="trauma.safe_space_text">Okrevanje se začne tam, kjer se oseba počuti varno, slišano in kjer ima nadzor nad svojimi odločitvami.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section" id="pomos">
       <div class="section-card">
-        <div class="eyebrow">Kako pomagati sebi ali drugim</div>
-        <h2>Pomoč je bližje, kot se zdi. Tudi če ste naleteli na nekoga zares zlobnega, niste sami.</h2>
-        <div class="split">
-          <div>
-            <h3>Če si ti preživeli</h3>
-            <ul>
-              <li>Če si v neposredni nevarnosti, pokliči 112 ali lokalno številko za nujno pomoč.</li>
-              <li>Pogovor z zaupanja vredno osebo ali anonimno linijo – varnost je prednost.</li>
-              <li>Zapiši, kar se je zgodilo, ko je to mogoče, in shrani dokaze na varnem.</li>
-              <li>Obišči zdravstveno ustanovo za pregled, zdravljenje ali profilakso.</li>
-              <li>Pravno svetovanje: izveš, kakšne so možnosti prijave in zaščite.</li>
+        <div class="eyebrow" data-i18n="help.eyebrow">Pomoč</div>
+        <h2 data-i18n="help.title">Kako pomagati sebi ali drugim</h2>
+        <div class="grid">
+          <article class="card">
+            <h3 data-i18n="help.survivor_title">Če si ti preživeli</h3>
+            <p data-i18n="help.survivor_text">Nisi kriv. Nisi sam. Tvoja varnost je prioriteta. Poišči strokovno pomoč ali zaupno osebo.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="help.friend_title">Če želiš pomagati drugemu</h3>
+            <p data-i18n="help.friend_text">Verjemi, ne obsojaj, bodi potrpežljiv. Ne sili v prijavo, če oseba ni pripravljena, razen če je v neposredni nevarnosti.</p>
+          </article>
+          <article class="card">
+            <h3 data-i18n="help.contacts_title">Kontakti v Sloveniji</h3>
+            <ul class="contact-list">
+              <li><strong data-i18n="help.police">Policija:</strong> 113</li>
+              <li><strong data-i18n="help.emergency">Nujna medicinska pomoč:</strong> 112</li>
+              <li><strong data-i18n="help.tom">TOM telefon (za otroke in mladostnike):</strong> 116 111</li>
+              <li><strong data-i18n="help.sos">SOS telefon (za ženske in otroke - žrtve nasilja):</strong> 080 11 55</li>
+              <li><strong data-i18n="help.samarijan">Samarijan (zaupni telefon):</strong> 116 123</li>
             </ul>
-          </div>
-          <div>
-            <h3>Če želiš podpreti druge</h3>
-            <ul>
-              <li>Verjemi in poslušaj brez zasliševanja. Ne krivi žrtve.</li>
-              <li>Ponudi praktično pomoč: spremstvo k zdravniku ali na policijo, varno prenočišče.</li>
-              <li>Spoštuj tempo okrevanja; ne siliti v podrobnosti.</li>
-              <li>Seznani se z lokalnimi podporni točkami (krizni centri, terapevti, nevladne organizacije).</li>
-              <li>Skrbi zase: podpora je lažja, če tudi ti imaš podporo.</li>
-            </ul>
-          </div>
+          </article>
         </div>
-        <div class="cta-row">
-          <a class="btn primary" href="tel:112">Klic v sili 112</a>
-          <a class="btn ghost" href="https://www.116006.eu/" target="_blank" rel="noopener noreferrer">116 006 – pomoč žrtvam kaznivih dejanj</a>
-        </div>
-        <p class="disclaimer-text">Za lokalne možnosti poišči: krizne centre, psihoterapevte, skupine za preživele, nevladne organizacije proti trgovini z ljudmi. Če nisi prepričan, vprašaj zdravnika ali socialno službo za napotitev.</p>
       </div>
     </section>
 
@@ -235,13 +306,13 @@
           <span class="brand-dot"></span>
           Ljubo-Lover<span class="brand-fade">.com</span>
         </div>
-        <p>Prostor za resnico, spoštovanje in varnost. Če dvomiš, poišči pomoč. Tvoja varnost in dostojanstvo sta pomembna.</p>
+        <p data-i18n="footer.text">Prostor za resnico, spoštovanje in varnost. Če dvomiš, poišči pomoč. Tvoja varnost in dostojanstvo sta pomembna.</p>
         <div class="footer-links">
-          <a href="#">Pravno obvestilo</a>
-          <a href="#">Zasebnost</a>
-          <a href="#">Piškotki</a>
+          <a href="#" data-i18n="footer.legal">Pravno obvestilo</a>
+          <a href="#" data-i18n="footer.privacy">Zasebnost</a>
+          <a href="#" data-i18n="footer.cookies">Piškotki</a>
         </div>
-        <div class="copyright">
+        <div class="copyright" data-i18n="footer.copyright">
           &copy; 2025 Ljubo-Lover.com. Vse pravice pridržane.
         </div>
       </div>
