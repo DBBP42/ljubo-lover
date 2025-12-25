@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "drzava": "Slovenija",
+    "opomba": "Kontaktni podatki so javni in informativni; za nujne primere vedno kličite 113 ali 112."
+  },
+  "vladne_organizacije": {
+    "policija": {
+      "ime": "Policija Republike Slovenije",
+      "telefon": {
+        "nujno": "113",
+        "informacije": "+386 1 428 40 00"
+      },
+      "email": "gp.policija@policija.si",
+      "url": "https://www.policija.si",
+      "opis": "Preiskovanje kaznivih dejanj, zaščita žrtev, sprejem kazenskih ovadb."
+    },
+    "tozilstva": {
+      "ime": "Državno tožilstvo Republike Slovenije",
+      "telefon": "+386 1 423 24 00",
+      "email": "gp.dt@dt-rs.si",
+      "url": "https://www.dt-rs.si",
+      "opis": "Vodenje in nadzor kazenskega pregona."
+    },
+    "sdt": {
+      "ime": "Specializirano državno tožilstvo Republike Slovenije",
+      "telefon": "+386 1 423 24 00",
+      "email": "sdt@gov.si",
+      "url": "https://www.gov.si/drzavni-organi/drzavno-tozilstvo/specializirano-drzavno-tozilstvo/",
+      "opis": "Preganjanje zahtevnejših oblik kriminalitete (organizirani kriminal, korupcija)."
+    },
+    "sodisca": {
+      "vrhovno_sodisce": {
+        "ime": "Vrhovno sodišče Republike Slovenije",
+        "telefon": "+386 1 366 40 00",
+        "email": "info@vsrs.si",
+        "url": "https://www.vsrs.si",
+        "opis": "Najvišje redno sodišče v državi."
+      },
+      "ustavno_sodisce": {
+        "ime": "Ustavno sodišče Republike Slovenije",
+        "telefon": "+386 1 477 64 00",
+        "email": "info@us-rs.si",
+        "url": "https://www.us-rs.si",
+        "opis": "Varstvo ustavnosti in človekovih pravic."
+      },
+      "sodisca_splosno": {
+        "ime": "Sodišča Republike Slovenije",
+        "telefon": "+386 1 366 41 00",
+        "email": "info@sodisce.si",
+        "url": "https://www.sodisce.si",
+        "opis": "Okrajna, okrožna in višja sodišča."
+      }
+    },
+    "varuh": {
+      "ime": "Varuh človekovih pravic Republike Slovenije",
+      "telefon": "+386 1 475 00 50",
+      "email": "info@varuh-rs.si",
+      "url": "https://www.varuh-rs.si",
+      "opis": "Nadzor nad delovanjem državnih organov glede človekovih pravic."
+    },
+    "ministrstvo_pravosodje": {
+      "ime": "Ministrstvo za pravosodje",
+      "telefon": "+386 1 369 52 00",
+      "email": "gp.mp@gov.si",
+      "url": "https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-pravosodje/",
+      "opis": "Pravosodni sistem, zakonodaja, kazenski postopki."
+    },
+    "center_za_socialno_delo": {
+      "ime": "Centri za socialno delo (CSD)",
+      "telefon": "+386 1 369 52 00",
+      "email": "gp.mddsz@gov.si",
+      "url": "https://www.gov.si/drzavni-organi/organi-v-sestavi/centri-za-socialno-delo/",
+      "opis": "Pomoč žrtvam nasilja, zaščitni ukrepi, socialna podpora."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "page": {
+    "id": "za-starse-v-soku",
+    "title": "Če ste pravkar izvedeli nekaj zelo težkega",
+    "subtitle": "Kratek vodič za starše v šoku",
+    "tone": "zelo umirjen, prizemljen, podporen",
+    "core_message": "Najpomembnejše je, da ste tukaj. Ostalo lahko počaka."
+  },
+
+  "first_minutes": {
+    "title": "Najprej – zdaj, v tem trenutku",
+    "steps": [
+      "Ustavite se in zadihajte.",
+      "Ni vam treba takoj ukrepati.",
+      "Ni vam treba imeti odgovorov.",
+      "Vaš otrok vas zdaj potrebuje mirne."
+    ],
+    "important": "Panika odraslih poveča stisko otroka."
+  },
+
+  "what_you_might_feel": {
+    "title": "Če čutite",
+    "feelings": [
+      "šok",
+      "jezo",
+      "krivdo",
+      "strah",
+      "negotovost",
+      "zmedenost"
+    ],
+    "message": "Vsi ti občutki so normalni. Ne pomenijo, da ste slab starš."
+  },
+
+  "one_thing_that_matters": {
+    "title": "Ena stvar, ki je najpomembnejša",
+    "message": [
+      "Vaš otrok mora vedeti, da mu verjamete.",
+      "Da ni kriv.",
+      "Da ni sam."
+    ],
+    "safe_sentences": [
+      "Hvala, ker si mi povedal/a.",
+      "Verjamem ti.",
+      "Ni tvoja krivda.",
+      "Tukaj sem."
+    ]
+  },
+
+  "what_not_to_do_now": {
+    "title": "Česa zdaj ne počnite",
+    "avoid": [
+      "zasliševanja",
+      "iskanja podrobnosti",
+      "takojšnjih odločitev",
+      "groženj ali ultimatov",
+      "obljub, ki jih ne morete držati"
+    ],
+    "reason": "Otrok mora najprej občutiti varnost, ne rešitev."
+  },
+
+  "about_truth_and_details": {
+    "title": "O resnici in podrobnostih",
+    "message": [
+      "Otrok morda ne bo povedal vsega.",
+      "Morda se ne spomni vsega.",
+      "To ne pomeni, da laže."
+    ],
+    "important": "Spomin po travmi je lahko razdrobljen."
+  },
+
+  "your_role_now": {
+    "title": "Vaša vloga zdaj",
+    "points": [
+      "ostati dosegljivi",
+      "poskrbeti za osnovno varnost",
+      "ne ostati sami s tem"
+    ],
+    "note": "Tudi vi potrebujete podporo."
+  },
+
+  "if_you_feel_overwhelmed": {
+    "title": "Če ste preplavljeni",
+    "message": [
+      "V redu je, da poiščete pomoč zase.",
+      "To ne pomeni, da otroka prepuščate.",
+      "Pomeni, da skrbite tudi za odnos."
+    ]
+  },
+
+  "next_24_hours": {
+    "title": "V naslednjih 24 urah",
+    "suggestions": [
+      "ohranite rutino, kolikor je mogoče",
+      "povejte otroku, da se lahko vrne k pogovoru kasneje",
+      "poiščite eno varno odraslo osebo ali strokovnjaka"
+    ]
+  },
+
+  "emergency_note": {
+    "title": "Če je otrok v neposredni nevarnosti",
+    "message": [
+      "Če obstaja takojšnja nevarnost, pokličite 112.",
+      "Če ima otrok misli o samopoškodovanju, poiščite takojšnjo pomoč."
+    ],
+    "important": "Varnost ima prednost."
+  },
+
+  "closing": {
+    "final_message": [
+      "Ni vam treba biti popolni.",
+      "Dovolj je, da ste prisotni.",
+      "Ljubezen, ki ostane mirna, je največja zaščita."
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "page": {
+    "id": "za-starse-lgbt-mladostnikov",
+    "title": "Za starše LGBT+ otrok in mladostnikov",
+    "subtitle": "Kako biti opora, tudi ko je težko ali nejasno",
+    "tone": "umirjen, spoštljiv, podporen",
+    "core_message": "Ni treba, da vse razumete takoj. Pomembno je, da ste prisotni."
+  },
+
+  "opening": {
+    "message": [
+      "Če ste tukaj, vam je mar.",
+      "Morda ste zaskrbljeni, prestrašeni ali zmedeni.",
+      "To je normalno.",
+      "Vaš otrok ne potrebuje popolnosti – potrebuje varnost."
+    ]
+  },
+
+  "about_your_child": {
+    "title": "O vašem otroku",
+    "truths": [
+      "Vaš otrok ni pokvarjen ali izgubljen.",
+      "LGBT+ identiteta ni faza, bolezen ali posledica slabega starševstva.",
+      "Vaš otrok je še vedno isti otrok, ki ste ga imeli radi včeraj."
+    ]
+  },
+
+  "if_your_child_shared_something_hard": {
+    "title": "Če vam je otrok povedal nekaj težkega",
+    "what_matters_most": [
+      "da mu verjamete",
+      "da ostanete mirni",
+      "da ne zaslišujete",
+      "da ne zmanjšujete"
+    ],
+    "safe_sentences": [
+      "Hvala, ker si mi povedal/a.",
+      "Verjamem ti.",
+      "Ni tvoja krivda.",
+      "Skupaj bomo našli pomoč."
+    ]
+  },
+
+  "what_not_to_do": {
+    "title": "Česa ne počnite (tudi če vas skrbi)",
+    "avoid": [
+      "panike ali groženj",
+      "zasliševanja po podrobnostih",
+      "iskanja krivde",
+      "primerjanja z drugimi otroki",
+      "minimiziranja izkušnje"
+    ],
+    "reason": "Ti odzivi lahko otroka zaprejo vase in povečajo stisko."
+  },
+
+  "about_boundaries_and_safety": {
+    "title": "Meje, varnost in odgovornost odraslih",
+    "points": [
+      "Otrok ima pravico do telesne in čustvene varnosti.",
+      "Če je bil otrok pod vplivom substanc, to ni privolitev.",
+      "Zamrznitev ali tišina nista soglasje."
+    ],
+    "important": "Odgovornost je vedno na odraslih in storilcih, ne na otroku."
+  },
+
+  "when_you_do_not_understand_everything": {
+    "title": "Če ne razumete vsega (in to je v redu)",
+    "message": [
+      "Ni vam treba poznati vseh izrazov.",
+      "Ni vam treba imeti vseh odgovorov.",
+      "Dovolj je, da ste pripravljeni poslušati."
+    ]
+  },
+
+  "how_to_support_day_to_day": {
+    "title": "Kako biti opora vsak dan",
+    "steps": [
+      "pokažite, da ste dosegljivi",
+      "spoštujte otrokovo hitrost",
+      "vprašajte, kaj potrebuje – ne kaj mislite, da potrebuje",
+      "poiščite pomoč tudi zase"
+    ]
+  },
+
+  "when_to_seek_help": {
+    "title": "Kdaj poiskati pomoč",
+    "signs": [
+      "opazno poslabšanje razpoloženja",
+      "umik, samopoškodovalne misli",
+      "močan strah ali nočne more",
+      "težave v šoli ali doma"
+    ],
+    "message": "Iskanje pomoči je skrb, ne neuspeh."
+  },
+
+  "about_professional_support": {
+    "title": "Strokovna pomoč",
+    "guidelines": [
+      "izberite strokovnjake, ki spoštujejo LGBT+ otroke",
+      "otrok ima pravico do varne obravnave",
+      "vi imate pravico postavljati vprašanja"
+    ]
+  },
+
+  "if_system_fails": {
+    "title": "Če institucije odpovejo",
+    "truths": [
+      "sistemi niso vedno prilagojeni otrokom",
+      "imate pravico zahtevati spoštljivo obravnavo",
+      "lahko poiščete drugo pot"
+    ],
+    "message": "Vaša naloga ni braniti sistema, ampak zaščititi otroka."
+  },
+
+  "gentle_permissions_for_parents": {
+    "title": "Dovoljenja tudi za vas",
+    "permissions": [
+      "Dovoljeno vam je biti prestrašeni.",
+      "Dovoljeno vam je poiskati pomoč.",
+      "Dovoljeno vam je delati napake.",
+      "Dovoljeno vam je učiti se sproti."
+    ]
+  },
+
+  "cta": {
+    "title": "Koraki, ko ste pripravljeni",
+    "actions": [
+      {
+        "text": "Pogovor s strokovnjakom, ki razume LGBT+ mladostnike",
+        "note": "Za otroka ali za vas."
+      },
+      {
+        "text": "Povezava z LGBT+ organizacijo",
+        "note": "Informacije, podpora, skupnost."
+      },
+      {
+        "text": "Shrani to stran",
+        "note": "Da se lahko vrnete, ko bo lažje."
+      }
+    ]
+  },
+
+  "closing": {
+    "final_message": [
+      "Vaš otrok vas ne potrebuje popolnih.",
+      "Potrebuje, da ste tam.",
+      "Ljubezen, ki posluša, zdravi.",
+      "Hvala, ker se trudite. 💜"
+    ]
+  }
+}

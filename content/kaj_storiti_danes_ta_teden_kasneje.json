@@ -1,0 +1,116 @@
+{
+  "page": {
+    "id": "kaj-storiti-danes-ta-teden-kasneje",
+    "title": "Kaj storiti danes, ta teden in kasneje",
+    "subtitle": "Postopen vodič za starše, ko je preveč naenkrat",
+    "tone": "zelo prizemljen, umirjen, podporen",
+    "core_message": "Ni treba vsega rešiti takoj. Pomembno je, da ne škodimo z naglico."
+  },
+
+  "today": {
+    "title": "Danes (prvi dan)",
+    "goal": "Varnost in umiritev – nič več.",
+    "priorities": [
+      "čustvena varnost otroka",
+      "vaša lastna umiritev",
+      "brez velikih odločitev"
+    ],
+    "do": [
+      "Povejte otroku, da mu verjamete.",
+      "Povejte, da ni kriv.",
+      "Ostanite fizično in čustveno dostopni.",
+      "Poskrbite za osnovne potrebe (spanje, hrana, mir)."
+    ],
+    "say": [
+      "Tukaj sem.",
+      "Ni se ti treba pogovarjati več danes.",
+      "Skupaj bova našla pomoč."
+    ],
+    "do_not": [
+      "ne zaslišujte",
+      "ne pritiskajte za podrobnosti",
+      "ne grozite ali ultimatirajte",
+      "ne kličite vseh institucij isti dan (razen v nuji)"
+    ],
+    "emergency": {
+      "when": "Če obstaja neposredna nevarnost ali samopoškodovalne misli",
+      "action": "Pokličite 112 ali lokalno krizno pomoč",
+      "note": "Varnost ima vedno prednost."
+    }
+  },
+
+  "this_week": {
+    "title": "Ta teden",
+    "goal": "Stabilnost, orientacija in prva podpora.",
+    "priorities": [
+      "vzpostaviti občutek varnosti",
+      "poiskati eno zanesljivo podporo",
+      "zmanjšati izolacijo"
+    ],
+    "do": [
+      "Vprašajte otroka, kaj trenutno potrebuje (ne kaj vi mislite).",
+      "Poiščite strokovnjaka ali svetovalca, ki razume travmo in LGBT+ mladostnike.",
+      "Pogovorite se z eno zaupanja vredno odraslo osebo (za vas).",
+      "Zapišite osnovno časovnico (zase, brez pritiskov)."
+    ],
+    "do_not": [
+      "ne silite v prijavo, če otrok ni pripravljen",
+      "ne razkrivajte zgodbe širši okolici brez otrokovega soglasja",
+      "ne pričakujte hitrega 'okrevanja'"
+    ],
+    "school_and_environment": {
+      "guidance": [
+        "če je potrebno, diskretno obvestite šolo (s poudarkom na zaščiti, ne podrobnostih)",
+        "zahtevajte prilagoditve, če otrok to potrebuje"
+      ]
+    }
+  },
+
+  "later": {
+    "title": "Kasneje (ko bo več stabilnosti)",
+    "goal": "Dolgoročna zaščita in okrevanje.",
+    "priorities": [
+      "trajnejša podpora",
+      "premišljene odločitve",
+      "ohranjanje odnosa"
+    ],
+    "options": [
+      {
+        "name": "Strokovna obravnava",
+        "description": "Redna psihološka ali psihoterapevtska podpora, ki spoštuje otrokovo identiteto."
+      },
+      {
+        "name": "Pravni koraki",
+        "description": "Če in ko je otrok pripravljen – brez pritiska in z ustrezno podporo."
+      },
+      {
+        "name": "Družinska podpora",
+        "description": "Po potrebi tudi podpora za starše ali družinsko svetovanje."
+      }
+    ],
+    "important": "Okrevanje ni linearno. Nazadovanja niso neuspeh."
+  },
+
+  "important_reminders": [
+    "Otrokov tempo je pomembnejši od rokov.",
+    "Vaša vloga je zaščita, ne preiskava.",
+    "Iskanje pomoči ni znak šibkosti.",
+    "Ni ene 'pravilne' poti."
+  ],
+
+  "permissions_for_parents": [
+    "Dovoljeno vam je reči: danes ne zmorem.",
+    "Dovoljeno vam je poiskati pomoč zase.",
+    "Dovoljeno vam je spremeniti načrt.",
+    "Dovoljeno vam je iti počasi."
+  ],
+
+  "closing": {
+    "final_message": [
+      "Danes je dovolj, da ste tukaj.",
+      "Ta teden je dovolj, da poiščete podporo.",
+      "Kasneje boste imeli več moči za odločitve.",
+      "Niste sami v tem."
+    ]
+  }
+}
