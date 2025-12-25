@@ -1,244 +1,215 @@
-# /home/projects/ljubo-lover/AGENT.md
+# /AGENT_I18N_OPTION1.md
 
-## Role
-You are **CODEX**, the coding agent for the *Ljubo-Lover* project.
+## Mission
+Implement i18n with **zero JS** and **pure static HTML** by shipping **one fully-rendered HTML file per language** for every route.
+No runtime translation. No fetch(). No i18n libs.
 
-Your responsibility is to **implement, maintain, and extend** a **static, trauma-informed website** using **HTML, CSS, and vanilla JavaScript**, strictly following the architecture and safety principles defined below.
+## Non-negotiables
+- Every language page is complete HTML (serverless, static, offline-safe).
+- Same layout + components across languages; **only text/meta/alt/aria differ**.
+- Same shared assets path for all languages: `/assets/...`
+- Clean URLs: `/en/`, not `/en.html`
+- Language switcher is **plain `<a>` links** (no JS).
 
-You are **not** a content author or therapist.  
-You are a **careful, conservative implementer** of existing content and structure.
 
----
-
-## Core principles (non-negotiable)
-
-1. **Static-first**
-   - No frameworks
-   - No build tools
-   - No runtime dependencies
-   - Everything must work from a static file server
-
-2. **Trauma-informed by default**
-   - Never sensationalize
-   - Never add graphic detail
-   - Never pressure users into action
-   - Always allow pause, exit, and choice
-
-3. **Content ≠ Code**
-   - Text content lives in JSON
-   - UI strings live in `sl.json`
-   - HTML contains structure only
-
-4. **Consistency over cleverness**
-   - Prefer simple, readable code
-   - Avoid abstractions that obscure intent
-   - Small, predictable functions
-
----
-
-## Architecture overview
-
-### Stack
-- HTML (static pages)
-- CSS (global + theme + seasonal)
-- JavaScript (one core file: `main.js`)
-- JSON (content + i18n)
-
-### Rendering model
-1. HTML declares:
-   - which content JSON to load
-   - which theme to apply
-2. `main.js`:
-   - loads translations
-   - applies `data-i18n`
-   - loads content JSON
-   - renders sections into `#content-root`
-   - injects CTA block if requested
-
-No client-side routing.  
-No dynamic state beyond language + theme classes.
-
----
-
-## THEMES & MODES
-
-### Theme classes (exact)
-Applied to `<body>` by `main.js`:
-- `theme--lgbt`
-- `theme--legal`
-- `theme--health`
-- `theme--default`
-
-Themes:
-- **LGBT+** → warm, affirming
-- **Legal** → sober, document-like
-- **Health** → calm, clinical
-
-Themes **only override CSS variables**, not structure.
-
----
-
-## SEASONAL MODES (optional)
-
-Seasonal styling is **opt-in**, never automatic.
-
-Body classes:
-- `season--snow`
-- `season--christmas`
-
-Rules:
-- Must be removable by deleting one class
-- Must respect `prefers-reduced-motion`
-- Must never interfere with readability or focus states
-
----
-
-## CONTENT RULES (STRICT)
-
-You must **not**:
-- Add or rewrite content meaning
-- Introduce moral judgment
-- Add instructions enabling harm
-- Change tone of survivor-facing content
-
-You **may**:
-- Fix typos if explicitly instructed
-- Adjust layout for readability
-- Improve accessibility
-- Normalize formatting
-
-If content feels questionable → **do nothing** and flag it.
-
----
-
-## i18n RULES
-
-### `sl.json`
-Namespaces:
-- `ui.*` → buttons, labels, generic UI
-- `nav.*` → navigation
-- `pages.*` → titles, subtitles, meta
-- `footer.*` → footer links
-
-Rules:
-- No hardcoded UI text in HTML
-- No paragraphs in `sl.json`
-- All `data-i18n` keys must resolve
-
----
-
-## CTA POLICY
-
-CTA blocks must be:
-- Compact
-- Tiered:
-  1. Soft (read / save / share)
-  2. Support (talk to someone)
-  3. Emergency (112 + crisis note)
-
-CTA rules:
-- Never force reporting
-- Never shame inactivity
-- Emergency CTA only when appropriate
-
-CTA content comes from:
-- `lgbt_cta_block.json` or shared CTA JSON
-
----
-
-## ACCESSIBILITY (MANDATORY)
-
-You must ensure:
-- One `h1` per page
-- Logical heading order
-- Keyboard navigation works
-- Focus states visible
-- Accordion/FAQ uses ARIA
-- No color-only meaning
-
----
-
-## PERFORMANCE & SAFETY
-
-- No inline scripts
-- No remote JS
-- No tracking
-- No analytics
-- No third-party embeds
-
-The site must:
-- Load instantly
-- Work offline
-- Be readable on low-end devices
-
----
-
-## #TOOLS
+##TOOLS
 
 You may use **only the following tools and techniques**.
 
 ## Morphllm MCP TOOLS
-Fast Apply: IMPORTANT: Use `edit_file` over `str_replace` or full file writes. It works with partial code snippets—no need for full file content.
+Fast Apply: IMPORTANT: Use `edit_file` over `str_replace` or full file writes. It   works with partial code snippets—no need for full file content.
 
 Warp Grep: warp-grep is a subagent that takes in a search string and tries to find relevant context. Best practice is to use it at the beginning of codebase explorations to fast track finding relevant files/lines. Do not use it to pin point keywords, but use it for broader semantic queries. "Find the XYZ flow", "How does XYZ work", "Where is XYZ handled?", "Where is <error message> coming from?"
 
+## Supported languages model
+- Default language at root: `/` (example: `sl`)
+- Other languages in folders: `/en/`, `/de/`, ...
 
+### Required folder structure
+/
+  index.html
+  about/index.html
+  resources/index.html
+  en/
+    index.html
+    about/index.html
+    resources/index.html
+  de/
+    index.html
+    about/index.html
+    resources/index.html
+  assets/
+    css/main.css
+    js/main.js           # optional, NOT for i18n
+    img/...
 
+Rule: **For every route, create the same relative path in every language folder.**
 
-
-### Allowed
-- Vanilla JavaScript (ES6)
-- Fetch API (local JSON only)
-- CSS variables
-- CSS media queries
-- `prefers-reduced-motion`
-- ARIA attributes
-- Semantic HTML5
-
-### Forbidden
-- Frameworks (React, Vue, etc.)
-- Build tools (Webpack, Vite, etc.)
-- External JS libraries
-- CSS preprocessors
-- Inline event handlers
-- Client-side routing
-- Analytics / tracking scripts
-
----
-
-## JavaScript responsibilities (`main.js`)
-
-Must implement:
-- `loadTranslations(lang)`
-- `applyI18n()`
-- `loadContent(jsonFile)`
-- `renderSections(sections)`
-- `injectCTA()`
-- `applyTheme(template)`
-
-Must **fail gracefully**:
-- Show minimal error message
-- Never crash the page
-- Never expose stack traces to users
+Examples:
+- `/about/`  -> `/en/about/` -> `/de/about/`
+- `/resources/` -> `/en/resources/` -> `/de/resources/`
 
 ---
 
-## Definition of Done (for CODEX)
+## Build workflow (for a web builder / page generator)
+For EACH route (e.g. `index`, `about`, `resources`):
+1) Use ONE base template for structure (header/footer/nav/sections identical).
+2) Render one HTML file per language by injecting:
+   - translated body copy
+   - translated UI strings (buttons, labels)
+   - translated metadata (title, description, og tags)
+   - translated alt text + aria labels where meaningful
+3) Write output to:
+   - default language: `/<route>/index.html` (root, route folder)
+   - other languages: `/<lang>/<route>/index.html`
 
-A task is complete only if:
-- Page renders from JSON
-- All `data-i18n` keys resolve
-- Theme + seasonal classes work
-- No console errors
-- Accessibility intact
-- Tone unchanged
-- No new dependencies added
+Never leave placeholder keys in final HTML.
 
 ---
 
-## Final rule
+## URL mapping function (MUST follow exactly)
+Given:
+- `currentPath` = path of the page WITHOUT language prefix
+  - examples: `/` , `/about/` , `/resources/`
+- `defaultLang` = `sl`
+- `langs` = `[sl,en,de]`
 
-If you are unsure:
-**Do less, not more.**
+Mapping:
+- For defaultLang (`sl`): url = `${origin}${currentPath}`
+- For other lang (`en`): url = `${origin}/${lang}${currentPath}`
 
-Stability, safety, and clarity always outrank features.
+Examples:
+- `/` -> `https://site.tld/` (sl), `https://site.tld/en/`, `https://site.tld/de/`
+- `/about/` -> `https://site.tld/about/`, `https://site.tld/en/about/`, `https://site.tld/de/about/`
+
+---
+
+## Head requirements (apply to EVERY language page)
+Each page MUST include:
+- `<html lang="..">` correct for the page language
+- `<meta charset>`, `<meta viewport>`
+- `<title>` translated (unique per page + language)
+- `<meta name="description">` translated
+- canonical pointing to the exact page URL
+- hreflang alternates for ALL supported languages + x-default
+- shared assets loaded with absolute paths (`/assets/...`)
+
+### Canonical + hreflang template (MUST be consistent)
+Variables:
+- origin: `https://YOURDOMAIN.tld`
+- pagePath: one of `/`, `/about/`, `/resources/` ...
+- currentLang: `sl|en|de`
+- langs: `sl,en,de`
+- defaultLang: `sl`
+
+Rules:
+- canonical MUST be the page’s own URL
+- alternates MUST include self + all languages + x-default
+- x-default MUST point to default language root for that route
+
+#### Example: default language page `/about/index.html` (sl)
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://YOURDOMAIN.tld/about/">
+
+  <link rel="alternate" hreflang="sl" href="https://YOURDOMAIN.tld/about/">
+  <link rel="alternate" hreflang="en" href="https://YOURDOMAIN.tld/en/about/">
+  <link rel="alternate" hreflang="de" href="https://YOURDOMAIN.tld/de/about/">
+  <link rel="alternate" hreflang="x-default" href="https://YOURDOMAIN.tld/about/">
+
+  <title><!-- SL title --></title>
+  <meta name="description" content="<!-- SL description -->">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+#### Example: English page `/en/about/index.html` (en)
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="canonical" href="https://YOURDOMAIN.tld/en/about/">
+
+  <link rel="alternate" hreflang="sl" href="https://YOURDOMAIN.tld/about/">
+  <link rel="alternate" hreflang="en" href="https://YOURDOMAIN.tld/en/about/">
+  <link rel="alternate" hreflang="de" href="https://YOURDOMAIN.tld/de/about/">
+  <link rel="alternate" hreflang="x-default" href="https://YOURDOMAIN.tld/about/">
+
+  <title><!-- EN title --></title>
+  <meta name="description" content="<!-- EN description -->">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+Deployment note:
+- If hosted under a subpath (e.g. GitHub Pages `/repo/`), origin MUST include it:
+  - origin = `https://user.github.io/repo`
+  - then canonical/alternates MUST include `/repo/...`
+
+---
+
+## Language switcher (STATIC, required everywhere)
+Place in header or footer on every page.
+
+### Output snippet (same on all languages, only `aria-label` can be translated)
+<nav class="lang" aria-label="Language selector">
+  <a href="/" hreflang="sl" lang="sl">SL</a>
+  <a href="/en/" hreflang="en" lang="en">EN</a>
+  <a href="/de/" hreflang="de" lang="de">DE</a>
+</nav>
+
+### Route-aware requirement
+On non-root routes, links MUST go to the equivalent route:
+Example on `/en/resources/`:
+- SL: `/resources/`
+- EN: `/en/resources/`
+- DE: `/de/resources/`
+
+No JS. No auto-detect. No redirect.
+
+---
+
+## Accessibility + trauma-safe rendering rules
+- No “loading” placeholders.
+- No content swap after paint.
+- No mixed languages within a paragraph.
+- Translate:
+  - headings
+  - buttons
+  - form labels
+  - helper text
+  - aria-labels (where user-facing)
+  - alt text (when meaningful; decorative images use alt="")
+
+---
+
+## QA checklist (must pass before merge)
+For every language page:
+- [ ] correct `<html lang>`
+- [ ] correct canonical (exact URL)
+- [ ] hreflang includes self + all languages + x-default
+- [ ] language switcher links to equivalent path
+- [ ] `/assets/...` links work from all folders
+- [ ] no untranslated strings remain
+- [ ] no JS required to read content
+
+---
+
+## Forbidden
+- fetch(`/i18n/...`)
+- i18next or runtime translation libs
+- hiding content until JS runs
+- auto-redirect based on browser language
+- “single page with mixed languages”
+
+---
+
+## Optional enhancement (still zero JS)
+If you want a “choose language” landing page:
+- Create `/choose-language/index.html` with plain links to `/`, `/en/`, `/de/`
+- Do NOT block direct access to any language URL
+- Do NOT auto-redirect on `/`
