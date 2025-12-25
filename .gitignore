@@ -1,5 +1,14 @@
 .vscode/*
 *env
 AGENTS.md
-llms.txt
 
+# Agents and Instructions
+
+AGENTS.md
+AGENT.md
+Repository_Guidelines.md
+llms-full.txt
+STYLING.md
+/.IGNORE THIS
+.vscode
+.env
