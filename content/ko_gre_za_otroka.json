@@ -1,7 +1,7 @@
 {
   "page": {
     "id": "ko-gre-za-otroka",
-    "title": "Ko gre za otroka – posebna zaščita in postopki",
+    "title": "Ko gre za otroka - posebna zaščita in postopki",
     "subtitle": "Kaj storiti, ko je žrtev otrok ali ko odrasla oseba razkriva zlorabo iz otroštva",
     "tone": "zelo zaščiten, jasen, umirjen",
     "core_message": "Otrok ni odgovoren za postopek. Odrasli in sistemi so."
@@ -73,7 +73,7 @@
       "zaščita otroka pred neposrednim stikom s storilcem",
       "omejevanje ponovnih zaslišanj"
     ],
-    "important": "Institucije se morajo prilagoditi otroku – ne obratno."
+    "important": "Institucije se morajo prilagoditi otroku - ne obratno."
   },
 
   "if_abuse_is_reported_late": {
@@ -83,7 +83,7 @@
       "spomin se lahko aktivira šele ob varnosti",
       "zamuda ne zmanjšuje resnosti zlorabe"
     ],
-    "important": "Otrok ni imel moči, da bi prej ukrepal – odgovornost je na odraslih."
+    "important": "Otrok ni imel moči, da bi prej ukrepal - odgovornost je na odraslih."
   },
 
   "system_can_harm_children": {
@@ -114,7 +114,7 @@
       "stabilno in varno okolje",
       "psihološka pomoč",
       "jasna sporočila, da ni kriv",
-      "čas – brez pritiskov"
+      "čas - brez pritiskov"
     ],
     "note": "Okrevanje otrok ne poteka po urniku odraslih."
   },

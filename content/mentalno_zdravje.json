@@ -4,7 +4,7 @@
       "order": 1,
       "id": "travmaticni-odziv",
       "type": "foundation",
-      "title": "1. Travmatični odziv – osnova vsega",
+      "title": "1. Travmatični odziv - osnova vsega",
       "definition": "Travmatični odziv je normalen biološki in psihološki odgovor na nenormalno, ogrožajočo situacijo.",
       "core_responses": [
         "boj",
@@ -186,7 +186,7 @@
         "postopna integracija spominov",
         "ponovno zaupanje"
       ],
-      "final_note": "Okrevanje ne pomeni, da se ni dogodilo – pomeni, da te ne obvladuje več.",
+      "final_note": "Okrevanje ne pomeni, da se ni dogodilo - pomeni, da te ne obvladuje več.",
       "extended_points": [
         "ni linearno",
         "vključuje regresije",
@@ -204,13 +204,13 @@
       "message": [
         "To, kar se ti dogaja, ima razlago.",
         "Tvoj odziv je bil pameten odziv na nevarnost.",
-        "Nisi zlomljen/a – bil/a si ranjen/a."
+        "Nisi zlomljen/a - bil/a si ranjen/a."
       ],
       "extended_messages": [
         "Nisi nor/a.",
         "Tvoj odziv je bil način preživetja.",
         "To, kaj se ti dogaja, ima razlago.",
-        "Pomoč ima smisel – tudi pozno."
+        "Pomoč ima smisel - tudi pozno."
       ]
     },
 

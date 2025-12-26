@@ -4,7 +4,7 @@
       "id": "landing-travma-mentalnoZdravje",
       "file": "mentalnoZdravje.html",
       "title": "Travma & duševno zdravje",
-      "subtitle": "Kaj se ti dogaja – in zakaj nisi “pokvarjen/a”",
+      "subtitle": "Kaj se ti dogaja - in zakaj nisi “pokvarjen/a”",
       "intro": [
         "Travma spremeni telo in um.",
         "Odzivi, ki jih doživljaš, so pogosto normalen odziv na nenormalne izkušnje.",
@@ -28,7 +28,7 @@
       "title": "Droge, alkohol & odvisnosti",
       "subtitle": "Zakaj to ni dokaz proti tebi",
       "intro": [
-        "Po travmi ljudje pogosto iščejo olajšanje – v alkoholu, drogah ali drugih vedenjih.",
+        "Po travmi ljudje pogosto iščejo olajšanje - v alkoholu, drogah ali drugih vedenjih.",
         "To ni moralna napaka. Pogosto je poskus preživetja.",
         "Tu razložimo mehanizme in razbijemo diskreditacijo žrtev."
       ],
@@ -53,7 +53,7 @@
       "intro": [
         "Zloraba in travma ne izbirata po identiteti.",
         "Tvoje izkušnje štejejo in tvoje meje štejejo.",
-        "Nisi nič manj vreden/na zaščite – in nisi sam/a."
+        "Nisi nič manj vreden/na zaščite - in nisi sam/a."
       ],
       "featured_links": [
         { "label": "LGBT+ podpora (splošno)", "link": "lgbtPodporaInTravma.html" },
@@ -66,7 +66,7 @@
         { "label": "Izberi stran zase", "link": "lgbtPodporaInTravma.html#mikro" },
         { "label": "Pomoč in organizacije", "link": "pomocInOrganizacije.html" }
       ],
-      "closing": "Nisi sam/a. In ja – res te imamo radi. 💜🌈"
+      "closing": "Nisi sam/a. In ja - res te imamo radi. 💜🌈"
     },
 
     {
@@ -76,17 +76,17 @@
       "subtitle": "Kako pomagati, ne da bi škodovali",
       "intro": [
         "Ko izveš nekaj težkega, je normalno, da si v šoku.",
-        "Otroci ne potrebujejo popolnih staršev – potrebujejo varnost.",
+        "Otroci ne potrebujejo popolnih staršev - potrebujejo varnost.",
         "Tu so mirni, praktični koraki brez panike."
       ],
       "featured_links": [
         { "label": "Za starše LGBT+ mladostnikov", "link": "zaStarselgbtMladostnikov.html" },
         { "label": "Starši v šoku", "link": "zaStarsevSOku.html" },
-        { "label": "Danes – ta teden – kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
+        { "label": "Danes - ta teden - kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
         { "label": "Ko gre za otroka", "link": "koGreZaOtroka.html" }
       ],
       "cta": [
-        { "label": "Sem v šoku – kaj zdaj", "link": "zaStarsevSOku.html" },
+        { "label": "Sem v šoku - kaj zdaj", "link": "zaStarsevSOku.html" },
         { "label": "Koraki po časovnici", "link": "kajStoritiDanesTaTedenKasneje.html" }
       ],
       "closing": "Ni vam treba vsega vedeti. Dovolj je, da ste prisotni."
@@ -96,11 +96,11 @@
       "id": "landing-sistem-pravice",
       "file": "koSistemZataji.html",
       "title": "Sistem & pravice",
-      "subtitle": "Ko institucije odpovejo – in kaj lahko narediš",
+      "subtitle": "Ko institucije odpovejo - in kaj lahko narediš",
       "intro": [
         "Institucije niso vedno prilagojene travmi.",
         "To lahko povzroči dodatno škodo in zastoj postopkov.",
-        "Tu so koraki, možnosti in razlage – brez idealiziranja."
+        "Tu so koraki, možnosti in razlage - brez idealiziranja."
       ],
       "featured_links": [
         { "label": "Ko sistem zataji (pregled)", "link": "koSistemZataji.html" },
@@ -121,7 +121,7 @@
       "id": "landing-pomoc-organizacije",
       "file": "pomocInOrganizacije.html",
       "title": "Pomoč & organizacije",
-      "subtitle": "Kam se lahko obrneš – zdaj ali kasneje",
+      "subtitle": "Kam se lahko obrneš - zdaj ali kasneje",
       "intro": [
         "Pomoč ni ena stvar in ni ena pot.",
         "Lahko začneš z majhnim korakom.",

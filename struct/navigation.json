@@ -53,7 +53,7 @@
         "items": [
           { "label": "Za starše LGBT+ mladostnikov", "link": "zaStarselgbtMladostnikov.html" },
           { "label": "Starši v šoku", "link": "zaStarsevSOku.html" },
-          { "label": "Danes – ta teden – kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
+          { "label": "Danes - ta teden - kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
           { "label": "Ko gre za otroka", "link": "koGreZaOtroka.html" }
         ]
       },

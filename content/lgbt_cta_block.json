@@ -9,7 +9,7 @@
         "actions": [
           {
             "text": "Preberi kratko podporno stran",
-            "description": "Ko nimaš energije za razlage – samo opora.",
+            "description": "Ko nimaš energije za razlage - samo opora.",
             "link": "/podpora/kratko-sporocilo"
           },
           {
@@ -19,7 +19,7 @@
           },
           {
             "text": "Deli z varno osebo",
-            "description": "Ni ti treba razlagati – lahko samo pošlješ povezavo."
+            "description": "Ni ti treba razlagati - lahko samo pošlješ povezavo."
           }
         ]
       },
@@ -76,7 +76,7 @@
           {
             "text": "Krizna linija",
             "description": "Če imaš misli o samopoškodovanju ali samomoru.",
-            "note": "Pomoč je na voljo – tudi anonimno."
+            "note": "Pomoč je na voljo - tudi anonimno."
           }
         ],
         "important": "Iskanje pomoči ni šibkost. Je skrb zase."
@@ -86,7 +86,7 @@
     "closing_message": [
       "Ni ti treba narediti vsega danes.",
       "Dovolj je en varen korak.",
-      "Radi te imamo – res. 💜🌈"
+      "Radi te imamo - res. 💜🌈"
     ]
   }
 }
