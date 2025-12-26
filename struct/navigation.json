@@ -74,8 +74,8 @@
         "title": "Pomoč & organizacije",
         "items": [
           { "label": "Pomoč in organizacije (pregled)", "link": "pomocInOrganizacije.html" },
-          { "label": "SLO nevladne organizacije", "link": "sloNevladneOrganizacije.html" },
-          { "label": "SLO vladne organizacije", "link": "sloVladneOrganizacije.html" },
+          { "label": "SLO nevladne organizacije", "link": "nevladneOrganizacije.html" },
+          { "label": "SLO vladne organizacije", "link": "vladneOrganizacije.html" },
           { "label": "Digitalna varnost", "link": "digitalnaVarnost.html" }
         ]
       }
@@ -130,8 +130,8 @@
     ],
     "pomoc_in_organizacije": [
       "pomocInOrganizacije.html",
-      "sloNevladneOrganizacije.html",
-      "sloVladneOrganizacije.html",
+      "nevladneOrganizacije.html",
+      "vladneOrganizacije.html",
       "digitalnaVarnost.html"
     ],
     "index": [
