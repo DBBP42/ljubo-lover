@@ -427,7 +427,8 @@ p {
 
 .principle-item,
 .truth-item {
-  padding: 1.5rem;
+  padding: 1rem;
+  margin: 0.2rem;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--stroke);
   border-radius: 16px;
@@ -452,7 +453,7 @@ p {
 
 .principle-item p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .truth-item {
