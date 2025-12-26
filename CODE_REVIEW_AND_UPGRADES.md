@@ -92,14 +92,6 @@ The Ljubo-Lover project is a well-built, trauma-informed educational website wit
    - Limited inter-page linking (most pages only link to index)
    - No previous/next navigation for sequential content
 
-4. **Missing Content Pages**
-   - `prekinimoZlorabeOtrok.html` - Referenced but doesn't exist
-   - `sloNevladneOrganizacije.html` - Referenced but doesn't exist
-
-5. **Inconsistent Internal Links**
-   - Some pages use relative paths: `href="index.html"`
-   - Some use absolute: `href="/"`
-   - `index.html` was using absolute paths (NOW FIXED ✅)
 
 **Recommendation Score for HTML: 8/10**
 
