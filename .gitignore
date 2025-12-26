@@ -12,3 +12,4 @@ STYLING.md
 /.IGNORE THIS
 .vscode
 .env
+*.md
