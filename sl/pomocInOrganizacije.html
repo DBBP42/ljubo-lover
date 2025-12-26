@@ -14,8 +14,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../main.css">
+
+  <meta property="og:title" content="Pomoč in organizacije v Sloveniji – Ljubo-Lover.com">
+  <meta property="og:description" content="Seznam nevladnih in vladnih organizacij v Sloveniji, ki nudijo pomoč žrtvam nasilja, LGBT+ osebam in podporo pri duševnem zdravju.">
+  <meta property="og:image" content="https://ljubo-lover.com/og-image.jpg">
+  <meta property="og:url" content="https://ljubo-lover.com/sl/pomocInOrganizacije.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sl_SI">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pomoč in organizacije v Sloveniji – Ljubo-Lover.com">
+  <meta name="twitter:description" content="Seznam nevladnih in vladnih organizacij v Sloveniji, ki nudijo pomoč žrtvam nasilja, LGBT+ osebam in podporo pri duševnem zdravju.">
+  <meta name="twitter:image" content="https://ljubo-lover.com/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Domov",
+      "item": "https://ljubo-lover.com/sl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Pomo\u010d in organizacije v Sloveniji",
+      "item": "https://ljubo-lover.com/sl/pomocInOrganizacije.html"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skoči na glavno vsebino</a>
   <header class="topbar">
     <div class="topbar-inner">
       <a href="index.html" class="brand">
@@ -52,7 +85,13 @@
     </div>
   </nav>
 
-  <main class="page">
+  <main class="page" id="main-content">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="./index.html">Domov</a></li>
+        <li aria-current="page">Pomoč in organizacije</li>
+      </ol>
+    </nav>
     <section class="hero section" id="hero">
       <div class="hero-card">
         <div class="eyebrow">Pomoč & organizacije</div>
@@ -62,19 +101,19 @@
     </section>
 
     <section class="section" id="landing-nav">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Vsebina</div>
         <div class="grid">
-          <a href="pomocInOrganizacije.html" class="path-card" style="text-decoration: none; color: inherit;">
+          <a href="pomocInOrganizacije.html" class="path-card link-reset">
             <h3>Pomoč in organizacije (pregled)</h3>
           </a>
-          <a href="sloNevladneOrganizacije.html" class="path-card" style="text-decoration: none; color: inherit;">
+          <a href="sloNevladneOrganizacije.html" class="path-card link-reset">
             <h3>SLO nevladne organizacije</h3>
           </a>
-          <a href="sloVladneOrganizacije.html" class="path-card" style="text-decoration: none; color: inherit;">
+          <a href="sloVladneOrganizacije.html" class="path-card link-reset">
             <h3>SLO vladne organizacije</h3>
           </a>
-          <a href="digitalnaVarnost.html" class="path-card" style="text-decoration: none; color: inherit;">
+          <a href="digitalnaVarnost.html" class="path-card link-reset">
             <h3>Digitalna varnost</h3>
           </a>
         </div>
@@ -82,21 +121,21 @@
     </section>
 
     <section class="section" id="nujno">
-      <div class="section-card" style="border-left: 4px solid var(--accent-color);">
+      <div class="card section border-l-accent">
         <div class="eyebrow">Nujni primeri</div>
         <h2>Takojšnja pomoč</h2>
         <div class="grid">
           <div class="path-card">
             <h3>Policija</h3>
-            <p style="font-size: 1.5rem; font-weight: bold; color: var(--accent-color);">113</p>
+            <p class="text-xl font-bold text-accent">113</p>
           </div>
           <div class="path-card">
             <h3>Reševalci / Gasilci</h3>
-            <p style="font-size: 1.5rem; font-weight: bold; color: var(--accent-color);">112</p>
+            <p class="text-xl font-bold text-accent">112</p>
           </div>
           <div class="path-card">
             <h3>SOS Telefon</h3>
-            <p style="font-size: 1.5rem; font-weight: bold; color: var(--accent-color);">080 11 55</p>
+            <p class="text-xl font-bold text-accent">080 11 55</p>
             <p>Za ženske in otroke – žrtve nasilja (24/7).</p>
           </div>
         </div>
@@ -104,7 +143,7 @@
     </section>
 
     <section class="section" id="lgbt">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">LGBT+ skupnost</div>
         <h2>LGBT+ podpora in svetovanje</h2>
         <div class="grid">
@@ -137,7 +176,7 @@
     </section>
 
     <section class="section" id="nasilje">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Specializirana pomoč</div>
         <h2>Spolne zlorabe in nasilje</h2>
         <div class="grid">
@@ -170,7 +209,7 @@
     </section>
 
     <section class="section" id="dusevno">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Duševno zdravje</div>
         <h2>Duševno zdravje in rehabilitacija</h2>
         <div class="grid">
@@ -197,7 +236,7 @@
     </section>
 
     <section class="section" id="vladne">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Institucije</div>
         <h2>Državni organi in javne službe</h2>
         <div class="grid">
@@ -222,9 +261,9 @@
     </section>
 
     <section class="section closing-section">
-      <div class="section-card closing-card">
+      <div class="card section closing-card">
         <h2>Ni ti treba narediti vsega. En varen korak je dovolj.</h2>
-        <div class="cta-row" style="margin-top: 2rem;">
+        <div class="cta-row mt-8">
           <a class="btn primary" href="pomocInOrganizacije.html#nujno">Najdi pomoč zdaj</a>
           <a class="btn ghost" href="digitalnaVarnost.html">Digitalna varnost</a>
         </div>

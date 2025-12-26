@@ -14,8 +14,44 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../main.css">
+
+  <meta property="og:title" content="Ljubo-Lover – Truth, Safety, and Recovery">
+  <meta property="og:description" content="Ljubo-Lover is an informative and safe space for understanding sexual offenses, trauma, and exploitation.">
+  <meta property="og:image" content="https://ljubo-lover.com/og-image.jpg">
+  <meta property="og:url" content="https://ljubo-lover.com/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ljubo-Lover – Truth, Safety, and Recovery">
+  <meta name="twitter:description" content="Ljubo-Lover is an informative and safe space for understanding sexual offenses, trauma, and exploitation.">
+  <meta name="twitter:image" content="https://ljubo-lover.com/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Ljubo-Lover",
+  "description": "Ljubo-Lover is an informative and safe space for understanding sexual offenses, trauma, and exploitation.",
+  "url": "https://ljubo-lover.com/en/",
+  "logo": "https://ljubo-lover.com/logo.svg",
+  "sameAs": [
+    "https://twitter.com/ljubolover"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Support",
+    "telephone": "+386-80-120-0",
+    "availableLanguage": [
+      "sl",
+      "en",
+      "de"
+    ]
+  }
+}
+  </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="topbar">
     <div class="topbar-inner">
       <a href="index.html" class="brand">
@@ -31,7 +67,7 @@
         <a href="index.html">Home</a>
         <a href="#about">About</a>
         <a href="#help">Help</a>
-        <nav class="lang" aria-label="Language selector" style="display: inline-block; margin-left: 1rem;">
+        <nav class="lang" aria-label="Language selector" class="lang-nav">
             <a href="../sl/index.html" hreflang="sl" lang="sl">SL</a>
             <a href="./index.html" hreflang="en" lang="en">EN</a>
             <a href="../de/index.html" hreflang="de" lang="de">DE</a>
@@ -50,7 +86,7 @@
     </div>
   </nav>
 
-  <main class="page">
+  <main class="page" id="main-content">
     <section class="hero section" id="hero">
       <div class="hero-card">
         <div class="eyebrow">Ljubo-Lover</div>
@@ -63,20 +99,20 @@
           <span class="chip">safety</span>
         </div>
       </div>
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Our Values</div>
         <div class="principles-list">
-            <div class="principle-item"><p>respect for dignity</p></div>
-            <div class="principle-item"><p>believing survivors</p></div>
-            <div class="principle-item"><p>zero tolerance for violence</p></div>
-            <div class="principle-item"><p>support for LGBT+ and minorities</p></div>
-            <div class="principle-item"><p>harm-reduction approach</p></div>
+            <div class="card principle"><p>respect for dignity</p></div>
+            <div class="card principle"><p>believing survivors</p></div>
+            <div class="card principle"><p>zero tolerance for violence</p></div>
+            <div class="card principle"><p>support for LGBT+ and minorities</p></div>
+            <div class="card principle"><p>harm-reduction approach</p></div>
         </div>
       </div>
     </section>
 
     <section class="section" id="about">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">About Us</div>
         <h2>Why this project exists</h2>
         <p>Sexual violence and exploitation often remain invisible, especially when the victims are men or LGBT+ individuals.</p>
@@ -86,7 +122,7 @@
     </section>
 
     <section class="section" id="recognize">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Education</div>
         <h2>How to recognize abuse</h2>
         <div class="grid">
@@ -111,7 +147,7 @@
     </section>
 
     <section class="section" id="content">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Content</div>
         <h2>Explore Topics</h2>
         
@@ -173,7 +209,7 @@
     </section>
 
     <section class="section" id="chemsex">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Risks</div>
         <h2>Chemsex – risks and reality</h2>
         <p>Chemsex involves using substances to enhance or facilitate sexual activity. While it can be a choice, it is often used as a tool for exploitation.</p>
@@ -184,7 +220,7 @@
     </section>
 
     <section class="section" id="trauma">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Recovery</div>
         <h2>Understanding Trauma</h2>
         <p>Trauma is not just a memory; it is a physical and psychological response to overwhelming events. Your body's reaction (freeze, fawn, etc.) was a survival mechanism.</p>
@@ -195,7 +231,7 @@
     </section>
 
     <section class="section" id="help">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Contact</div>
         <h2>Where to find help</h2>
         <p>If you are in immediate danger, call <strong>112</strong> (Emergency Services).</p>
@@ -209,7 +245,7 @@
                 <p>If you are in Slovenia, see our full list of organizations.</p>
             </article>
         </div>
-        <div class="cta-row" style="margin-top: 2rem;">
+        <div class="cta-row mt-8">
           <a href="slowenischeNichtregierungsorganizacije.html" class="btn primary">Full list of organizations</a>
         </div>
       </div>

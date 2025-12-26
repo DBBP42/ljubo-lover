@@ -14,8 +14,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../main.css">
+
+  <meta property="og:title" content="Über Ljubo-Lover – Ljubo-Lover.com">
+  <meta property="og:description" content="Erfahren Sie mehr über das Projekt Ljubo-Lover, unsere Mission und unsere Werte im Kampf gegen sexualisierte Gewalt und Ausbeutung.">
+  <meta property="og:image" content="https://ljubo-lover.com/og-image.jpg">
+  <meta property="og:url" content="https://ljubo-lover.com/de/ljuboLover.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Über Ljubo-Lover – Ljubo-Lover.com">
+  <meta name="twitter:description" content="Erfahren Sie mehr über das Projekt Ljubo-Lover, unsere Mission und unsere Werte im Kampf gegen sexualisierte Gewalt und Ausbeutung.">
+  <meta name="twitter:image" content="https://ljubo-lover.com/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://ljubo-lover.com/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "\u00dcber Ljubo-Lover",
+      "item": "https://ljubo-lover.com/de/ljuboLover.html"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
   <header class="topbar">
     <div class="topbar-inner">
       <a href="index.html" class="brand">
@@ -25,7 +58,7 @@
       <nav class="secondary-nav" aria-label="Sekundäre Navigation">
         <a href="index.html">Startseite</a>
         <a href="/de/#hilfe">Hilfe</a>
-        <nav class="lang" aria-label="Sprachauswahl" style="display: inline-block; margin-left: 1rem;">
+        <nav class="lang" aria-label="Sprachauswahl" class="lang-nav">
             <a href="/ljubo-lover/" hreflang="sl" lang="sl">SL</a>
             <a href="/en/about-ljubo-lover/" hreflang="en" lang="en">EN</a>
             <a href="/de/ueber-ljubo-lover/" hreflang="de" lang="de">DE</a>
@@ -34,7 +67,13 @@
     </div>
   </header>
 
-  <main class="page">
+  <main class="page" id="main-content">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="./index.html">Startseite</a></li>
+        <li aria-current="page">Über Ljubo-Lover</li>
+      </ol>
+    </nav>
     <section class="hero section" id="hero">
       <div class="hero-card">
         <div class="eyebrow">Unsere Mission</div>
@@ -44,7 +83,7 @@
     </section>
 
     <section class="section">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Was wir tun</div>
         <h2>Aufklärung & Unterstützung</h2>
         <p>Unser Ziel ist es, Tabus zu brechen und Wissen zugänglich zu machen, das oft hinter Scham und Schweigen verborgen bleibt.</p>
@@ -70,7 +109,7 @@
     </section>
 
     <section class="section">
-      <div class="section-card">
+      <div class="card section">
         <div class="eyebrow">Unsere Werte</div>
         <h2>Wofür wir stehen</h2>
         <ul class="principles-list">
@@ -83,10 +122,10 @@
     </section>
 
     <section class="section closing-section">
-      <div class="section-card closing-card">
+      <div class="card section closing-card">
         <h2>Gemeinsam gegen das Schweigen</h2>
         <p>Ljubo-Lover ist mehr als nur eine Website – es ist ein Versprechen, dass niemand mit seinem Trauma allein gelassen werden sollte. Danke, dass du hier bist.</p>
-        <div class="cta-row" style="margin-top: 2rem;">
+        <div class="cta-row mt-8">
           <a class="btn primary" href="/de/">Zurück zur Startseite</a>
           <a class="btn ghost" href="/de/wasHeuteTun.html">Was heute tun?</a>
         </div>
