@@ -10,4 +10,23 @@ document.addEventListener('DOMContentLoaded', () => {
       navToggle.classList.toggle('open');
     });
   }
+
+  // Touch support for cards
+  const cards = document.querySelectorAll('.card, .path-card');
+  
+  cards.forEach(card => {
+    card.addEventListener('touchstart', () => {
+      card.classList.add('touch-active');
+    }, { passive: true });
+    
+    card.addEventListener('touchend', () => {
+      setTimeout(() => {
+        card.classList.remove('touch-active');
+      }, 150);
+    });
+    
+    card.addEventListener('touchcancel', () => {
+      card.classList.remove('touch-active');
+    });
+  });
 });

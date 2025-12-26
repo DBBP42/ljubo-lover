@@ -420,7 +420,8 @@ p {
 }
 
 .card:hover,
-.card:active {
+.card:active,
+.card.touch-active {
   transform: translateY(-8px);
   background: var(--card-hover);
   border-color: var(--accent-glow);
@@ -442,8 +443,9 @@ p {
 }
 
 .card.principle:hover,
-.card.principle:active {
-  z-index: 100;
+.card.principle:active,
+.card.principle.touch-active {
+  z-index: 50;
 }
 
 .card.principle strong {
@@ -489,7 +491,8 @@ p {
 
 .path-card:hover,
 .path-card:active,
-.path-card:focus-within {
+.path-card:focus-within,
+.path-card.touch-active {
   border-color: var(--accent-glow);
   box-shadow: 0 0 20px var(--accent-glow);
 }
