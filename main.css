@@ -418,8 +418,8 @@ p {
 .card:hover {
   transform: translateY(-8px);
   background: var(--card-hover);
-  border-color: var(--accent);
-  box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.5);
+  border-color: var(--accent-glow);
+  box-shadow: 0 0 20px var(--accent-glow);
 }
 
 .card.section {
@@ -432,6 +432,12 @@ p {
   flex-direction: column;
   background: rgba(255, 255, 255, 0.03); /* Keep original bg */
   border-radius: 16px;
+  margin: 0.2rem;
+  position: relative;
+}
+
+.card.principle:hover {
+  z-index: 50;
 }
 
 .card.principle strong {
@@ -461,8 +467,48 @@ p {
 }
 
 .card h3 {
-  margin: 0 0 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
   font-size: 1.5rem;
+  color: var(--text);
+}
+
+.path-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--stroke);
+  border-radius: 16px;
+  padding: 24px;
+  transition: border-color 0.2s ease;
+}
+
+.path-card:hover {
+  border-color: var(--stroke-bright);
+}
+
+.path-card h3 {
+  color: var(--accent);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.path-card ul li {
+  margin-bottom: 0.8rem;
+}
+
+.path-card a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.path-card a:hover,
+.path-card a:focus-visible {
+  color: var(--text);
+  text-shadow: 0 0 8px var(--accent-glow);
+  transform: translateX(4px);
+  outline: none;
 }
 
 .chip {
