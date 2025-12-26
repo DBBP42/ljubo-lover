@@ -155,6 +155,38 @@ p {
   color: var(--text);
 }
 
+/* Active state for navigation */
+.secondary-nav a.nav-active,
+.nav-inner a.nav-active {
+  color: var(--accent);
+  position: relative;
+}
+
+.nav-inner a.nav-active::after {
+  transform: scaleX(1);
+}
+
+/* Mobile Menu Toggle (Checkbox Hack) */
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+}
+
+.hamburger-line {
+  display: block;
+  width: 24px;
+  height: 2px;
+  margin: 5px 0;
+  background-color: var(--text);
+  transition: all 0.3s ease;
+}
+
 .cta-button {
   background: var(--accent);
   color: white !important;
@@ -651,21 +683,69 @@ footer {
   }
 
   .topbar {
-    position: relative;
-    padding: 0 20px;
-    flex-direction: column;
-    height: auto;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    position: sticky;
+    padding: 12px 20px;
+    flex-direction: row;
+    height: 70px;
+    overflow: visible;
+  }
+
+  .topbar-inner {
+    justify-content: space-between;
+  }
+
+  .nav-toggle-label {
+    display: block;
   }
 
   .secondary-nav {
-    margin-top: 12px;
-    gap: 20px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: var(--bg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    gap: 24px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out, visibility 0.3s;
+    border-top: 1px solid var(--stroke);
+    overflow-y: auto;
+    margin-top: 0;
+    z-index: 2000;
+    visibility: hidden;
+  }
+
+  #nav-toggle:checked ~ .secondary-nav {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  
+  /* Animate hamburger to X */
+  #nav-toggle:checked ~ .nav-toggle-label .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  #nav-toggle:checked ~ .nav-toggle-label .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #nav-toggle:checked ~ .nav-toggle-label .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .lang-selector {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    margin-top: 20px;
   }
 
   .primary-nav {
-    top: 0;
+    top: 70px;
     mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 12px), transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 12px), transparent);
   }
