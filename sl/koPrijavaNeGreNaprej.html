@@ -6,7 +6,10 @@
   <title>Kaj storiti, ko prijava ne gre naprej – Ljubo-Lover.com</title>
   <meta name="description" content="Praktična navodila in koraki za žrtve, ko policija ali sodišče ne ukrepata. Informacije o pritožbah, višjih sodiščih in varstvu vaših pravic.">
   <meta name="keywords" content="prijava, policija, sodišče, zahteva, pravna sredstva, žrtve nasilja">
-  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../main.css">
 </head>
 <body>
   <header class="topbar">
@@ -15,12 +18,11 @@
         <span class="brand-dot"></span>
         Ljubo-Lover<span class="brand-fade">.com</span>
       </a>
-      <input type="checkbox" id="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label">
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
-      </label>
+      </button>
       <nav class="secondary-nav" aria-label="Glavna navigacija">
         <a href="mentalnoZdravje.html">Travma</a>
         <a href="travmeOdvisnostiDiskreditacije.html">Odvisnosti</a>
@@ -29,9 +31,9 @@
         <a href="koSistemZataji.html" class="nav-active">Sistem</a>
         <a href="pomocInOrganizacije.html" class="cta-button">Pomoč</a>
         <div class="lang-selector" aria-label="Izbira jezika">
-          <a href="#" class="active">SL</a>
-          <a href="#">EN</a>
-          <a href="#">DE</a>
+          <a href="./index.html" class="active">SL</a>
+          <a href="../en/index.html">EN</a>
+          <a href="../de/index.html">DE</a>
         </div>
       </nav>
     </div>
@@ -358,5 +360,6 @@
   </footer>
 
   <script src="main.js"></script>
+<script src="../assets/js/main.js"></script>
 </body>
 </html>
