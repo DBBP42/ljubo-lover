@@ -159,19 +159,28 @@ p {
   position: sticky;
   top: 70px;
   z-index: 999;
-  background: rgba(5, 8, 15, 0.6);
+  background: rgba(5, 8, 15, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--stroke);
   padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 20px, black calc(100% - 20px), transparent);
+}
+
+.primary-nav::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-inner {
-  max-width: 1200px;
+  width: fit-content;
   margin: 0 auto;
   padding: 0 40px;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
@@ -183,6 +192,8 @@ p {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-inner a:hover {
@@ -604,6 +615,7 @@ footer {
   }
 
   .topbar {
+    position: relative;
     padding: 0 20px;
     flex-direction: column;
     height: auto;
@@ -618,12 +630,12 @@ footer {
 
   .primary-nav {
     top: 0;
-    overflow-x: auto;
+    mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 12px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 12px, black calc(100% - 12px), transparent);
   }
 
   .nav-inner {
     padding: 0 20px;
-    justify-content: flex-start;
     gap: 24px;
   }
 
