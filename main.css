@@ -229,7 +229,8 @@ p {
   color: var(--muted);
 }
 
-.secondary-nav a:hover {
+.secondary-nav a:hover,
+.secondary-nav a:active {
   color: var(--text);
 }
 
@@ -278,7 +279,8 @@ p {
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.cta-button:hover {
+.cta-button:hover,
+.cta-button:active {
   background: #e55a1b;
   transform: translateY(-1px);
 }
@@ -345,7 +347,8 @@ p {
   flex-shrink: 0;
 }
 
-.nav-inner a:hover {
+.nav-inner a:hover,
+.nav-inner a:active {
   color: var(--accent);
 }
 
@@ -361,7 +364,8 @@ p {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-inner a:hover::after {
+.nav-inner a:hover::after,
+.nav-inner a:active::after {
   transform: scaleX(1);
 }
 
@@ -415,7 +419,8 @@ p {
   transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.card:hover {
+.card:hover,
+.card:active {
   transform: translateY(-8px);
   background: var(--card-hover);
   border-color: var(--accent-glow);
@@ -436,7 +441,8 @@ p {
   position: relative;
 }
 
-.card.principle:hover {
+.card.principle:hover,
+.card.principle:active {
   z-index: 50;
 }
 
@@ -481,7 +487,8 @@ p {
   transition: border-color 0.2s ease;
 }
 
-.path-card:hover {
+.path-card:hover,
+.path-card:active {
   border-color: var(--stroke-bright);
 }
 
@@ -504,7 +511,8 @@ p {
 }
 
 .path-card a:hover,
-.path-card a:focus-visible {
+.path-card a:focus-visible,
+.path-card a:active {
   color: var(--text);
   text-shadow: 0 0 8px var(--accent-glow);
   transform: translateX(4px);
