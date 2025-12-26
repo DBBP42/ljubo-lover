@@ -432,18 +432,18 @@ p {
 }
 
 .card.principle {
-  padding: 1.5rem;
+  padding: 1.3rem;
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.03); /* Keep original bg */
   border-radius: 16px;
-  margin: 0.2rem;
+  margin: 0.3rem;
   position: relative;
 }
 
 .card.principle:hover,
 .card.principle:active {
-  z-index: 50;
+  z-index: 100;
 }
 
 .card.principle strong {
@@ -484,12 +484,14 @@ p {
   border: 1px solid var(--stroke);
   border-radius: 16px;
   padding: 24px;
-  transition: border-color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .path-card:hover,
-.path-card:active {
-  border-color: var(--stroke-bright);
+.path-card:active,
+.path-card:focus-within {
+  border-color: var(--accent-glow);
+  box-shadow: 0 0 20px var(--accent-glow);
 }
 
 .path-card h3 {
