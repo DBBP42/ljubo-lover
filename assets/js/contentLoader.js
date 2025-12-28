@@ -28,7 +28,32 @@ const pageMapping = {
   'chemsexBotschaftFuerOpfer.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
   'pomocInOrganizacije.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
   'slovenianNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
-  'slowenischeNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' }
+  'slowenischeNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
+  
+  // Trauma
+  'mentalnoZdravje.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
+  'mentalHealth.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
+  'mentaleGesundheit.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
+
+  // Addiction
+  'travmeOdvisnostiDiskreditacije.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
+  'traumaAddictionDiscredit.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
+  'traumaSuchtDiskreditierung.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
+
+  // LGBT+
+  'lgbtPodporaInTravma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
+  'lgbtSupportAndTrauma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
+  'lgbtUnterstuetzungUndTrauma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
+
+  // Parents
+  'zaStarselgbtMladostnikov.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
+  'forParentsOfLgbtYouth.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
+  'fuerElternVonLgbtJugendlichen.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
+
+  // System
+  'koSistemZataji.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
+  'whenTheSystemFails.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
+  'wennDasSystemVersagt.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' }
 };
 
 function renderNavigation(data, lang) {

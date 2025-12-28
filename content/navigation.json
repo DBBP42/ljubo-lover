@@ -1,0 +1,41 @@
+{
+  "sl": {
+    "topbar": [
+      { "label": "Travma", "url": "mentalnoZdravje.html" },
+      { "label": "Odvisnost", "url": "travmeOdvisnostiDiskreditacije.html" },
+      { "label": "LGBT+", "url": "lgbtPodporaInTravma.html" },
+      { "label": "Starši", "url": "zaStarselgbtMladostnikov.html" },
+      { "label": "Sistem", "url": "koSistemZataji.html" }
+    ],
+    "cta": {
+      "label": "Pomoč",
+      "url": "pomocInOrganizacije.html"
+    }
+  },
+  "en": {
+    "topbar": [
+      { "label": "Trauma", "url": "mentalHealth.html" },
+      { "label": "Addiction", "url": "traumaAddictionDiscredit.html" },
+      { "label": "LGBT+", "url": "lgbtSupportAndTrauma.html" },
+      { "label": "Parents", "url": "forParentsOfLgbtYouth.html" },
+      { "label": "System", "url": "whenTheSystemFails.html" }
+    ],
+    "cta": {
+      "label": "Help",
+      "url": "slovenianNGOs.html"
+    }
+  },
+  "de": {
+    "topbar": [
+      { "label": "Trauma", "url": "mentaleGesundheit.html" },
+      { "label": "Sucht", "url": "traumaSuchtDiskreditierung.html" },
+      { "label": "LGBT+", "url": "lgbtUnterstuetzungUndTrauma.html" },
+      { "label": "Eltern", "url": "fuerElternVonLgbtJugendlichen.html" },
+      { "label": "System", "url": "wennDasSystemVersagt.html" }
+    ],
+    "cta": {
+      "label": "Hilfe",
+      "url": "slowenischeNGOs.html"
+    }
+  }
+}
