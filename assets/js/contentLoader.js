@@ -134,7 +134,36 @@ const pageMapping = {
   // Digital Safety
   'digitalnaVarnost.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' },
   'digitalSafety.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' },
-  'digitaleSicherheit.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' }
+  'digitaleSicherheit.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' },
+
+  // About
+  'ljuboLover.html': { sl: 'ljuboLover.html', en: 'aboutLjuboLover.html', de: 'ljuboLover.html' },
+  'aboutLjuboLover.html': { sl: 'ljuboLover.html', en: 'aboutLjuboLover.html', de: 'ljuboLover.html' },
+
+  // Chemsex
+  'kemseksInDiskreditacija.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+  'chemsexAndDiscreditation.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+  'chemsexUndDiskreditierung.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+
+  'kemseksNiSoglasje.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+  'chemsexNotSolace.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+  'chemsexKeineEinsamkeit.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+
+  // Parents
+  'zaStarseVSoku.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+  'forParentsInShock.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+  'fuerElternImSchock.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+
+  'koGreZaOtroka.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+  'whenItInvolvesAChild.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+  'wennEsUmEinKindGeht.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+
+  'zakajOtrociMolcijo.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+  'whyChildrenStaySilent.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+  'warumKinderSchweigen.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+
+  'kajStoritiDanesTaTedenKasneje.html': { sl: 'kajStoritiDanesTaTedenKasneje.html', en: 'index.html', de: 'wasHeuteTun.html' },
+  'wasHeuteTun.html': { sl: 'kajStoritiDanesTaTedenKasneje.html', en: 'index.html', de: 'wasHeuteTun.html' }
 };
 
 function renderNavigation(data, lang) {
