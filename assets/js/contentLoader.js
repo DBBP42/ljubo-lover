@@ -50,6 +50,11 @@ const pageMapping = {
   'forParentsOfLgbtYouth.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
   'fuerElternVonLgbtJugendlichen.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
 
+  // Prevention
+  'prekinimoZlorabeOtrok.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
+  'stopChildAbuse.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
+  'missbrauchVonKindernBeenden.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
+
   // System
   'koSistemZataji.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
   'whenTheSystemFails.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
