@@ -192,11 +192,20 @@ function renderNavigation(data, lang) {
 }
 
 function renderLanguageSelector(lang) {
-  // Check if selector exists in body
-  let langContainer = document.querySelector('body > .lang-selector');
+  // Reuse an existing selector if present; otherwise create one.
+  // Also remove any duplicates and ensure it's a direct child of <body>.
+  const existingSelectors = Array.from(document.querySelectorAll('.lang-selector'));
+  let langContainer = existingSelectors[0] || null;
+
+  // Remove duplicates (keep first).
+  existingSelectors.slice(1).forEach(el => el.remove());
+
   if (!langContainer) {
     langContainer = document.createElement('div');
     langContainer.className = 'lang-selector';
+  }
+
+  if (langContainer.parentElement !== document.body) {
     document.body.appendChild(langContainer);
   }
 
@@ -209,20 +218,24 @@ function renderLanguageSelector(lang) {
   
   langContainer.setAttribute('aria-label', langLabels[lang] || 'Language selector');
   
+  const currentFile = window.location.pathname.split('/').pop() || 'index.html';
   let html = '';
-  langs.forEach(l => {
-    if (l === lang) return;
 
-    let href = `../${l}/index.html`;
-    
-    // Try to find mapped page
-    const currentFile = window.location.pathname.split('/').pop() || 'index.html';
-    if (pageMapping[currentFile] && pageMapping[currentFile][l]) {
-       const targetFile = pageMapping[currentFile][l];
-       href = `../${l}/${targetFile}`;
+  langs.forEach(l => {
+    let href;
+    if (l === lang) {
+      href = `./${currentFile}`;
+    } else {
+      href = `../${l}/index.html`;
+      if (pageMapping[currentFile] && pageMapping[currentFile][l]) {
+        const targetFile = pageMapping[currentFile][l];
+        href = `../${l}/${targetFile}`;
+      }
     }
 
-    html += `<a href="${href}">${l.toUpperCase()}</a>`;
+    const ariaCurrent = l === lang ? ' aria-current="page"' : '';
+    const activeClass = l === lang ? ' class="active"' : '';
+    html += `<a href="${href}"${activeClass}${ariaCurrent}>${l.toUpperCase()}</a>`;
   });
   
   langContainer.innerHTML = html;

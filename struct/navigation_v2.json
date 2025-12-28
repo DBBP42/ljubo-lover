@@ -19,7 +19,7 @@
           "id": "substance",
           "label": "Substance, zasvojenost & chemsex",
           "link": "travmeOdvisnostiDiskreditacije.html",
-          "description": "Tveganja, škodna redukcija, soglasje, diskreditacija."
+          "description": "Tveganja, zmanjševanje škode, soglasje, diskreditacija."
         },
         {
           "id": "lgbt",
@@ -63,11 +63,11 @@
           { "label": "Ko sistem dodatno travmatizira", "link": "koSistemTravmatizira.html" },
           { "label": "Evropska pot", "link": "evropskaPot.html" },
           { "label": "Ali se ustaviti ali nadaljevati?", "link": "seUstavitiAliNadaljevati.html" },
-          { "label": "Za sodnike / policijo / tožilstvo", "link": "sodnikiPolicijaTozilstvo.html" }
+          { "label": "Za sodnike, policijo in tožilstvo", "link": "sodnikiPolicijaTozilstvo.html" }
         ],
         "future_slots": [
           { "label": "Predloge dopisov", "slug": "predlogeDopisov.html" },
-          { "label": "Roki in pravna sredstva (cheat sheet)", "slug": "rokiPravnaSredstva.html" }
+          { "label": "Roki in pravna sredstva (hiter pregled)", "slug": "rokiPravnaSredstva.html" }
         ]
       },
 
@@ -80,7 +80,7 @@
           { "label": "Zakaj otroci molčijo", "link": "zakajOtrociMolcijo.html" }
         ],
         "future_slots": [
-          { "label": "Grounding in varni koraki", "slug": "groundingInVarnost.html" },
+          { "label": "Ozemljitev (grounding) in varni koraki", "slug": "groundingInVarnost.html" },
           { "label": "Spanje, telo, sprožilci", "slug": "teloInSprozilci.html" }
         ]
       },
@@ -95,7 +95,7 @@
           { "label": "Sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
         ],
         "future_slots": [
-          { "label": "Date-rape droge: znaki in ukrepanje", "slug": "daterapeDroge.html" },
+          { "label": "Droge za posilstvo na zmenku: znaki in ukrepanje", "slug": "daterapeDroge.html" },
           { "label": "Grooming: kako prepoznati in se zaščititi", "slug": "grooming.html" }
         ]
       },
@@ -111,7 +111,7 @@
           { "label": "Za nebinarne / kvir", "link": "nebinarniInKvir.html" }
         ],
         "future_slots": [
-          { "label": "Coming out in varnost", "slug": "comingOutVarnost.html" },
+          { "label": "Razkritje (coming out) in varnost", "slug": "comingOutVarnost.html" },
           { "label": "Diskriminacija: pravice in prijave", "slug": "diskriminacijaPravice.html" }
         ]
       },
@@ -153,7 +153,7 @@
           { "label": "Zakaj otroci molčijo", "link": "zakajOtrociMolcijo.html" }
         ],
         "future_slots": [
-          { "label": "Izobraževalni materiali (PDF/print)", "slug": "izobrazevalniMateriali.html" },
+          { "label": "Izobraževalni materiali (PDF/tisk)", "slug": "izobrazevalniMateriali.html" },
           { "label": "Soglasje, meje, varnost", "slug": "soglasjeMejeVarnost.html" }
         ]
       }

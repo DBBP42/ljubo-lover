@@ -2,12 +2,12 @@
   "landing_pages": [
     {
       "id": "pravice_in_postopki",
-      "title": "Pravice, postopki in ko sistem zataji",
+      "title": "Pravice, postopki – ko sistem zataji",
       "slug": "pravice-in-postopki",
       "hero": {
         "eyebrow": "Pravno + človeško",
         "headline": "Ko sistem ne zaščiti – tvoje pravice še vedno obstajajo",
-        "lead": "Če prijava ne gre naprej, če se postopki ustavijo ali če institucije odpovejo, to ne izbriše resnice. Tukaj so koraki, možnosti in varni načini vztrajanja."
+        "lead": "Če prijava ne gre naprej, če se postopki ustavijo ali če institucije odpovejo, to ne izbriše resnice. Tukaj so koraki, možnosti in varni načini, kako vztrajati."
       },
       "primary_links": [
         "koSistemZataji.html",
@@ -118,7 +118,7 @@
       "title": "Pomoč, kontakti in organizacije",
       "slug": "pomoc-in-organizacije",
       "hero": {
-        "eyebrow": "Nisi sam",
+        "eyebrow": "Nisi sam & Nisi sama",
         "headline": "Pomoč obstaja – tudi ko se zdi, da je ni",
         "lead": "Včasih je prvi korak samo to, da veš, kam se obrniti. Tukaj so preverjeni kontakti, organizacije in varni viri."
       },
