@@ -288,20 +288,27 @@ p {
   transform: translateY(-1px);
 }
 
+.brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
 .lang-selector {
   display: flex;
   gap: 0.5rem;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  border-left: 1px solid var(--stroke);
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
 }
 
 .lang-selector a {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--muted);
-  padding: 0.2rem 0.4rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .lang-selector a.active {
@@ -447,15 +454,20 @@ p {
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.03); /* Keep original bg */
-  border-radius: 16px;
+  border-radius: 24px;
   margin: 0.3rem;
   position: relative;
+  backdrop-filter: blur(8px);
 }
 
 .card.principle:hover,
 .card.principle:active,
 .card.principle.touch-active {
   z-index: 50;
+  background: var(--card-hover);
+  transform: translateY(-4px);
+  border-color: var(--accent-glow);
+  box-shadow: 0 12px 40px -8px rgba(0, 0, 0, 0.6), 0 0 20px var(--accent-glow);
 }
 
 .card.principle strong {

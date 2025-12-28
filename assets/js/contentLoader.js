@@ -15,6 +15,8 @@ async function loadContent() {
 
     if (nav) renderNavigation(nav, lang);
     if (footer) renderFooter(footer, lang);
+    
+    renderLanguageSelector(lang);
 
   } catch (error) {
     console.error('Error loading content:', error);
@@ -83,7 +85,30 @@ function renderNavigation(data, lang) {
     html += `<a href="${data.cta.url}" class="cta-button">${data.cta.label}</a>`;
   }
 
-  // Language Selector
+  navContainer.innerHTML = html;
+}
+
+function renderLanguageSelector(lang) {
+  const brand = document.querySelector('.topbar .brand');
+  if (!brand) return;
+
+  // Check if already wrapped
+  let wrapper = brand.parentElement;
+  if (!wrapper.classList.contains('brand-wrapper')) {
+    wrapper = document.createElement('div');
+    wrapper.className = 'brand-wrapper';
+    brand.parentNode.insertBefore(wrapper, brand);
+    wrapper.appendChild(brand);
+  }
+
+  // Check if selector exists
+  let langContainer = wrapper.querySelector('.lang-selector');
+  if (!langContainer) {
+    langContainer = document.createElement('div');
+    langContainer.className = 'lang-selector';
+    wrapper.appendChild(langContainer);
+  }
+
   const langs = ['sl', 'en', 'de'];
   const langLabels = {
     'sl': 'Izbira jezika',
@@ -91,8 +116,9 @@ function renderNavigation(data, lang) {
     'de': 'Sprachauswahl'
   };
   
-  html += `<div class="lang-selector" aria-label="${langLabels[lang] || 'Language selector'}">`;
+  langContainer.setAttribute('aria-label', langLabels[lang] || 'Language selector');
   
+  let html = '';
   langs.forEach(l => {
     const isCurrent = l === lang;
     let href = isCurrent ? './index.html' : `../${l}/index.html`;
@@ -112,9 +138,7 @@ function renderNavigation(data, lang) {
     html += `<a href="${href}" ${activeAttr}>${l.toUpperCase()}</a>`;
   });
   
-  html += `</div>`;
-
-  navContainer.innerHTML = html;
+  langContainer.innerHTML = html;
 }
 
 function renderFooter(data, lang) {
