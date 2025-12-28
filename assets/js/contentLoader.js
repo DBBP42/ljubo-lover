@@ -24,43 +24,117 @@ async function loadContent() {
 }
 
 const pageMapping = {
+  // Home
   'index.html': { sl: 'index.html', en: 'index.html', de: 'index.html' },
-  'kemseksSporociloZaZrtve.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
-  'chemsexMessageForVictims.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
-  'chemsexBotschaftFuerOpfer.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
-  'pomocInOrganizacije.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
-  'slovenianNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
-  'slowenischeNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
-  
-  // Trauma
+
+  // About
+  'ljuboLover.html': { sl: 'ljuboLover.html', en: 'aboutLjuboLover.html', de: 'ljuboLover.html' },
+  'aboutLjuboLover.html': { sl: 'ljuboLover.html', en: 'aboutLjuboLover.html', de: 'ljuboLover.html' },
+
+  // Trauma & Mental Health
   'mentalnoZdravje.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
   'mentalHealth.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
   'mentaleGesundheit.html': { sl: 'mentalnoZdravje.html', en: 'mentalHealth.html', de: 'mentaleGesundheit.html' },
 
-  // Addiction
+  'zakajOtrociMolcijo.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+  'whyChildrenStaySilent.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+  'warumKinderSchweigen.html': { sl: 'zakajOtrociMolcijo.html', en: 'whyChildrenStaySilent.html', de: 'warumKinderSchweigen.html' },
+
+  'kajStoritiDanesTaTedenKasneje.html': { sl: 'kajStoritiDanesTaTedenKasneje.html', en: 'index.html', de: 'wasHeuteTun.html' },
+  'wasHeuteTun.html': { sl: 'kajStoritiDanesTaTedenKasneje.html', en: 'index.html', de: 'wasHeuteTun.html' },
+
+  'koGreZaOtroka.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+  'whenItInvolvesAChild.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+  'wennEsUmEinKindGeht.html': { sl: 'koGreZaOtroka.html', en: 'whenItInvolvesAChild.html', de: 'wennEsUmEinKindGeht.html' },
+
+  'zaStarseVSoku.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+  'forParentsInShock.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+  'fuerElternImSchock.html': { sl: 'zaStarseVSoku.html', en: 'forParentsInShock.html', de: 'fuerElternImSchock.html' },
+
+  // Addiction & Chemsex
   'travmeOdvisnostiDiskreditacije.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
   'traumaAddictionDiscredit.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
   'traumaSuchtDiskreditierung.html': { sl: 'travmeOdvisnostiDiskreditacije.html', en: 'traumaAddictionDiscredit.html', de: 'traumaSuchtDiskreditierung.html' },
+
+  'kemseksInDiskreditacija.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+  'chemsexAndDiscreditation.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+  'chemsexUndDiskreditierung.html': { sl: 'kemseksInDiskreditacija.html', en: 'chemsexAndDiscreditation.html', de: 'chemsexUndDiskreditierung.html' },
+
+  'kemseksNiSoglasje.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+  'chemsexNotSolace.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+  'chemsexKeineEinsamkeit.html': { sl: 'kemseksNiSoglasje.html', en: 'chemsexNotSolace.html', de: 'chemsexKeineEinsamkeit.html' },
+
+  'kemseksSporociloZaZrtve.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
+  'chemsexMessageForVictims.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
+  'chemsexBotschaftFuerOpfer.html': { sl: 'kemseksSporociloZaZrtve.html', en: 'chemsexMessageForVictims.html', de: 'chemsexBotschaftFuerOpfer.html' },
 
   // LGBT+
   'lgbtPodporaInTravma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
   'lgbtSupportAndTrauma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
   'lgbtUnterstuetzungUndTrauma.html': { sl: 'lgbtPodporaInTravma.html', en: 'lgbtSupportAndTrauma.html', de: 'lgbtUnterstuetzungUndTrauma.html' },
 
-  // Parents
+  'gejiInTravma.html': { sl: 'gejiInTravma.html', en: 'gayMenAndTrauma.html', de: 'schwuleUndTrauma.html' },
+  'gayMenAndTrauma.html': { sl: 'gejiInTravma.html', en: 'gayMenAndTrauma.html', de: 'schwuleUndTrauma.html' },
+  'schwuleUndTrauma.html': { sl: 'gejiInTravma.html', en: 'gayMenAndTrauma.html', de: 'schwuleUndTrauma.html' },
+
+  'biOsebeInTravma.html': { sl: 'biOsebeInTravma.html', en: 'biPersonsAndTrauma.html', de: 'bisexuellePersonenUndTrauma.html' },
+  'biPersonsAndTrauma.html': { sl: 'biOsebeInTravma.html', en: 'biPersonsAndTrauma.html', de: 'bisexuellePersonenUndTrauma.html' },
+  'bisexuellePersonenUndTrauma.html': { sl: 'biOsebeInTravma.html', en: 'biPersonsAndTrauma.html', de: 'bisexuellePersonenUndTrauma.html' },
+
+  'transOsebeInTravma.html': { sl: 'transOsebeInTravma.html', en: 'transPersonsAndTrauma.html', de: 'transPersonenUndTrauma.html' },
+  'transPersonsAndTrauma.html': { sl: 'transOsebeInTravma.html', en: 'transPersonsAndTrauma.html', de: 'transPersonenUndTrauma.html' },
+  'transPersonenUndTrauma.html': { sl: 'transOsebeInTravma.html', en: 'transPersonsAndTrauma.html', de: 'transPersonenUndTrauma.html' },
+
+  'nebinarniInKvir.html': { sl: 'nebinarniInKvir.html', en: 'nonBinaryAndQueerPersons.html', de: 'nichtbinaerandqueer.html' },
+  'nonBinaryAndQueerPersons.html': { sl: 'nebinarniInKvir.html', en: 'nonBinaryAndQueerPersons.html', de: 'nichtbinaerandqueer.html' },
+  'nichtbinaerandqueer.html': { sl: 'nebinarniInKvir.html', en: 'nonBinaryAndQueerPersons.html', de: 'nichtbinaerandqueer.html' },
+
   'zaStarselgbtMladostnikov.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
   'forParentsOfLgbtYouth.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
   'fuerElternVonLgbtJugendlichen.html': { sl: 'zaStarselgbtMladostnikov.html', en: 'forParentsOfLgbtYouth.html', de: 'fuerElternVonLgbtJugendlichen.html' },
+
+  // System & Rights
+  'koSistemZataji.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
+  'whenTheSystemFails.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
+  'wennDasSystemVersagt.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
+
+  'koPrijavaNeGreNaprej.html': { sl: 'koPrijavaNeGreNaprej.html', en: 'whenTheReportDoesntProceed.html', de: 'wennDieAnzeigeNichtWeitergeht.html' },
+  'whenTheReportDoesntProceed.html': { sl: 'koPrijavaNeGreNaprej.html', en: 'whenTheReportDoesntProceed.html', de: 'wennDieAnzeigeNichtWeitergeht.html' },
+  'wennDieAnzeigeNichtWeitergeht.html': { sl: 'koPrijavaNeGreNaprej.html', en: 'whenTheReportDoesntProceed.html', de: 'wennDieAnzeigeNichtWeitergeht.html' },
+
+  'koSistemTravmatizira.html': { sl: 'koSistemTravmatizira.html', en: 'whenTheSystemTraumatizes.html', de: 'wennDasSystemTraumatisiert.html' },
+  'whenTheSystemTraumatizes.html': { sl: 'koSistemTravmatizira.html', en: 'whenTheSystemTraumatizes.html', de: 'wennDasSystemTraumatisiert.html' },
+  'wennDasSystemTraumatisiert.html': { sl: 'koSistemTravmatizira.html', en: 'whenTheSystemTraumatizes.html', de: 'wennDasSystemTraumatisiert.html' },
+
+  'evropskaPot.html': { sl: 'evropskaPot.html', en: 'europeanPath.html', de: 'europaeischerWeg.html' },
+  'europeanPath.html': { sl: 'evropskaPot.html', en: 'europeanPath.html', de: 'europaeischerWeg.html' },
+  'europaeischerWeg.html': { sl: 'evropskaPot.html', en: 'europeanPath.html', de: 'europaeischerWeg.html' },
+
+  'seUstavitiAliNadaljevati.html': { sl: 'seUstavitiAliNadaljevati.html', en: 'stopOrContinue.html', de: 'aufhoerenOderWeitermachen.html' },
+  'stopOrContinue.html': { sl: 'seUstavitiAliNadaljevati.html', en: 'stopOrContinue.html', de: 'aufhoerenOderWeitermachen.html' },
+  'aufhoerenOderWeitermachen.html': { sl: 'seUstavitiAliNadaljevati.html', en: 'stopOrContinue.html', de: 'aufhoerenOderWeitermachen.html' },
+
+  'sodnikiPolicijaTozilstvo.html': { sl: 'sodnikiPolicijaTozilstvo.html', en: 'judgesPoliceProsecutors.html', de: 'richterPolizeiStaatsanwaelte.html' },
+  'judgesPoliceProsecutors.html': { sl: 'sodnikiPolicijaTozilstvo.html', en: 'judgesPoliceProsecutors.html', de: 'richterPolizeiStaatsanwaelte.html' },
+  'richterPolizeiStaatsanwaelte.html': { sl: 'sodnikiPolicijaTozilstvo.html', en: 'judgesPoliceProsecutors.html', de: 'richterPolizeiStaatsanwaelte.html' },
 
   // Prevention
   'prekinimoZlorabeOtrok.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
   'stopChildAbuse.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
   'missbrauchVonKindernBeenden.html': { sl: 'prekinimoZlorabeOtrok.html', en: 'stopChildAbuse.html', de: 'missbrauchVonKindernBeenden.html' },
 
-  // System
-  'koSistemZataji.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
-  'whenTheSystemFails.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' },
-  'wennDasSystemVersagt.html': { sl: 'koSistemZataji.html', en: 'whenTheSystemFails.html', de: 'wennDasSystemVersagt.html' }
+  // Help & Organizations
+  'pomocInOrganizacije.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
+  'nevladneOrganizacije.html': { sl: 'nevladneOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
+  'vladneOrganizacije.html': { sl: 'vladneOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeRegierungsorganisationen.html' },
+  'slovenianNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
+  'slowenischeNGOs.html': { sl: 'pomocInOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeNGOs.html' },
+  'slowenischeRegierungsorganisationen.html': { sl: 'vladneOrganizacije.html', en: 'slovenianNGOs.html', de: 'slowenischeRegierungsorganisationen.html' },
+
+  // Digital Safety
+  'digitalnaVarnost.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' },
+  'digitalSafety.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' },
+  'digitaleSicherheit.html': { sl: 'digitalnaVarnost.html', en: 'digitalSafety.html', de: 'digitaleSicherheit.html' }
 };
 
 function renderNavigation(data, lang) {
@@ -89,24 +163,12 @@ function renderNavigation(data, lang) {
 }
 
 function renderLanguageSelector(lang) {
-  const brand = document.querySelector('.topbar .brand');
-  if (!brand) return;
-
-  // Check if already wrapped
-  let wrapper = brand.parentElement;
-  if (!wrapper.classList.contains('brand-wrapper')) {
-    wrapper = document.createElement('div');
-    wrapper.className = 'brand-wrapper';
-    brand.parentNode.insertBefore(wrapper, brand);
-    wrapper.appendChild(brand);
-  }
-
-  // Check if selector exists
-  let langContainer = wrapper.querySelector('.lang-selector');
+  // Check if selector exists in body
+  let langContainer = document.querySelector('body > .lang-selector');
   if (!langContainer) {
     langContainer = document.createElement('div');
     langContainer.className = 'lang-selector';
-    wrapper.appendChild(langContainer);
+    document.body.appendChild(langContainer);
   }
 
   const langs = ['sl', 'en', 'de'];
