@@ -1,0 +1,23 @@
+{
+  "sl": {
+    "brandText": "Ljubo-Lover.com",
+    "description": "Prostor za resnico, spoštovanje in varnost. Če dvomite, poiščite pomoč. Vaša varnost in dostojanstvo sta pomembna.",
+    "links": [
+      { "label": "Domov", "url": "index.html" },
+      { "label": "Pomoč zdaj", "url": "pomocInOrganizacije.html#nujno" }
+    ],
+    "copyright": "© 2025 Ljubo-Lover.com. Vse pravice pridržane."
+  },
+  "en": {
+    "brandText": "Ljubo-Lover.com",
+    "description": "A space for truth, respect, and safety. If you doubt, seek help. Your safety and dignity matter.",
+    "links": [],
+    "copyright": "© 2025 Ljubo-Lover.com. All rights reserved."
+  },
+  "de": {
+    "brandText": "Ljubo-Lover.com",
+    "description": "Ein Raum für Wahrheit, Respekt und Sicherheit. Wenn Sie zweifeln, suchen Sie Hilfe. Ihre Sicherheit und Würde sind wichtig.",
+    "links": [],
+    "copyright": "© 2025 Ljubo-Lover.com. Alle Rechte vorbehalten."
+  }
+}

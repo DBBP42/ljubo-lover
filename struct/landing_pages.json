@@ -35,13 +35,14 @@
       "featured_links": [
         { "label": "Travma, odvisnosti, diskreditacija", "link": "travmeOdvisnostiDiskreditacije.html" },
         { "label": "Chemsex in diskreditacija", "link": "kemseksInDiskreditacija.html" },
-        { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSolasje.html" },
+        { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSoglasje.html" },
         { "label": "Kratko sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
       ],
-      "cta": [
-        { "label": "Chemsex: hitro sporočilo", "link": "kemseksSporociloZaZrtve.html" },
-        { "label": "Chemsex ≠ soglasje", "link": "kemseksNiSolasje.html" }
-      ],
+      "cta": {
+        "label": "Razumi tveganja",
+        "link": "kemseksNiSoglasje.html"
+      },
+      "tone": "realističen",
       "closing": "Tvoje strategije preživetja niso sramota. Razumevanje je prvi korak."
     },
 
@@ -80,15 +81,16 @@
         "Tu so mirni, praktični koraki brez panike."
       ],
       "featured_links": [
+        { "label": "Kaj storiti danes", "link": "kajStoritiDanesTaTedenKasneje.html" },
+        { "label": "Starši v šoku", "link": "zaStarseVSoku.html" },
         { "label": "Za starše LGBT+ mladostnikov", "link": "zaStarselgbtMladostnikov.html" },
-        { "label": "Starši v šoku", "link": "zaStarsevSOku.html" },
-        { "label": "Danes - ta teden - kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
         { "label": "Ko gre za otroka", "link": "koGreZaOtroka.html" }
       ],
       "cta": [
-        { "label": "Sem v šoku - kaj zdaj", "link": "zaStarsevSOku.html" },
-        { "label": "Koraki po časovnici", "link": "kajStoritiDanesTaTedenKasneje.html" }
+        { "label": "Sem v šoku - kaj zdaj", "link": "zaStarseVSoku.html" },
+        { "label": "Kako se pogovarjati", "link": "zaStarselgbtMladostnikov.html" }
       ],
+      "tone": "podporen",
       "closing": "Ni vam treba vsega vedeti. Dovolj je, da ste prisotni."
     },
 

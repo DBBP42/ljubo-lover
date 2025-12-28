@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
-
 :root {
   /* Color Contrast (WCAG AA tested) */
   --bg: #05080f;           /* Background */
@@ -1088,73 +1086,6 @@ footer {
 .lang-nav {
   display: inline-block;
   margin-left: 1rem;
-}
-
-/* Content Warning Component */
-.content-warning {
-  background: linear-gradient(135deg, rgba(255, 107, 43, 0.15), rgba(255, 107, 43, 0.05));
-  border: 2px solid var(--accent);
-  border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 32px;
-  color: var(--text);
-  role: alert;
-}
-
-.content-warning-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--accent);
-  margin-bottom: 12px;
-}
-
-.content-warning-title::before {
-  content: '⚠️';
-  font-size: 1.5rem;
-  flex-shrink: 0;
-}
-
-.content-warning-body {
-  color: var(--muted);
-  line-height: 1.6;
-  margin-bottom: 16px;
-}
-
-.content-warning-body strong {
-  color: var(--text);
-  font-weight: 600;
-}
-
-.content-warning-cta {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-top: 16px;
-}
-
-.content-warning-cta a {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 16px;
-  background: var(--accent);
-  color: #fff;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.content-warning-cta a:hover {
-  filter: brightness(1.1);
-  transform: translateY(-2px);
-}
-
-.content-warning-cta a:focus-visible {
-  outline: 3px solid #fff;
-  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {

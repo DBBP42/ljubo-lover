@@ -31,9 +31,9 @@
         "title": "Droge, alkohol & diskreditacija",
         "items": [
           { "label": "Travma, odvisnosti, diskreditacija", "link": "travmeOdvisnostiDiskreditacije.html" },
-          { "label": "Chemsex in diskreditacija", "link": "kemseksInDiskreditacija.html" },
-          { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSolasje.html" },
-          { "label": "Kratko sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
+          { "label": "Chemsex & Diskreditacija", "link": "kemseksInDiskreditacija.html" },
+          { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSoglasje.html" },
+          { "label": "Sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
         ]
       },
 
@@ -52,7 +52,7 @@
         "title": "Starši & skrbniki",
         "items": [
           { "label": "Za starše LGBT+ mladostnikov", "link": "zaStarselgbtMladostnikov.html" },
-          { "label": "Starši v šoku", "link": "zaStarsevSOku.html" },
+          { "label": "Starši v šoku", "link": "zaStarseVSoku.html" },
           { "label": "Danes - ta teden - kasneje", "link": "kajStoritiDanesTaTedenKasneje.html" },
           { "label": "Ko gre za otroka", "link": "koGreZaOtroka.html" }
         ]
@@ -104,7 +104,7 @@
     "odvisnosti_in_chemsex": [
       "travmeOdvisnostiDiskreditacije.html",
       "kemseksInDiskreditacija.html",
-      "kemseksNiSolasje.html",
+      "kemseksNiSoglasje.html",
       "kemseksSporociloZaZrtve.html"
     ],
     "lgbt": [
@@ -116,7 +116,7 @@
     ],
     "starsi_in_otroci": [
       "zaStarselgbtMladostnikov.html",
-      "zaStarsevSOku.html",
+      "zaStarseVSoku.html",
       "kajStoritiDanesTaTedenKasneje.html",
       "koGreZaOtroka.html"
     ],

@@ -54,18 +54,16 @@
         "headline": "Intoksikacija ≠ soglasje",
         "lead": "Droge, alkohol in chemsex se pogosto uporabljajo za preživetje travme – in hkrati povečujejo tveganja za zlorabe, izgubo spomina in diskreditacijo žrtev."
       },
-      "primary_links": [
+      "pages": [
         "travmeOdvisnostiDiskreditacije.html",
         "kemseksInDiskreditacija.html",
-        "kemseksNiSolasje.html",
+        "kemseksNiSoglasje.html",
         "kemseksSporociloZaZrtve.html"
       ],
-      "cta": {
-        "label": "Razumi tveganja",
-        "link": "kemseksNiSolasje.html"
-      },
-      "tone": "realističen",
-      "risk_note": "Tudi če si bil zadet, nisi kriv."
+      "featured": {
+        "title": "Chemsex ni soglasje",
+        "link": "kemseksNiSoglasje.html"
+      }
     },
 
     {
@@ -103,7 +101,7 @@
       },
       "primary_links": [
         "koGreZaOtroka.html",
-        "zaStarsevSOku.html",
+        "zaStarseVSoku.html",
         "zaStarselgbtMladostnikov.html",
         "zakajOtrociMolcijo.html"
       ],

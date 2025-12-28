@@ -90,9 +90,9 @@
         "hint": "Nevarnosti, zmanjševanje škode, soglasje ≠ intoksikacija.",
         "items": [
           { "label": "Travma, odvisnosti, diskreditacija", "link": "travmeOdvisnostiDiskreditacije.html" },
-          { "label": "Chemsex in diskreditacija", "link": "kemseksInDiskreditacija.html" },
-          { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSolasje.html" },
-          { "label": "Kratko sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
+          { "label": "Chemsex & Diskreditacija", "link": "kemseksInDiskreditacija.html" },
+          { "label": "Chemsex ≠ soglasje (razlaga)", "link": "kemseksNiSoglasje.html" },
+          { "label": "Sporočilo za žrtve", "link": "kemseksSporociloZaZrtve.html" }
         ],
         "future_slots": [
           { "label": "Date-rape droge: znaki in ukrepanje", "slug": "daterapeDroge.html" },
@@ -121,7 +121,8 @@
         "hint": "Kako zaščititi, kako govoriti, kako ukrepati brez dodatne travme.",
         "items": [
           { "label": "Za starše LGBT+ mladostnikov", "link": "zaStarselgbtMladostnikov.html" },
-          { "label": "Starši v šoku", "link": "zaStarsevSOku.html" },
+          { "label": "Starši v šoku", "link": "zaStarseVSoku.html" },
+          { "label": "Kaj storiti danes", "link": "kajStoritiDanesTaTedenKasneje.html" },
           { "label": "Ko gre za otroka", "link": "koGreZaOtroka.html" },
           { "label": "Zakaj otroci molčijo", "link": "zakajOtrociMolcijo.html" }
         ],
@@ -190,7 +191,7 @@
     "substance_in_chemsex": [
       "travmeOdvisnostiDiskreditacije.html",
       "kemseksInDiskreditacija.html",
-      "kemseksNiSolasje.html",
+      "kemseksNiSoglasje.html",
       "kemseksSporociloZaZrtve.html"
     ],
     "lgbt_in_identiteta": [
@@ -200,9 +201,10 @@
       "transOsebeInTravma.html",
       "nebinarniInKvir.html"
     ],
-    "otroci_starsi_skrbniki": [
+    "otroci_in_starsi": [
       "zaStarselgbtMladostnikov.html",
-      "zaStarsevSOku.html",
+      "zaStarseVSoku.html",
+      "kajStoritiDanesTaTedenKasneje.html",
       "koGreZaOtroka.html",
       "zakajOtrociMolcijo.html"
     ],
