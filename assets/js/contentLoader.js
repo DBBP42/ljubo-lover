@@ -182,22 +182,18 @@ function renderLanguageSelector(lang) {
   
   let html = '';
   langs.forEach(l => {
-    const isCurrent = l === lang;
-    let href = isCurrent ? './index.html' : `../${l}/index.html`;
+    if (l === lang) return;
+
+    let href = `../${l}/index.html`;
     
     // Try to find mapped page
     const currentFile = window.location.pathname.split('/').pop() || 'index.html';
     if (pageMapping[currentFile] && pageMapping[currentFile][l]) {
        const targetFile = pageMapping[currentFile][l];
-       if (isCurrent) {
-         href = targetFile;
-       } else {
-         href = `../${l}/${targetFile}`;
-       }
+       href = `../${l}/${targetFile}`;
     }
 
-    const activeAttr = isCurrent ? 'aria-current="page"' : '';
-    html += `<a href="${href}" ${activeAttr}>${l.toUpperCase()}</a>`;
+    html += `<a href="${href}">${l.toUpperCase()}</a>`;
   });
   
   langContainer.innerHTML = html;

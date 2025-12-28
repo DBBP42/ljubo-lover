@@ -50,4 +50,28 @@ document.addEventListener('DOMContentLoaded', () => {
       card.classList.remove('touch-active');
     });
   });
+
+  // Dynamic Topbar Height for Sticky Nav
+  function updateTopbarHeight() {
+    const topbar = document.querySelector('.topbar');
+    if (topbar) {
+      // Use getBoundingClientRect for sub-pixel precision
+      const rect = topbar.getBoundingClientRect();
+      // We use Math.ceil to ensure the sticky 'top' value is at least the full pixel height of the topbar.
+      // This prevents the primary-nav from sliding under the topbar due to sub-pixel rendering differences.
+      const height = Math.ceil(rect.height); 
+      document.documentElement.style.setProperty('--topbar-height', `${height}px`);
+    }
+  }
+
+  // Run on load and resize
+  updateTopbarHeight();
+  window.addEventListener('resize', () => {
+    // Use requestAnimationFrame for smoother updates during resize
+    requestAnimationFrame(updateTopbarHeight);
+  });
+  
+  // Also run after a short delay to ensure fonts/layout are settled
+  setTimeout(updateTopbarHeight, 100);
+  setTimeout(updateTopbarHeight, 500); // Extra check for late loading fonts
 });
