@@ -180,7 +180,8 @@ p {
   align-items: center;
   justify-content: center;
   padding: 12px 40px;
-  height: 70px;
+  min-height: 70px;
+  height: auto;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -223,6 +224,8 @@ p {
   gap: 32px;
   font-size: 0.875rem;
   font-weight: 500;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .secondary-nav a {
