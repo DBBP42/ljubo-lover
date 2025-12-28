@@ -1,0 +1,162 @@
+{
+  "landing_pages": [
+    {
+      "id": "pravice_in_postopki",
+      "title": "Pravice, postopki in ko sistem zataji",
+      "slug": "pravice-in-postopki",
+      "hero": {
+        "eyebrow": "Pravno + človeško",
+        "headline": "Ko sistem ne zaščiti – tvoje pravice še vedno obstajajo",
+        "lead": "Če prijava ne gre naprej, če se postopki ustavijo ali če institucije odpovejo, to ne izbriše resnice. Tukaj so koraki, možnosti in varni načini vztrajanja."
+      },
+      "primary_links": [
+        "koSistemZataji.html",
+        "koPrijavaNeGreNaprej.html",
+        "koSistemTravmatizira.html",
+        "evropskaPot.html"
+      ],
+      "cta": {
+        "label": "Razumi svoje možnosti",
+        "link": "koSistemZataji.html"
+      },
+      "tone": "opolnomočujoč",
+      "risk_note": "Vztrajanje ni obvezno. Tvoja varnost ima prednost."
+    },
+
+    {
+      "id": "okrevanje_dusevno_zdravje",
+      "title": "Okrevanje, travma in duševno zdravje",
+      "slug": "okrevanje-in-dusevno-zdravje",
+      "hero": {
+        "eyebrow": "Najprej stabilnost",
+        "headline": "Travma ni šibkost. Je odziv telesa in psihe.",
+        "lead": "Disociacija, PTSM, tesnoba in telesni odzivi so normalne posledice nenormalnih dogodkov. Okrevanje ni linearno – in ni tekma."
+      },
+      "primary_links": [
+        "mentalnoZdravje.html",
+        "kajStoritiDanesTaTedenKasneje.html",
+        "zakajOtrociMolcijo.html"
+      ],
+      "cta": {
+        "label": "Kako se stabilizirati",
+        "link": "mentalnoZdravje.html"
+      },
+      "tone": "sočuten",
+      "risk_note": "Ni ti treba vsega reševati naenkrat."
+    },
+
+    {
+      "id": "substance_chemsex",
+      "title": "Substance, zasvojenost in chemsex",
+      "slug": "substance-in-chemsex",
+      "hero": {
+        "eyebrow": "Brez moraliziranja",
+        "headline": "Intoksikacija ≠ soglasje",
+        "lead": "Droge, alkohol in chemsex se pogosto uporabljajo za preživetje travme – in hkrati povečujejo tveganja za zlorabe, izgubo spomina in diskreditacijo žrtev."
+      },
+      "primary_links": [
+        "travmeOdvisnostiDiskreditacije.html",
+        "kemseksInDiskreditacija.html",
+        "kemseksNiSolasje.html",
+        "kemseksSporociloZaZrtve.html"
+      ],
+      "cta": {
+        "label": "Razumi tveganja",
+        "link": "kemseksNiSolasje.html"
+      },
+      "tone": "realističen",
+      "risk_note": "Tudi če si bil zadet, nisi kriv."
+    },
+
+    {
+      "id": "lgbt_identiteta",
+      "title": "LGBT+, identiteta in travma",
+      "slug": "lgbt-in-identiteta",
+      "hero": {
+        "eyebrow": "Posebna tveganja, resnične izkušnje",
+        "headline": "Diskriminacija povečuje ranljivost – ne zmanjšuje tvoje vrednosti",
+        "lead": "LGBT+ osebe so pogosteje tarče zlorab, manipulacije in sistemske ignoriranosti. Tukaj je prostor, kjer se to imenuje s pravim imenom."
+      },
+      "primary_links": [
+        "lgbtPodporaInTravma.html",
+        "gejiInTravma.html",
+        "biOsebeInTravma.html",
+        "transOsebeInTravma.html",
+        "nebinarniInKvir.html"
+      ],
+      "cta": {
+        "label": "Poišči podporo",
+        "link": "lgbtPodporaInTravma.html"
+      },
+      "tone": "opolnomočujoč",
+      "risk_note": "Nisi preobčutljiv. Sistem je pogosto slep."
+    },
+
+    {
+      "id": "otroci_starsi",
+      "title": "Otroci, starši in skrbniki",
+      "slug": "otroci-starsi-skrbniki",
+      "hero": {
+        "eyebrow": "Zaščita pred vsem",
+        "headline": "Ko gre za otroka, ni prostora za tišino",
+        "lead": "Otroci molčijo iz strahu, lojalnosti ali zmede. Odrasli nosimo odgovornost, da jih slišimo, zaščitimo in ne dodatno travmatiziramo."
+      },
+      "primary_links": [
+        "koGreZaOtroka.html",
+        "zaStarsevSOku.html",
+        "zaStarselgbtMladostnikov.html",
+        "zakajOtrociMolcijo.html"
+      ],
+      "cta": {
+        "label": "Kako ukrepati varno",
+        "link": "koGreZaOtroka.html"
+      },
+      "tone": "odločen in sočuten",
+      "risk_note": "Nobena institucija ni pomembnejša od varnosti otroka."
+    },
+
+    {
+      "id": "pomoc_in_organizacije",
+      "title": "Pomoč, kontakti in organizacije",
+      "slug": "pomoc-in-organizacije",
+      "hero": {
+        "eyebrow": "Nisi sam",
+        "headline": "Pomoč obstaja – tudi ko se zdi, da je ni",
+        "lead": "Včasih je prvi korak samo to, da veš, kam se obrniti. Tukaj so preverjeni kontakti, organizacije in varni viri."
+      },
+      "primary_links": [
+        "pomocInOrganizacije.html",
+        "nevladneOrganizacije.html",
+        "vladneOrganizacije.html",
+        "digitalnaVarnost.html"
+      ],
+      "cta": {
+        "label": "Pomoč zdaj",
+        "link": "pomocInOrganizacije.html#nujno"
+      },
+      "tone": "podporen",
+      "risk_note": "Če si v neposredni nevarnosti, pokliči 112."
+    },
+
+    {
+      "id": "preprecevanje_ozavescanje",
+      "title": "Preprečevanje in ozaveščanje",
+      "slug": "preprecevanje-in-ozavescanje",
+      "hero": {
+        "eyebrow": "Za skupnost",
+        "headline": "Zlorabe se ne končajo same od sebe",
+        "lead": "Ozaveščanje, izobraževanje in jasni mehanizmi zaščite so edini način, da se cikli nasilja prekinejo."
+      },
+      "primary_links": [
+        "prekinimoZlorabeOtrok.html",
+        "zakajOtrociMolcijo.html"
+      ],
+      "cta": {
+        "label": "Zakaj je tišina nevarna",
+        "link": "zakajOtrociMolcijo.html"
+      },
+      "tone": "aktivističen",
+      "risk_note": "Govorjenje rešuje življenja."
+    }
+  ]
+}

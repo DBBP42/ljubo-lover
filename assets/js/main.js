@@ -9,6 +9,27 @@ document.addEventListener('DOMContentLoaded', () => {
       secondaryNav.classList.toggle('open');
       navToggle.classList.toggle('open');
     });
+
+    // Close menu on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        navToggle.setAttribute('aria-expanded', 'false');
+        secondaryNav.classList.remove('open');
+        navToggle.classList.remove('open');
+        navToggle.focus();
+      }
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navToggle.contains(e.target) && !secondaryNav.contains(e.target)) {
+        if (navToggle.getAttribute('aria-expanded') === 'true') {
+          navToggle.setAttribute('aria-expanded', 'false');
+          secondaryNav.classList.remove('open');
+          navToggle.classList.remove('open');
+        }
+      }
+    });
   }
 
   // Touch support for cards

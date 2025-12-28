@@ -2,10 +2,117 @@
 <html lang="sl">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=./sl/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ljubo-Lover - Resnica, varnost in okrevanje</title>
+  <meta name="description" content="Ljubo-Lover je informativna in varna spletna stran za razumevanje spolnih prestopkov, travme in izkoriščanja. Dostopna v slovenščini, angleščini in nemščini.">
+  <link rel="canonical" href="https://ljubo-lover.com/">
+  <link rel="alternate" hreflang="sl" href="https://ljubo-lover.com/sl/">
+  <link rel="alternate" hreflang="en" href="https://ljubo-lover.com/en/">
+  <link rel="alternate" hreflang="de" href="https://ljubo-lover.com/de/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <style>
+    .language-selector-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .language-selector-page h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+    
+    .language-selector-page p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 3rem;
+      max-width: 600px;
+    }
+    
+    .language-options {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .language-link {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      background: var(--card);
+      border: 2px solid var(--stroke);
+      border-radius: 12px;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s ease;
+      min-width: 180px;
+    }
+    
+    .language-link:hover {
+      border-color: var(--accent);
+      background: var(--card-hover);
+      transform: translateY(-4px);
+    }
+    
+    .language-link:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+    
+    .language-flag {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .language-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    
+    .language-native {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to <a href="./sl/">Ljubo-Lover</a>...</p>
+  <main class="language-selector-page">
+    <div class="brand" style="margin-bottom: 2rem;">
+      <span class="brand-dot" style="display: inline-block; width: 12px; height: 12px; background: var(--accent); border-radius: 50%; margin-right: 8px;"></span>
+      <span style="font-size: 2rem; font-weight: 700;">Ljubo-Lover</span>
+    </div>
+    
+    <h1>Izberi jezik</h1>
+    <p>Choose Your Language — Sprache Wählen</p>
+    
+    <nav class="language-options">
+      <a href="./sl/" class="language-link" hreflang="sl" lang="sl">
+        <div class="language-flag">🇸🇮</div>
+        <div class="language-name">Slovenščina</div>
+        <div class="language-native">Slovenian</div>
+      </a>
+      <a href="./en/" class="language-link" hreflang="en" lang="en">
+        <div class="language-flag">🇬🇧</div>
+        <div class="language-name">English</div>
+        <div class="language-native">Angleščina</div>
+      </a>
+      <a href="./de/" class="language-link" hreflang="de" lang="de">
+        <div class="language-flag">🇩🇪</div>
+        <div class="language-name">Deutsch</div>
+        <div class="language-native">Nemščina</div>
+      </a>
+    </nav>
+  </main>
 </body>
 </html>
